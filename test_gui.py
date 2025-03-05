@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QComboBox, QLabel, QRadioButton, QPushButton, QButtonGroup
+from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QComboBox, QLabel, QRadioButton, QPushButton, QButtonGroup
 from tense_logic import TenseLogic
 
 class TenseApp(QMainWindow):
@@ -115,4 +115,4 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = TenseApp()
     window.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
