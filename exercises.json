@@ -1,0 +1,184 @@
+{
+  "tenses": [
+    {
+      "tense": "Present Simple",
+      "description": "Used for habits, routines, and general truths.",
+      "structure": "Subject + base verb (add -s/-es for third-person singular)",
+      "examples": ["I eat breakfast every day.", "She walks to school."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "She ___ (go) to school every day.",
+          "options": ["go", "goes", "going", "went"],
+          "correctAnswer": "goes",
+          "explanation": "In Present Simple, third-person singular subjects (she, he, it) take a verb with -s or -es."
+        }
+      ]
+    },
+    {
+      "tense": "Present Continuous",
+      "description": "Used for actions happening now or temporary actions.",
+      "structure": "Subject + am/is/are + verb-ing",
+      "examples": ["I am eating lunch.", "They are playing football."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "They ___ (play) football right now.",
+          "options": ["play", "plays", "are playing", "played"],
+          "correctAnswer": "are playing",
+          "explanation": "In Present Continuous, use 'are' + verb-ing for plural subjects like 'they'."
+        }
+      ]
+    },
+    {
+      "tense": "Present Perfect",
+      "description": "Used for past experiences or actions with present relevance.",
+      "structure": "Subject + have/has + past participle",
+      "examples": ["I have just finished my homework.", "She has visited Paris."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "I ___ (finish) my homework.",
+          "options": ["finish", "finished", "have finished", "had finished"],
+          "correctAnswer": "have finished",
+          "explanation": "In Present Perfect, use 'have' + past participle for actions completed recently or with present relevance."
+        }
+      ]
+    },
+    {
+      "tense": "Present Perfect Continuous",
+      "description": "Used for actions that started in the past and continue to be relevant in the present.",
+      "structure": "Subject + have/has + been + verb-ing",
+      "examples": ["I have been studying for two hours.", "She has been working here since 2019."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "She ___ (work) here for five years.",
+          "options": ["works", "worked", "has worked", "has been working"],
+          "correctAnswer": "has been working",
+          "explanation": "In Present Perfect Continuous, use 'has been' + verb-ing for actions that started in the past and continue in the present."
+        }
+      ]
+    },
+    {
+      "tense": "Past Simple",
+      "description": "Used for completed actions in the past.",
+      "structure": "Subject + past verb",
+      "examples": ["I ate breakfast.", "She walked to school."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "She ___ (walk) to school yesterday.",
+          "options": ["walk", "walks", "walked", "walking"],
+          "correctAnswer": "walked",
+          "explanation": "In Past Simple, use the past form of the verb for actions completed in the past."
+        }
+      ]
+    },
+    {
+      "tense": "Past Continuous",
+      "description": "Used for actions in progress at a specific time in the past.",
+      "structure": "Subject + was/were + verb-ing",
+      "examples": ["I was eating lunch.", "They were playing football."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "They ___ (play) football when it started raining.",
+          "options": ["play", "played", "were playing", "are playing"],
+          "correctAnswer": "were playing",
+          "explanation": "In Past Continuous, use 'were' + verb-ing for actions in progress in the past."
+        }
+      ]
+    },
+    {
+      "tense": "Past Perfect",
+      "description": "Used for actions completed before another action in the past.",
+      "structure": "Subject + had + past participle",
+      "examples": ["I had eaten breakfast before I left.", "She had finished her homework."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "She ___ (finish) her homework before dinner.",
+          "options": ["finish", "finished", "had finished", "has finished"],
+          "correctAnswer": "had finished",
+          "explanation": "In Past Perfect, use 'had' + past participle for actions completed before another past action."
+        }
+      ]
+    },
+    {
+      "tense": "Past Perfect Continuous",
+      "description": "Used for actions that were in progress before another action in the past.",
+      "structure": "Subject + had + been + verb-ing",
+      "examples": ["I had been studying for two hours before the exam.", "She had been working there for years."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "She ___ (work) there for years before she quit.",
+          "options": ["worked", "had worked", "was working", "had been working"],
+          "correctAnswer": "had been working",
+          "explanation": "In Past Perfect Continuous, use 'had been' + verb-ing for actions in progress before another past action."
+        }
+      ]
+    },
+    {
+      "tense": "Future Simple",
+      "description": "Used for actions that will happen in the future.",
+      "structure": "Subject + will + base verb",
+      "examples": ["I will eat lunch.", "She will visit Paris."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "She ___ (visit) Paris next month.",
+          "options": ["visit", "visits", "will visit", "visited"],
+          "correctAnswer": "will visit",
+          "explanation": "In Future Simple, use 'will' + base verb for actions that will happen in the future."
+        }
+      ]
+    },
+    {
+      "tense": "Future Continuous",
+      "description": "Used for actions that will be in progress at a specific time in the future.",
+      "structure": "Subject + will + be + verb-ing",
+      "examples": ["I will be eating lunch at noon.", "They will be playing football."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "They ___ (play) football at 5 PM tomorrow.",
+          "options": ["play", "played", "will play", "will be playing"],
+          "correctAnswer": "will be playing",
+          "explanation": "In Future Continuous, use 'will be' + verb-ing for actions in progress in the future."
+        }
+      ]
+    },
+    {
+      "tense": "Future Perfect",
+      "description": "Used for actions that will be completed before a specific time in the future.",
+      "structure": "Subject + will + have + past participle",
+      "examples": ["I will have finished my homework by 6 PM.", "She will have visited Paris."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "She ___ (visit) Paris by the end of next year.",
+          "options": ["visit", "visits", "will visit", "will have visited"],
+          "correctAnswer": "will have visited",
+          "explanation": "In Future Perfect, use 'will have' + past participle for actions completed before a future time."
+        }
+      ]
+    },
+    {
+      "tense": "Future Perfect Continuous",
+      "description": "Used for actions that will be in progress up to a specific time in the future.",
+      "structure": "Subject + will + have + been + verb-ing",
+      "examples": ["I will have been studying for two hours by 6 PM.", "She will have been working here for five years."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "She ___ (work) here for five years by next month.",
+          "options": ["works", "worked", "will work", "will have been working"],
+          "correctAnswer": "will have been working",
+          "explanation": "In Future Perfect Continuous, use 'will have been' + verb-ing for actions in progress up to a future time."
+        }
+      ]
+    }
+  ]
+}
