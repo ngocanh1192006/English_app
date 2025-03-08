@@ -1,0 +1,412 @@
+{
+    "Idioms & Slang (Thành ngữ & Tiếng lóng)": [
+        {
+            "word": "Break a leg",
+            "meaning": "Chúc may mắn"
+        },
+        {
+            "word": "Hit the sack",
+            "meaning": "Đi ngủ"
+        },
+        {
+            "word": "Let the cat out of the bag",
+            "meaning": "Lỡ tiết lộ bí mật"
+        },
+        {
+            "word": "Burn the midnight oil",
+            "meaning": "Thức khuya làm việc"
+        },
+        {
+            "word": "Bite the bullet",
+            "meaning": "Chịu đựng khó khăn"
+        },
+        {
+            "word": "Throw in the towel",
+            "meaning": "Bỏ cuộc"
+        },
+        {
+            "word": "On cloud nine",
+            "meaning": "Rất vui vẻ, hạnh phúc"
+        },
+        {
+            "word": "A piece of cake",
+            "meaning": "Dễ như ăn bánh"
+        },
+        {
+            "word": "Spill the beans",
+            "meaning": "Tiết lộ bí mật"
+        },
+        {
+            "word": "Go the extra mile",
+            "meaning": "Cố gắng hơn nữa"
+        },
+        {
+            "word": "Hit the books",
+            "meaning": "Học hành chăm chỉ"
+        },
+        {
+            "word": "Pull someone’s leg",
+            "meaning": "Trêu chọc ai đó"
+        },
+        {
+            "word": "Back to square one",
+            "meaning": "Quay lại từ đầu"
+        },
+        {
+            "word": "Hit the nail on the head",
+            "meaning": "Nói đúng trọng tâm"
+        },
+        {
+            "word": "Cost an arm and a leg",
+            "meaning": "Rất đắt đỏ"
+        },
+        {
+            "word": "Keep your chin up",
+            "meaning": "Hãy lạc quan"
+        },
+        {
+            "word": "Jump on the bandwagon",
+            "meaning": "Chạy theo xu hướng"
+        },
+        {
+            "word": "Under the weather",
+            "meaning": "Không được khỏe"
+        },
+        {
+            "word": "See eye to eye",
+            "meaning": "Đồng quan điểm"
+        },
+        {
+            "word": "Call it a day",
+            "meaning": "Kết thúc công việc"
+        }
+    ],
+    "Phrasal Verbs (Cụm động từ)": [
+        {
+            "word": "Look up to",
+            "meaning": "Kính trọng"
+        },
+        {
+            "word": "Come across",
+            "meaning": "Tình cờ gặp"
+        },
+        {
+            "word": "Put off",
+            "meaning": "Trì hoãn"
+        },
+        {
+            "word": "Take after",
+            "meaning": "Giống (ai đó trong gia đình)"
+        },
+        {
+            "word": "Run out of",
+            "meaning": "Hết, cạn kiệt"
+        },
+        {
+            "word": "Get along with",
+            "meaning": "Hòa hợp với ai đó"
+        },
+        {
+            "word": "Give up",
+            "meaning": "Từ bỏ"
+        },
+        {
+            "word": "Bring up",
+            "meaning": "Nuôi dưỡng"
+        },
+        {
+            "word": "Carry on",
+            "meaning": "Tiếp tục"
+        },
+        {
+            "word": "Look forward to",
+            "meaning": "Mong đợi điều gì đó"
+        },
+        {
+            "word": "Come up with",
+            "meaning": "Nghĩ ra (ý tưởng, giải pháp)"
+        },
+        {
+            "word": "Put up with",
+            "meaning": "Chịu đựng"
+        },
+        {
+            "word": "Turn down",
+            "meaning": "Từ chối"
+        },
+        {
+            "word": "Catch up with",
+            "meaning": "Bắt kịp"
+        },
+        {
+            "word": "Show up",
+            "meaning": "Xuất hiện"
+        },
+        {
+            "word": "Take over",
+            "meaning": "Tiếp quản"
+        },
+        {
+            "word": "Go through",
+            "meaning": "Trải qua"
+        },
+        {
+            "word": "Hand in",
+            "meaning": "Nộp bài, giao nộp"
+        },
+        {
+            "word": "Figure out",
+            "meaning": "Tìm ra, hiểu ra"
+        },
+        {
+            "word": "Work out",
+            "meaning": "Tập luyện hoặc tìm ra giải pháp"
+        }
+    ],
+    "Collocations (Cách kết hợp từ tự nhiên)": [
+        {
+            "word": "Make a decision",
+            "meaning": "Đưa ra quyết định"
+        },
+        {
+            "word": "Take responsibility",
+            "meaning": "Chịu trách nhiệm"
+        },
+        {
+            "word": "Do research",
+            "meaning": "Nghiên cứu"
+        },
+        {
+            "word": "Break the news",
+            "meaning": "Thông báo tin tức"
+        },
+        {
+            "word": "Catch someone’s attention",
+            "meaning": "Thu hút sự chú ý"
+        },
+        {
+            "word": "Give someone a hand",
+            "meaning": "Giúp đỡ ai đó"
+        },
+        {
+            "word": "Pay attention to",
+            "meaning": "Chú ý đến"
+        },
+        {
+            "word": "Have a discussion",
+            "meaning": "Thảo luận"
+        },
+        {
+            "word": "Save time",
+            "meaning": "Tiết kiệm thời gian"
+        },
+        {
+            "word": "Keep in touch",
+            "meaning": "Giữ liên lạc"
+        },
+        {
+            "word": "Make an effort",
+            "meaning": "Nỗ lực"
+        },
+        {
+            "word": "Take notes",
+            "meaning": "Ghi chú"
+        },
+        {
+            "word": "Do business",
+            "meaning": "Làm kinh doanh"
+        },
+        {
+            "word": "Break a record",
+            "meaning": "Phá kỷ lục"
+        },
+        {
+            "word": "Catch a cold",
+            "meaning": "Bị cảm lạnh"
+        },
+        {
+            "word": "Give advice",
+            "meaning": "Đưa ra lời khuyên"
+        },
+        {
+            "word": "Pay a visit",
+            "meaning": "Ghé thăm"
+        },
+        {
+            "word": "Have an impact on",
+            "meaning": "Có ảnh hưởng đến"
+        },
+        {
+            "word": "Keep a secret",
+            "meaning": "Giữ bí mật"
+        },
+        {
+            "word": "Lose interest in",
+            "meaning": "Mất hứng thú với"
+        }
+    ],
+    "Business English (Tiếng Anh Thương Mại)": [
+        {
+            "word": "Revenue",
+            "meaning": "Doanh thu"
+        },
+        {
+            "word": "Profit margin",
+            "meaning": "Biên lợi nhuận"
+        },
+        {
+            "word": "Market share",
+            "meaning": "Thị phần"
+        },
+        {
+            "word": "Brand awareness",
+            "meaning": "Nhận diện thương hiệu"
+        },
+        {
+            "word": "Customer loyalty",
+            "meaning": "Sự trung thành của khách hàng"
+        },
+        {
+            "word": "Supply chain",
+            "meaning": "Chuỗi cung ứng"
+        },
+        {
+            "word": "Return on investment (ROI)",
+            "meaning": "Lợi tức đầu tư"
+        },
+        {
+            "word": "Financial statement",
+            "meaning": "Báo cáo tài chính"
+        },
+        {
+            "word": "Competitive advantage",
+            "meaning": "Lợi thế cạnh tranh"
+        },
+        {
+            "word": "Risk management",
+            "meaning": "Quản lý rủi ro"
+        },
+        {
+            "word": "Cash flow",
+            "meaning": "Dòng tiền"
+        },
+        {
+            "word": "Business strategy",
+            "meaning": "Chiến lược kinh doanh"
+        },
+        {
+            "word": "Merger and acquisition",
+            "meaning": "Sáp nhập và mua lại"
+        },
+        {
+            "word": "Investment portfolio",
+            "meaning": "Danh mục đầu tư"
+        },
+        {
+            "word": "Stockholder/shareholder",
+            "meaning": "Cổ đông"
+        },
+        {
+            "word": "Outsourcing",
+            "meaning": "Thuê ngoài"
+        },
+        {
+            "word": "Productivity",
+            "meaning": "Năng suất"
+        },
+        {
+            "word": "Gross Domestic Product (GDP)",
+            "meaning": "Tổng sản phẩm quốc nội"
+        },
+        {
+            "word": "Interest rate",
+            "meaning": "Lãi suất"
+        },
+        {
+            "word": "Human resources",
+            "meaning": "Nhân sự"
+        }
+    ],
+    "Academic Vocabulary (Từ vựng học thuật)": [
+        {
+            "word": "Analyze",
+            "meaning": "Phân tích"
+        },
+        {
+            "word": "Hypothesis",
+            "meaning": "Giả thuyết"
+        },
+        {
+            "word": "Significant",
+            "meaning": "Quan trọng, có ý nghĩa"
+        },
+        {
+            "word": "Evaluate",
+            "meaning": "Đánh giá"
+        },
+        {
+            "word": "Methodology",
+            "meaning": "Phương pháp luận"
+        },
+        {
+            "word": "Interpretation",
+            "meaning": "Sự giải thích"
+        },
+        {
+            "word": "Implication",
+            "meaning": "Hệ quả, hàm ý"
+        },
+        {
+            "word": "Theory",
+            "meaning": "Lý thuyết"
+        },
+        {
+            "word": "Perspective",
+            "meaning": "Quan điểm"
+        },
+        {
+            "word": "Assumption",
+            "meaning": "Giả định"
+        },
+        {
+            "word": "Empirical",
+            "meaning": "Dựa trên thực nghiệm"
+        },
+        {
+            "word": "Framework",
+            "meaning": "Khung lý thuyết"
+        },
+        {
+            "word": "Qualitative",
+            "meaning": "Định tính"
+        },
+        {
+            "word": "Quantitative",
+            "meaning": "Định lượng"
+        },
+        {
+            "word": "Literature review",
+            "meaning": "Tổng quan tài liệu"
+        },
+        {
+            "word": "Data collection",
+            "meaning": "Thu thập dữ liệu"
+        },
+        {
+            "word": "Findings",
+            "meaning": "Phát hiện, kết quả nghiên cứu"
+        },
+        {
+            "word": "Variable",
+            "meaning": "Biến số"
+        },
+        {
+            "word": "Correlation",
+            "meaning": "Mối tương quan"
+        },
+        {
+            "word": "Validity",
+            "meaning": "Độ tin cậy của nghiên cứu"
+        }
+    ]
+}
