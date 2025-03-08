@@ -1,0 +1,40 @@
+[
+    {
+        "category": "Greetings & Introductions",
+        "words": [
+            {"word": "Good morning", "meaning": "Chào buổi sáng"},
+            {"word": "Good afternoon", "meaning": "Chào buổi chiều"},
+            {"word": "What’s up?", "meaning": "Có gì mới không?"},
+            {"word": "What have you been up to?", "meaning": "Dạo này bạn thế nào rồi?"},
+            {"word": "So good to see you again", "meaning": "Gặp lại cậu thật là tốt quá đi"},
+            {"word": "How’s it goin’?", "meaning": "Bạn có khỏe không?"},
+            {"word": "Why hello there darling", "meaning": "Ôi, xin chào em yêu!"},
+            {"word": "Hey you, have you had dinner yet? Wanna go grab some?", "meaning": "Bạn ơi, bạn ăn tối chưa? Mình cùng đi ăn tối đi?"}
+        ]
+    },
+    {
+        "category": "Common Phrases",
+        "words": [
+            {"word": "Be careful", "meaning": "Hãy cẩn thận"},
+            {"word": "Nice to meet you", "meaning": "Rất vui được gặp bạn"},
+            {"word": "Don't worry.", "meaning": "Đừng lo"},
+            {"word": "From time to time.", "meaning": "Thỉnh thoảng"},
+            {"word": "How's work going?", "meaning": "Việc làm thế nào?"},
+            {"word": "Just a moment.", "meaning": "Chờ một chút"}
+        ]
+    },
+    {
+        "category": "Ordering Food",
+        "words": [
+            {"word": "Fast/Junk Food", "meaning": "Đồ ăn nhanh"},
+            {"word": "Processed Food", "meaning": "Đồ ăn chế biến sẵn"},
+            {"word": "Steamed Rice", "meaning": "Cơm trắng"},
+            {"word": "Confectionery", "meaning": "Đồ ngọt"},
+            {"word": "Instant Noodles", "meaning": "Mỳ ăn liền"},
+            {"word": "Appetizer/Starter", "meaning": "Món khai vị"},
+            {"word": "Dessert", "meaning": "Món tráng miệng"},
+            {"word": "Delivery", "meaning": "Sự giao hàng"},
+            {"word": "Pick up", "meaning": "Thu thập, lấy, đón"}
+        ]
+    }
+]
