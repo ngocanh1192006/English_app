@@ -12,6 +12,34 @@
           "options": ["go", "goes", "going", "went"],
           "correctAnswer": "goes",
           "explanation": "In Present Simple, third-person singular subjects (she, he, it) take a verb with -s or -es."
+        },
+        {
+          "id": 2,
+          "question": "They ___ (live) in New York.",
+          "options": ["live", "lives", "living", "lived"],
+          "correctAnswer": "live",
+          "explanation": "In Present Simple, plural subjects use the base form of the verb without -s."
+        },
+        {
+          "id": 3,
+          "question": "The sun ___ (rise) in the east.",
+          "options": ["rise", "rises", "rising", "rose"],
+          "correctAnswer": "rises",
+          "explanation": "In Present Simple, third-person singular subjects (the sun) take a verb with -s or -es. This is also a general truth."
+        },
+        {
+          "id": 4,
+          "question": "I ___ (not/drink) coffee in the evening.",
+          "options": ["don't drink", "doesn't drink", "am not drinking", "didn't drink"],
+          "correctAnswer": "don't drink",
+          "explanation": "In Present Simple negative, first-person subjects use 'don't' + base verb."
+        },
+        {
+          "id": 5,
+          "question": "___ he ___ (speak) English fluently?",
+          "options": ["Do, speak", "Does, speak", "Is, speaking", "Did, speak"],
+          "correctAnswer": "Does, speak",
+          "explanation": "In Present Simple questions, use 'Does' + subject + base verb for third-person singular subjects."
         }
       ]
     },
@@ -27,6 +55,34 @@
           "options": ["play", "plays", "are playing", "played"],
           "correctAnswer": "are playing",
           "explanation": "In Present Continuous, use 'are' + verb-ing for plural subjects like 'they'."
+        },
+        {
+          "id": 2,
+          "question": "She ___ (study) for her exam this week.",
+          "options": ["study", "studies", "is studying", "studied"],
+          "correctAnswer": "is studying",
+          "explanation": "In Present Continuous, use 'is' + verb-ing for third-person singular subjects."
+        },
+        {
+          "id": 3,
+          "question": "I ___ (not/watch) TV at the moment.",
+          "options": ["don't watch", "doesn't watch", "am not watching", "didn't watch"],
+          "correctAnswer": "am not watching",
+          "explanation": "In Present Continuous negative, first-person subjects use 'am not' + verb-ing."
+        },
+        {
+          "id": 4,
+          "question": "___ you ___ (wait) for someone?",
+          "options": ["Do, wait", "Are, waiting", "Did, wait", "Have, waited"],
+          "correctAnswer": "Are, waiting",
+          "explanation": "In Present Continuous questions, use 'Are' + subject + verb-ing."
+        },
+        {
+          "id": 5,
+          "question": "Look! The baby ___ (cry) again.",
+          "options": ["cry", "cries", "is crying", "was crying"],
+          "correctAnswer": "is crying",
+          "explanation": "In Present Continuous, use 'is' + verb-ing for actions happening right now."
         }
       ]
     },
@@ -42,6 +98,34 @@
           "options": ["finish", "finished", "have finished", "had finished"],
           "correctAnswer": "have finished",
           "explanation": "In Present Perfect, use 'have' + past participle for actions completed recently or with present relevance."
+        },
+        {
+          "id": 2,
+          "question": "She ___ (never/visit) Australia.",
+          "options": ["never visits", "never visited", "has never visited", "had never visited"],
+          "correctAnswer": "has never visited",
+          "explanation": "In Present Perfect, use 'has' + past participle with third-person singular subjects for life experiences."
+        },
+        {
+          "id": 3,
+          "question": "They ___ (already/eat) lunch.",
+          "options": ["already eat", "already ate", "have already eaten", "had already eaten"],
+          "correctAnswer": "have already eaten",
+          "explanation": "In Present Perfect, use 'have' + past participle with plural subjects for recently completed actions."
+        },
+        {
+          "id": 4,
+          "question": "___ you ever ___ (be) to Japan?",
+          "options": ["Did, be", "Have, been", "Are, being", "Do, be"],
+          "correctAnswer": "Have, been",
+          "explanation": "In Present Perfect questions, use 'Have' + subject + past participle to ask about experiences."
+        },
+        {
+          "id": 5,
+          "question": "She ___ just ___ (receive) the package.",
+          "options": ["has, received", "have, received", "has, receive", "have, receive"],
+          "correctAnswer": "has, received",
+          "explanation": "In Present Perfect with 'just', use 'has' + past participle for third-person singular subjects to indicate a very recent action."
         }
       ]
     },
@@ -57,6 +141,34 @@
           "options": ["works", "worked", "has worked", "has been working"],
           "correctAnswer": "has been working",
           "explanation": "In Present Perfect Continuous, use 'has been' + verb-ing for actions that started in the past and continue in the present."
+        },
+        {
+          "id": 2,
+          "question": "I ___ (learn) English since I was a child.",
+          "options": ["learn", "learned", "have learned", "have been learning"],
+          "correctAnswer": "have been learning",
+          "explanation": "In Present Perfect Continuous, use 'have been' + verb-ing for ongoing actions that started in the past."
+        },
+        {
+          "id": 3,
+          "question": "They ___ (wait) for the bus for 30 minutes.",
+          "options": ["wait", "waited", "have waited", "have been waiting"],
+          "correctAnswer": "have been waiting",
+          "explanation": "In Present Perfect Continuous, use 'have been' + verb-ing for ongoing actions with a duration."
+        },
+        {
+          "id": 4,
+          "question": "How long ___ you ___ (live) in this city?",
+          "options": ["do, live", "did, live", "have, lived", "have, been living"],
+          "correctAnswer": "have, been living",
+          "explanation": "In Present Perfect Continuous questions with 'how long', use 'have' + subject + 'been' + verb-ing."
+        },
+        {
+          "id": 5,
+          "question": "It ___ (rain) all day.",
+          "options": ["rains", "rained", "has rained", "has been raining"],
+          "correctAnswer": "has been raining",
+          "explanation": "In Present Perfect Continuous, use 'has been' + verb-ing for actions that started in the past and continue up to now."
         }
       ]
     },
@@ -72,6 +184,34 @@
           "options": ["walk", "walks", "walked", "walking"],
           "correctAnswer": "walked",
           "explanation": "In Past Simple, use the past form of the verb for actions completed in the past."
+        },
+        {
+          "id": 2,
+          "question": "They ___ (not/go) to the party last night.",
+          "options": ["don't go", "doesn't go", "didn't go", "haven't gone"],
+          "correctAnswer": "didn't go",
+          "explanation": "In Past Simple negative, use 'didn't' + base verb for actions not completed in the past."
+        },
+        {
+          "id": 3,
+          "question": "___ you ___ (see) that movie last week?",
+          "options": ["Do, see", "Did, see", "Have, seen", "Are, seeing"],
+          "correctAnswer": "Did, see",
+          "explanation": "In Past Simple questions, use 'Did' + subject + base verb to ask about past actions."
+        },
+        {
+          "id": 4,
+          "question": "I ___ (buy) a new car last month.",
+          "options": ["buy", "buys", "bought", "have bought"],
+          "correctAnswer": "bought",
+          "explanation": "In Past Simple, use the past form of the verb (bought) for actions completed at a specific time in the past."
+        },
+        {
+          "id": 5,
+          "question": "When ___ she ___ (arrive) at the airport?",
+          "options": ["does, arrive", "did, arrive", "has, arrived", "is, arriving"],
+          "correctAnswer": "did, arrive",
+          "explanation": "In Past Simple questions with 'when', use 'did' + subject + base verb to ask about the time of a completed action."
         }
       ]
     },
@@ -87,6 +227,34 @@
           "options": ["play", "played", "were playing", "are playing"],
           "correctAnswer": "were playing",
           "explanation": "In Past Continuous, use 'were' + verb-ing for actions in progress in the past."
+        },
+        {
+          "id": 2,
+          "question": "She ___ (sleep) when the phone rang.",
+          "options": ["sleeps", "slept", "was sleeping", "has slept"],
+          "correctAnswer": "was sleeping",
+          "explanation": "In Past Continuous, use 'was' + verb-ing for third-person singular subjects doing an action when interrupted."
+        },
+        {
+          "id": 3,
+          "question": "What ___ you ___ (do) at 8 PM last night?",
+          "options": ["do, do", "did, do", "were, doing", "have, done"],
+          "correctAnswer": "were, doing",
+          "explanation": "In Past Continuous questions, use 'were' + subject + verb-ing to ask about actions in progress at a specific past time."
+        },
+        {
+          "id": 4,
+          "question": "I ___ (not/watch) TV at midnight; I was sleeping.",
+          "options": ["don't watch", "didn't watch", "wasn't watching", "haven't watched"],
+          "correctAnswer": "wasn't watching",
+          "explanation": "In Past Continuous negative, use 'wasn't' + verb-ing for first-person singular subjects."
+        },
+        {
+          "id": 5,
+          "question": "While he ___ (cook), she ___ (set) the table.",
+          "options": ["cooked, set", "was cooking, set", "cooked, was setting", "was cooking, was setting"],
+          "correctAnswer": "was cooking, was setting",
+          "explanation": "In Past Continuous, use 'was' + verb-ing for two parallel actions happening at the same time in the past."
         }
       ]
     },
@@ -102,6 +270,34 @@
           "options": ["finish", "finished", "had finished", "has finished"],
           "correctAnswer": "had finished",
           "explanation": "In Past Perfect, use 'had' + past participle for actions completed before another past action."
+        },
+        {
+          "id": 2,
+          "question": "They ___ (already/leave) when I arrived.",
+          "options": ["already left", "already leaved", "had already left", "have already left"],
+          "correctAnswer": "had already left",
+          "explanation": "In Past Perfect, use 'had' + past participle for actions completed before another past action."
+        },
+        {
+          "id": 3,
+          "question": "I ___ (never/see) such a beautiful sunset before that day.",
+          "options": ["never saw", "never seen", "had never seen", "have never seen"],
+          "correctAnswer": "had never seen",
+          "explanation": "In Past Perfect, use 'had' + past participle for experiences before a specific point in the past."
+        },
+        {
+          "id": 4,
+          "question": "___ you ___ (visit) Paris before you moved to London?",
+          "options": ["Did, visit", "Had, visited", "Were, visiting", "Have, visited"],
+          "correctAnswer": "Had, visited",
+          "explanation": "In Past Perfect questions, use 'Had' + subject + past participle to ask about actions before another past action."
+        },
+        {
+          "id": 5,
+          "question": "She ___ (not/hear) the news until she got home.",
+          "options": ["didn't hear", "hadn't heard", "wasn't hearing", "hasn't heard"],
+          "correctAnswer": "hadn't heard",
+          "explanation": "In Past Perfect negative, use 'hadn't' + past participle for actions that didn't happen before another past action."
         }
       ]
     },
@@ -117,6 +313,34 @@
           "options": ["worked", "had worked", "was working", "had been working"],
           "correctAnswer": "had been working",
           "explanation": "In Past Perfect Continuous, use 'had been' + verb-ing for actions in progress before another past action."
+        },
+        {
+          "id": 2,
+          "question": "I ___ (wait) for three hours before the train finally arrived.",
+          "options": ["waited", "had waited", "was waiting", "had been waiting"],
+          "correctAnswer": "had been waiting",
+          "explanation": "In Past Perfect Continuous, use 'had been' + verb-ing for actions in progress for a duration before another past action."
+        },
+        {
+          "id": 3,
+          "question": "They ___ (argue) for hours before they reached an agreement.",
+          "options": ["argued", "had argued", "were arguing", "had been arguing"],
+          "correctAnswer": "had been arguing",
+          "explanation": "In Past Perfect Continuous, use 'had been' + verb-ing for ongoing actions that occurred before another past action."
+        },
+        {
+          "id": 4,
+          "question": "How long ___ you ___ (study) before you passed the exam?",
+          "options": ["did, study", "had, studied", "were, studying", "had, been studying"],
+          "correctAnswer": "had, been studying",
+          "explanation": "In Past Perfect Continuous questions with 'how long', use 'had' + subject + 'been' + verb-ing."
+        },
+        {
+          "id": 5,
+          "question": "She ___ (not/sleep) well before the interview, so she was tired.",
+          "options": ["wasn't sleeping", "didn't sleep", "hadn't slept", "hadn't been sleeping"],
+          "correctAnswer": "hadn't been sleeping",
+          "explanation": "In Past Perfect Continuous negative, use 'hadn't been' + verb-ing for ongoing actions that didn't happen before another past action."
         }
       ]
     },
@@ -132,6 +356,34 @@
           "options": ["visit", "visits", "will visit", "visited"],
           "correctAnswer": "will visit",
           "explanation": "In Future Simple, use 'will' + base verb for actions that will happen in the future."
+        },
+        {
+          "id": 2,
+          "question": "I ___ (not/be) at home tomorrow.",
+          "options": ["am not", "don't be", "won't be", "haven't been"],
+          "correctAnswer": "won't be",
+          "explanation": "In Future Simple negative, use 'won't' + base verb to indicate something that will not happen."
+        },
+        {
+          "id": 3,
+          "question": "___ you ___ (come) to the party on Saturday?",
+          "options": ["Do, come", "Are, coming", "Will, come", "Have, come"],
+          "correctAnswer": "Will, come",
+          "explanation": "In Future Simple questions, use 'Will' + subject + base verb to ask about future plans."
+        },
+        {
+          "id": 4,
+          "question": "I think it ___ (rain) tomorrow.",
+          "options": ["rains", "rained", "will rain", "is raining"],
+          "correctAnswer": "will rain",
+          "explanation": "In Future Simple, use 'will' + base verb for predictions about the future."
+        },
+        {
+          "id": 5,
+          "question": "She ___ (help) you if you ask her.",
+          "options": ["help", "helps", "will help", "is helping"],
+          "correctAnswer": "will help",
+          "explanation": "In Future Simple, use 'will' + base verb for promises or voluntary actions in the future."
         }
       ]
     },
@@ -147,6 +399,34 @@
           "options": ["play", "played", "will play", "will be playing"],
           "correctAnswer": "will be playing",
           "explanation": "In Future Continuous, use 'will be' + verb-ing for actions in progress in the future."
+        },
+        {
+          "id": 2,
+          "question": "She ___ (study) when you call her tonight.",
+          "options": ["studies", "studied", "will study", "will be studying"],
+          "correctAnswer": "will be studying",
+          "explanation": "In Future Continuous, use 'will be' + verb-ing for actions that will be in progress at a specific time in the future."
+        },
+        {
+          "id": 3,
+          "question": "I ___ (not/sleep) at midnight; I'll be at the party.",
+          "options": ["don't sleep", "won't sleep", "am not sleeping", "won't be sleeping"],
+          "correctAnswer": "won't be sleeping",
+          "explanation": "In Future Continuous negative, use 'won't be' + verb-ing to indicate an action that will not be in progress."
+        },
+        {
+          "id": 4,
+          "question": "___ you ___ (work) late tomorrow evening?",
+          "options": ["Do, work", "Will, work", "Are, working", "Will, be working"],
+          "correctAnswer": "Will, be working",
+          "explanation": "In Future Continuous questions, use 'Will' + subject + 'be' + verb-ing to ask about actions in progress at a future time."
+        },
+        {
+          "id": 5,
+          "question": "This time next week, I ___ (lie) on the beach in Hawaii.",
+          "options": ["lie", "am lying", "will lie", "will be lying"],
+          "correctAnswer": "will be lying",
+          "explanation": "In Future Continuous, use 'will be' + verb-ing for actions that will be happening at a specific point in the future."
         }
       ]
     },
@@ -162,6 +442,34 @@
           "options": ["visit", "visits", "will visit", "will have visited"],
           "correctAnswer": "will have visited",
           "explanation": "In Future Perfect, use 'will have' + past participle for actions completed before a future time."
+        },
+        {
+          "id": 2,
+          "question": "By next month, I ___ (finish) this project.",
+          "options": ["finish", "will finish", "will have finished", "am finishing"],
+          "correctAnswer": "will have finished",
+          "explanation": "In Future Perfect, use 'will have' + past participle for actions that will be completed before a specific future time."
+        },
+        {
+          "id": 3,
+          "question": "They ___ (not/arrive) by the time the meeting starts.",
+          "options": ["don't arrive", "won't arrive", "haven't arrived", "won't have arrived"],
+          "correctAnswer": "won't have arrived",
+          "explanation": "In Future Perfect negative, use 'won't have' + past participle for actions that will not be completed before a future time."
+        },
+        {
+          "id": 4,
+          "question": "___ you ___ (complete) your studies by next summer?",
+          "options": ["Will, complete", "Have, completed", "Will, have completed", "Are, completing"],
+          "correctAnswer": "Will, have completed",
+          "explanation": "In Future Perfect questions, use 'Will' + subject + 'have' + past participle to ask about completion before a future time."
+        },
+        {
+          "id": 5,
+          "question": "By 2030, scientists ___ (find) a cure for many diseases.",
+          "options": ["find", "found", "will find", "will have found"],
+          "correctAnswer": "will have found",
+          "explanation": "In Future Perfect, use 'will have' + past participle for predictions about actions completed before a future point."
         }
       ]
     },
@@ -177,6 +485,34 @@
           "options": ["works", "worked", "will work", "will have been working"],
           "correctAnswer": "will have been working",
           "explanation": "In Future Perfect Continuous, use 'will have been' + verb-ing for actions in progress up to a future time."
+        },
+        {
+          "id": 2,
+          "question": "By the time I get home, it ___ (rain) for hours.",
+          "options": ["rains", "will rain", "will have rained", "will have been raining"],
+          "correctAnswer": "will have been raining",
+          "explanation": "In Future Perfect Continuous, use 'will have been' + verb-ing for ongoing actions up to a point in the future."
+        },
+        {
+          "id": 3,
+          "question": "Next week, we ___ (live) in this house for ten years.",
+          "options": ["live", "will live", "will have lived", "will have been living"],
+          "correctAnswer": "will have been living",
+          "explanation": "In Future Perfect Continuous, use 'will have been' + verb-ing for continuous actions with duration up to a future point."
+        },
+        {
+          "id": 4,
+          "question": "How long ___ you ___ (study) English by the end of this year?",
+          "options": ["will, study", "have, studied", "will, have studied", "will, have been studying"],
+          "correctAnswer": "will, have been studying",
+          "explanation": "In Future Perfect Continuous questions with 'how long', use 'will' + subject + 'have been' + verb-ing."
+        },
+        {
+          "id": 5,
+          "question": "By December, they ___ (not/wait) for a response for six months.",
+          "options": ["won't wait", "won't have waited", "haven't been waiting", "won't have been waiting"],
+          "correctAnswer": "won't have been waiting",
+          "explanation": "In Future Perfect Continuous negative, use 'won't have been' + verb-ing for ongoing actions that will not continue up to a future point."
         }
       ]
     }
