@@ -1,4 +1,6 @@
-[
+import json
+
+data = [
     {
         "category": "Greetings & Introductions",
         "words": [
@@ -36,5 +38,21 @@
             {"word": "Delivery", "meaning": "Sự giao hàng"},
             {"word": "Pick up", "meaning": "Thu thập, lấy, đón"}
         ]
+    },
+    { "category": "Shopping & Prices",
+        "words": [
+            {"word": "Pricey", "meaning": "Đắt đỏ"},
+            {"word": "Prohibitive", "meaning": "Quá đắt với hầu hết mọi người"},
+            {"word": "Inexpensive", "meaning": "Không đắt"},
+            {"word": "Dirt cheap", "meaning": "Rất rẻ"},
+            {"word": "A bargain", "meaning": "Món hời"},
+            {"word": "Reasonably priced", "meaning": "Giá hợp lý"}
+        ]
     }
 ]
+
+# Lưu vào file JSON
+with open("flashcards.json", "w", encoding="utf-8") as file:
+    json.dump(data, file, ensure_ascii=False, indent=4)
+
+print("✅ File flashcards.json đã được tạo thành công!")
