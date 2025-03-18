@@ -1,0 +1,24 @@
+import json
+import random
+
+# Đọc dữ liệu từ file JSON
+with open("flashcards.json", "r", encoding="utf-8") as file:
+    data = json.load(file)
+
+# Gom tất cả từ vựng lại thành danh sách
+flashcards = []
+for category in data:
+    for word in category["words"]:
+        flashcards.append(word)
+
+# Xáo trộn flashcard để hiển thị ngẫu nhiên
+random.shuffle(flashcards)
+
+# Chạy flashcard trên terminal
+for card in flashcards:
+    input(f"\nTừ: {card['word']} (Nhấn Enter để xem nghĩa)")
+    print(f"👉 Nghĩa: {card['meaning']}")
+
+print("\nHoàn thành! 🎉")
+
+
