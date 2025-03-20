@@ -1,0 +1,948 @@
+Index: README.md
+===================================================================
+diff --git a/README.md b/README.md
+deleted file mode 100644
+--- a/README.md	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
++++ /dev/null	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
+@@ -1,1 +0,0 @@
+-# English_app
+\ No newline at end of file
+Index: loginUi3.ui
+===================================================================
+diff --git a/loginUi3.ui b/loginUi3.ui
+deleted file mode 100644
+--- a/loginUi3.ui	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
++++ /dev/null	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
+@@ -1,229 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<ui version="4.0">
+- <class>Form</class>
+- <widget class="QWidget" name="Form">
+-  <property name="geometry">
+-   <rect>
+-    <x>0</x>
+-    <y>0</y>
+-    <width>659</width>
+-    <height>582</height>
+-   </rect>
+-  </property>
+-  <property name="windowTitle">
+-   <string>Form</string>
+-  </property>
+-  <widget class="QWidget" name="widget" native="true">
+-   <property name="geometry">
+-    <rect>
+-     <x>30</x>
+-     <y>30</y>
+-     <width>550</width>
+-     <height>500</height>
+-    </rect>
+-   </property>
+-   <property name="styleSheet">
+-    <string notr="true">QPushButton#pushButton{
+-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
+-	color:rgba(255, 255, 255, 210);
+-	border-radius:5px;
+-}
+-
+-QPushButton#pushButton:hover{
+-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+-}
+-
+-QPushButton#pushButton:pressed{
+-	padding-left:5px;
+-	padding-top:5px;
+-	background-color:rgba(150, 123, 111, 255);
+-}
+-
+-QPushButton#pushButton_2, #pushButton_3, #pushButton_4, #pushButton_5{
+-	background-color: rgba(0, 0, 0, 0);
+-	color:rgba(85, 98, 112, 255);
+-}
+-
+-QPushButton#pushButton_2:hover, #pushButton_3:hover, #pushButton_4:hover, #pushButton_5:hover{
+-	color: rgba(131, 96, 53, 255);
+-}
+-
+-QPushButton#pushButton_2:pressed, #pushButton_3:pressed, #pushButton_4:pressed, #pushButton_5:pressed{
+-	padding-left:5px;
+-	padding-top:5px;
+-	color:rgba(91, 88, 53, 255);
+-}
+-
+-</string>
+-   </property>
+-   <widget class="QLabel" name="label">
+-    <property name="geometry">
+-     <rect>
+-      <x>40</x>
+-      <y>30</y>
+-      <width>280</width>
+-      <height>430</height>
+-     </rect>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">border-image: url(:/images/background.jpg);
+-border-top-left-radius: 50px;</string>
+-    </property>
+-    <property name="text">
+-     <string/>
+-    </property>
+-   </widget>
+-   <widget class="QLabel" name="label_2">
+-    <property name="geometry">
+-     <rect>
+-      <x>40</x>
+-      <y>30</y>
+-      <width>651</width>
+-      <height>791</height>
+-     </rect>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">background-color:rgba(0, 0, 0, 80);
+-border-top-left-radius: 50px;</string>
+-    </property>
+-    <property name="text">
+-     <string/>
+-    </property>
+-    <property name="pixmap">
+-     <pixmap>f3.png</pixmap>
+-    </property>
+-   </widget>
+-   <widget class="QLabel" name="label_3">
+-    <property name="geometry">
+-     <rect>
+-      <x>280</x>
+-      <y>30</y>
+-      <width>240</width>
+-      <height>430</height>
+-     </rect>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">background-color:rgba(255, 255, 255, 255);
+-border-bottom-right-radius: 50px;</string>
+-    </property>
+-    <property name="text">
+-     <string/>
+-    </property>
+-   </widget>
+-   <widget class="QLabel" name="label_4">
+-    <property name="geometry">
+-     <rect>
+-      <x>340</x>
+-      <y>80</y>
+-      <width>111</width>
+-      <height>40</height>
+-     </rect>
+-    </property>
+-    <property name="font">
+-     <font>
+-      <pointsize>20</pointsize>
+-      <weight>75</weight>
+-      <bold>true</bold>
+-     </font>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">color:rgba(0, 0, 0, 200);</string>
+-    </property>
+-    <property name="text">
+-     <string>Log In</string>
+-    </property>
+-   </widget>
+-   <widget class="QLineEdit" name="lineEdit">
+-    <property name="geometry">
+-     <rect>
+-      <x>295</x>
+-      <y>150</y>
+-      <width>190</width>
+-      <height>40</height>
+-     </rect>
+-    </property>
+-    <property name="font">
+-     <font>
+-      <pointsize>10</pointsize>
+-     </font>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">background-color:rgba(0, 0, 0, 0);
+-border:none;
+-border-bottom:2px solid rgba(46, 82, 101, 200);
+-color:rgba(0, 0, 0, 240);
+-padding-bottom:7px;</string>
+-    </property>
+-    <property name="placeholderText">
+-     <string>  User Name</string>
+-    </property>
+-   </widget>
+-   <widget class="QLineEdit" name="lineEdit_2">
+-    <property name="geometry">
+-     <rect>
+-      <x>295</x>
+-      <y>215</y>
+-      <width>190</width>
+-      <height>40</height>
+-     </rect>
+-    </property>
+-    <property name="font">
+-     <font>
+-      <pointsize>10</pointsize>
+-     </font>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">background-color:rgba(0, 0, 0, 0);
+-border:none;
+-border-bottom:2px solid rgba(46, 82, 101, 200);
+-color:rgba(0, 0, 0, 240);
+-padding-bottom:7px;</string>
+-    </property>
+-    <property name="echoMode">
+-     <enum>QLineEdit::Password</enum>
+-    </property>
+-    <property name="placeholderText">
+-     <string>  Password</string>
+-    </property>
+-   </widget>
+-   <widget class="QPushButton" name="pushButton">
+-    <property name="geometry">
+-     <rect>
+-      <x>295</x>
+-      <y>295</y>
+-      <width>190</width>
+-      <height>40</height>
+-     </rect>
+-    </property>
+-    <property name="font">
+-     <font>
+-      <pointsize>11</pointsize>
+-      <weight>75</weight>
+-      <bold>true</bold>
+-     </font>
+-    </property>
+-    <property name="text">
+-     <string>L o g  I n</string>
+-    </property>
+-   </widget>
+-   <widget class="QLabel" name="label_6">
+-    <property name="geometry">
+-     <rect>
+-      <x>60</x>
+-      <y>140</y>
+-      <width>221</width>
+-      <height>131</height>
+-     </rect>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">background-color:rgba(0, 0, 0, 75);</string>
+-    </property>
+-    <property name="text">
+-     <string/>
+-    </property>
+-   </widget>
+-  </widget>
+- </widget>
+- <resources/>
+- <connections/>
+-</ui>
+Index: main_1.py
+===================================================================
+diff --git a/main_1.py b/main_1.py
+deleted file mode 100644
+--- a/main_1.py	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
++++ /dev/null	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
+@@ -1,19 +0,0 @@
+-import sys
+-from PyQt6 import uic
+-from PyQt6.QtWidgets import QApplication
+-
+-
+-#ensure Qapplication is created one
+-#app = Qapplication ([])
+-app = QApplication.instance()
+-if app is None:
+-    app = QApplication(sys.argv)
+-
+-form, window = uic.loadUiType("login.ui")
+-w = window()
+-f = form()
+-f.setupUi(w)
+-
+-w.show()
+-
+-sys.exit(app.exec())
+\ No newline at end of file
+Index: login.ui
+===================================================================
+diff --git a/login.ui b/login.ui
+deleted file mode 100644
+--- a/login.ui	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
++++ /dev/null	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
+@@ -1,229 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<ui version="4.0">
+- <class>Form</class>
+- <widget class="QWidget" name="Form">
+-  <property name="geometry">
+-   <rect>
+-    <x>0</x>
+-    <y>0</y>
+-    <width>659</width>
+-    <height>582</height>
+-   </rect>
+-  </property>
+-  <property name="windowTitle">
+-   <string>Form</string>
+-  </property>
+-  <widget class="QWidget" name="widget" native="true">
+-   <property name="geometry">
+-    <rect>
+-     <x>30</x>
+-     <y>30</y>
+-     <width>550</width>
+-     <height>500</height>
+-    </rect>
+-   </property>
+-   <property name="styleSheet">
+-    <string notr="true">QPushButton#pushButton{
+-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
+-	color:rgba(255, 255, 255, 210);
+-	border-radius:5px;
+-}
+-
+-QPushButton#pushButton:hover{
+-	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+-}
+-
+-QPushButton#pushButton:pressed{
+-	padding-left:5px;
+-	padding-top:5px;
+-	background-color:rgba(150, 123, 111, 255);
+-}
+-
+-QPushButton#pushButton_2, #pushButton_3, #pushButton_4, #pushButton_5{
+-	background-color: rgba(0, 0, 0, 0);
+-	color:rgba(85, 98, 112, 255);
+-}
+-
+-QPushButton#pushButton_2:hover, #pushButton_3:hover, #pushButton_4:hover, #pushButton_5:hover{
+-	color: rgba(131, 96, 53, 255);
+-}
+-
+-QPushButton#pushButton_2:pressed, #pushButton_3:pressed, #pushButton_4:pressed, #pushButton_5:pressed{
+-	padding-left:5px;
+-	padding-top:5px;
+-	color:rgba(91, 88, 53, 255);
+-}
+-
+-</string>
+-   </property>
+-   <widget class="QLabel" name="label">
+-    <property name="geometry">
+-     <rect>
+-      <x>40</x>
+-      <y>30</y>
+-      <width>280</width>
+-      <height>430</height>
+-     </rect>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">border-image: url(:/images/background.jpg);
+-border-top-left-radius: 50px;</string>
+-    </property>
+-    <property name="text">
+-     <string/>
+-    </property>
+-   </widget>
+-   <widget class="QLabel" name="label_2">
+-    <property name="geometry">
+-     <rect>
+-      <x>40</x>
+-      <y>30</y>
+-      <width>651</width>
+-      <height>791</height>
+-     </rect>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">background-color:rgba(0, 0, 0, 80);
+-border-top-left-radius: 50px;</string>
+-    </property>
+-    <property name="text">
+-     <string/>
+-    </property>
+-    <property name="pixmap">
+-     <pixmap>../../Downloads/f3.png</pixmap>
+-    </property>
+-   </widget>
+-   <widget class="QLabel" name="label_3">
+-    <property name="geometry">
+-     <rect>
+-      <x>280</x>
+-      <y>30</y>
+-      <width>240</width>
+-      <height>430</height>
+-     </rect>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">background-color:rgba(255, 255, 255, 255);
+-border-bottom-right-radius: 50px;</string>
+-    </property>
+-    <property name="text">
+-     <string/>
+-    </property>
+-   </widget>
+-   <widget class="QLabel" name="label_4">
+-    <property name="geometry">
+-     <rect>
+-      <x>340</x>
+-      <y>80</y>
+-      <width>111</width>
+-      <height>40</height>
+-     </rect>
+-    </property>
+-    <property name="font">
+-     <font>
+-      <pointsize>20</pointsize>
+-      <weight>75</weight>
+-      <bold>true</bold>
+-     </font>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">color:rgba(0, 0, 0, 200);</string>
+-    </property>
+-    <property name="text">
+-     <string>Log In</string>
+-    </property>
+-   </widget>
+-   <widget class="QLineEdit" name="lineEdit">
+-    <property name="geometry">
+-     <rect>
+-      <x>295</x>
+-      <y>150</y>
+-      <width>190</width>
+-      <height>40</height>
+-     </rect>
+-    </property>
+-    <property name="font">
+-     <font>
+-      <pointsize>10</pointsize>
+-     </font>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">background-color:rgba(0, 0, 0, 0);
+-border:none;
+-border-bottom:2px solid rgba(46, 82, 101, 200);
+-color:rgba(0, 0, 0, 240);
+-padding-bottom:7px;</string>
+-    </property>
+-    <property name="placeholderText">
+-     <string>  User Name</string>
+-    </property>
+-   </widget>
+-   <widget class="QLineEdit" name="lineEdit_2">
+-    <property name="geometry">
+-     <rect>
+-      <x>295</x>
+-      <y>215</y>
+-      <width>190</width>
+-      <height>40</height>
+-     </rect>
+-    </property>
+-    <property name="font">
+-     <font>
+-      <pointsize>10</pointsize>
+-     </font>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">background-color:rgba(0, 0, 0, 0);
+-border:none;
+-border-bottom:2px solid rgba(46, 82, 101, 200);
+-color:rgba(0, 0, 0, 240);
+-padding-bottom:7px;</string>
+-    </property>
+-    <property name="echoMode">
+-     <enum>QLineEdit::Password</enum>
+-    </property>
+-    <property name="placeholderText">
+-     <string>  Password</string>
+-    </property>
+-   </widget>
+-   <widget class="QPushButton" name="pushButton">
+-    <property name="geometry">
+-     <rect>
+-      <x>295</x>
+-      <y>295</y>
+-      <width>190</width>
+-      <height>40</height>
+-     </rect>
+-    </property>
+-    <property name="font">
+-     <font>
+-      <pointsize>11</pointsize>
+-      <weight>75</weight>
+-      <bold>true</bold>
+-     </font>
+-    </property>
+-    <property name="text">
+-     <string>L o g  I n</string>
+-    </property>
+-   </widget>
+-   <widget class="QLabel" name="label_6">
+-    <property name="geometry">
+-     <rect>
+-      <x>60</x>
+-      <y>140</y>
+-      <width>221</width>
+-      <height>131</height>
+-     </rect>
+-    </property>
+-    <property name="styleSheet">
+-     <string notr="true">background-color:rgba(0, 0, 0, 75);</string>
+-    </property>
+-    <property name="text">
+-     <string/>
+-    </property>
+-   </widget>
+-  </widget>
+- </widget>
+- <resources/>
+- <connections/>
+-</ui>
+Index: login2.py
+===================================================================
+diff --git a/login2.py b/login2.py
+deleted file mode 100644
+--- a/login2.py	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
++++ /dev/null	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
+@@ -1,135 +0,0 @@
+-# Form implementation generated from reading ui file 'login.ui'
+-#
+-# Created by: PyQt6 UI code generator 6.8.1
+-#
+-# WARNING: Any manual changes made to this file will be lost when pyuic6 is
+-# run again.  Do not edit this file unless you know what you are doing.
+-
+-
+-from PyQt6 import QtCore, QtGui, QtWidgets
+-
+-
+-class Ui_Form(object):
+-    def setupUi(self, Form):
+-        Form.setObjectName("Form")
+-        Form.resize(659, 582)
+-        self.widget = QtWidgets.QWidget(parent=Form)
+-        self.widget.setGeometry(QtCore.QRect(30, 30, 550, 500))
+-        self.widget.setStyleSheet("QPushButton#pushButton{\n"
+-"    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
+-"    color:rgba(255, 255, 255, 210);\n"
+-"    border-radius:5px;\n"
+-"}\n"
+-"\n"
+-"QPushButton#pushButton:hover{\n"
+-"    background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));\n"
+-"}\n"
+-"\n"
+-"QPushButton#pushButton:pressed{\n"
+-"    padding-left:5px;\n"
+-"    padding-top:5px;\n"
+-"    background-color:rgba(150, 123, 111, 255);\n"
+-"}\n"
+-"\n"
+-"QPushButton#pushButton_2, #pushButton_3, #pushButton_4, #pushButton_5{\n"
+-"    background-color: rgba(0, 0, 0, 0);\n"
+-"    color:rgba(85, 98, 112, 255);\n"
+-"}\n"
+-"\n"
+-"QPushButton#pushButton_2:hover, #pushButton_3:hover, #pushButton_4:hover, #pushButton_5:hover{\n"
+-"    color: rgba(131, 96, 53, 255);\n"
+-"}\n"
+-"\n"
+-"QPushButton#pushButton_2:pressed, #pushButton_3:pressed, #pushButton_4:pressed, #pushButton_5:pressed{\n"
+-"    padding-left:5px;\n"
+-"    padding-top:5px;\n"
+-"    color:rgba(91, 88, 53, 255);\n"
+-"}\n"
+-"\n"
+-"")
+-        self.widget.setObjectName("widget")
+-        self.label = QtWidgets.QLabel(parent=self.widget)
+-        self.label.setGeometry(QtCore.QRect(40, 30, 280, 430))
+-        self.label.setStyleSheet("border-image: url(:/images/background.jpg);\n"
+-"border-top-left-radius: 50px;")
+-        self.label.setText("")
+-        self.label.setObjectName("label")
+-        self.label_2 = QtWidgets.QLabel(parent=self.widget)
+-        self.label_2.setGeometry(QtCore.QRect(40, 30, 651, 791))
+-        self.label_2.setStyleSheet("background-color:rgba(0, 0, 0, 80);\n"
+-"border-top-left-radius: 50px;")
+-        self.label_2.setText("")
+-        self.label_2.setPixmap(QtGui.QPixmap("../../Downloads/f3.png"))
+-        self.label_2.setObjectName("label_2")
+-        self.label_3 = QtWidgets.QLabel(parent=self.widget)
+-        self.label_3.setGeometry(QtCore.QRect(280, 30, 240, 430))
+-        self.label_3.setStyleSheet("background-color:rgba(255, 255, 255, 255);\n"
+-"border-bottom-right-radius: 50px;")
+-        self.label_3.setText("")
+-        self.label_3.setObjectName("label_3")
+-        self.label_4 = QtWidgets.QLabel(parent=self.widget)
+-        self.label_4.setGeometry(QtCore.QRect(340, 80, 111, 40))
+-        font = QtGui.QFont()
+-        font.setPointSize(20)
+-        font.setBold(True)
+-        font.setWeight(75)
+-        self.label_4.setFont(font)
+-        self.label_4.setStyleSheet("color:rgba(0, 0, 0, 200);")
+-        self.label_4.setObjectName("label_4")
+-        self.lineEdit = QtWidgets.QLineEdit(parent=self.widget)
+-        self.lineEdit.setGeometry(QtCore.QRect(295, 150, 190, 40))
+-        font = QtGui.QFont()
+-        font.setPointSize(10)
+-        self.lineEdit.setFont(font)
+-        self.lineEdit.setStyleSheet("background-color:rgba(0, 0, 0, 0);\n"
+-"border:none;\n"
+-"border-bottom:2px solid rgba(46, 82, 101, 200);\n"
+-"color:rgba(0, 0, 0, 240);\n"
+-"padding-bottom:7px;")
+-        self.lineEdit.setObjectName("lineEdit")
+-        self.lineEdit_2 = QtWidgets.QLineEdit(parent=self.widget)
+-        self.lineEdit_2.setGeometry(QtCore.QRect(295, 215, 190, 40))
+-        font = QtGui.QFont()
+-        font.setPointSize(10)
+-        self.lineEdit_2.setFont(font)
+-        self.lineEdit_2.setStyleSheet("background-color:rgba(0, 0, 0, 0);\n"
+-"border:none;\n"
+-"border-bottom:2px solid rgba(46, 82, 101, 200);\n"
+-"color:rgba(0, 0, 0, 240);\n"
+-"padding-bottom:7px;")
+-        self.lineEdit_2.setEchoMode(QtWidgets.QLineEdit.EchoMode.Password)
+-        self.lineEdit_2.setObjectName("lineEdit_2")
+-        self.pushButton = QtWidgets.QPushButton(parent=self.widget)
+-        self.pushButton.setGeometry(QtCore.QRect(295, 295, 190, 40))
+-        font = QtGui.QFont()
+-        font.setPointSize(11)
+-        font.setBold(True)
+-        font.setWeight(75)
+-        self.pushButton.setFont(font)
+-        self.pushButton.setObjectName("pushButton")
+-        self.label_6 = QtWidgets.QLabel(parent=self.widget)
+-        self.label_6.setGeometry(QtCore.QRect(60, 140, 221, 131))
+-        self.label_6.setStyleSheet("background-color:rgba(0, 0, 0, 75);")
+-        self.label_6.setText("")
+-        self.label_6.setObjectName("label_6")
+-
+-        self.retranslateUi(Form)
+-        QtCore.QMetaObject.connectSlotsByName(Form)
+-
+-    def retranslateUi(self, Form):
+-        _translate = QtCore.QCoreApplication.translate
+-        Form.setWindowTitle(_translate("Form", "Form"))
+-        self.label_4.setText(_translate("Form", "Log In"))
+-        self.lineEdit.setPlaceholderText(_translate("Form", "  User Name"))
+-        self.lineEdit_2.setPlaceholderText(_translate("Form", "  Password"))
+-        self.pushButton.setText(_translate("Form", "L o g  I n"))
+-
+-
+-if __name__ == "__main__":
+-    import sys
+-    app = QtWidgets.QApplication(sys.argv)
+-    Form = QtWidgets.QWidget()
+-    ui = Ui_Form()
+-    ui.setupUi(Form)
+-    Form.show()
+-    sys.exit(app.exec())
+Index: untitled.ui
+===================================================================
+diff --git a/untitled.ui b/untitled.ui
+deleted file mode 100644
+--- a/untitled.ui	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
++++ /dev/null	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
+@@ -1,31 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<ui version="4.0">
+- <class>MainWindow</class>
+- <widget class="QMainWindow" name="MainWindow">
+-  <property name="geometry">
+-   <rect>
+-    <x>0</x>
+-    <y>0</y>
+-    <width>800</width>
+-    <height>600</height>
+-   </rect>
+-  </property>
+-  <property name="windowTitle">
+-   <string>MainWindow</string>
+-  </property>
+-  <widget class="QWidget" name="centralwidget"/>
+-  <widget class="QMenuBar" name="menubar">
+-   <property name="geometry">
+-    <rect>
+-     <x>0</x>
+-     <y>0</y>
+-     <width>800</width>
+-     <height>22</height>
+-    </rect>
+-   </property>
+-  </widget>
+-  <widget class="QStatusBar" name="statusbar"/>
+- </widget>
+- <resources/>
+- <connections/>
+-</ui>
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
++++ b/.idea/vcs.xml	(date 1742397514962)
+@@ -2,5 +2,6 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/English_app" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"806a9e14-2400-4a6a-8db9-7e75aee56cd2\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 4\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2tkyILykRPWHNMPec4LJxLzf3rn\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220\" />\r\n        <option value=\"bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"806a9e14-2400-4a6a-8db9-7e75aee56cd2\" name=\"Changes\" comment=\"\" />\r\n      <created>1740910285500</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1740910285500</updated>\r\n      <workItem from=\"1740910286612\" duration=\"1000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b1c712a3b73a0bf8e1480c1f1bcbedd3a8ac8109)
++++ b/.idea/workspace.xml	(date 1742436745587)
+@@ -1,37 +1,179 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="806a9e14-2400-4a6a-8db9-7e75aee56cd2" name="Changes" comment="" />
++    <list default="true" id="806a9e14-2400-4a6a-8db9-7e75aee56cd2" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/English_app/main.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/English_app/grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/English_app/grammar.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/English_app/grammar.ui" beforeDir="false" afterPath="$PROJECT_DIR$/English_app/grammar.ui" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/English_app/grammar_code2.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/login.ui" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/login2.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/loginUi3.ui" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/main_1.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/untitled.ui" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Python Script" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$/English_app" value="grammar-1" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/English_app" />
++    <option name="ROOT_SYNC" value="DONT_SYNC" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 4
+-}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 4
++}</component>
+   <component name="ProjectId" id="2tkyILykRPWHNMPec4LJxLzf3rn" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "Python.grammar.executor": "Run",
++    "Python.grammar_app.executor": "Run",
++    "Python.main.executor": "Run",
++    "Python.main_1.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "main",
++    "git-widget-placeholder": "grammar__feature",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
+     "nodejs_package_manager_path": "npm",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="RunManager" selected="Python.grammar">
++    <configuration name="grammar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="English_app" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/English_app" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/English_app/grammar.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="grammar_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="English_app" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/English_app" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/English_app/grammar_app.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="English_app" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/English_app" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/English_app/main.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="main_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="English_app" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_1.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Python.main_1" />
++        <item itemvalue="Python.main" />
++        <item itemvalue="Python.grammar_app" />
++        <item itemvalue="Python.grammar" />
++        <item itemvalue="Python.main" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+-        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
++        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
++        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -44,7 +186,41 @@
+       <option name="presentableId" value="Default" />
+       <updated>1740910285500</updated>
+       <workItem from="1740910286612" duration="1000" />
++      <workItem from="1742397073688" duration="3452000" />
++      <workItem from="1742430610910" duration="3385000" />
+     </task>
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/grammar_feature" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="com.intellij.coverage.CoverageDataManagerImpl">
++    <SUITE FILE_PATH="coverage/Do_an$grammar.coverage" NAME="grammar Coverage Results" MODIFIED="1742399817626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/English_app" />
++    <SUITE FILE_PATH="coverage/Do_an$main_1.coverage" NAME="main_1 Coverage Results" MODIFIED="1742387069527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Do_an$grammar_app.coverage" NAME="grammar_app Coverage Results" MODIFIED="1742400112995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/English_app" />
++    <SUITE FILE_PATH="coverage/Do_an$main.coverage" NAME="main Coverage Results" MODIFIED="1742434258158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/English_app" />
++  </component>
+ </project>
+\ No newline at end of file

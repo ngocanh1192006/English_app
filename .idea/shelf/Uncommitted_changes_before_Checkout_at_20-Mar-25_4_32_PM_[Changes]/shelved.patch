@@ -1,0 +1,323 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"806a9e14-2400-4a6a-8db9-7e75aee56cd2\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/grammar.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/grammar.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/grammar.ui\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/grammar_code2.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/grammar_code2.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2tkyILykRPWHNMPec4LJxLzf3rn\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;grammar__feature&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220\" />\r\n        <option value=\"bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"806a9e14-2400-4a6a-8db9-7e75aee56cd2\" name=\"Changes\" comment=\"\" />\r\n      <created>1740910285500</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1740910285500</updated>\r\n      <workItem from=\"1740910286612\" duration=\"1000\" />\r\n      <workItem from=\"1742271453630\" duration=\"58000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 221164e950a24d9bee2a241885d11841151f5873)
++++ b/.idea/workspace.xml	(date 1742463058936)
+@@ -5,10 +5,12 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="806a9e14-2400-4a6a-8db9-7e75aee56cd2" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/English_app/main.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/grammar.ui" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/grammar_code2.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar_code2.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/English_app/grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/English_app/grammar.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/English_app/grammar.ui" beforeDir="false" afterPath="$PROJECT_DIR$/English_app/grammar.ui" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/English_app/grammar_code2.py" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -23,34 +25,147 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="grammar-1" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="ROOT_SYNC" value="SYNC" />
+   </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 4
+ }</component>
+   <component name="ProjectId" id="2tkyILykRPWHNMPec4LJxLzf3rn" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;grammar__feature&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Python.grammar.executor": "Run",
++    "Python.grammar_code2.executor": "Run",
++    "Python.main.executor": "Run",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "grammar__feature",
++    "node.js.detected.package.eslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
++  <component name="RunManager" selected="Python.grammar (1)">
++    <configuration name="grammar (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="English_app" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grammar.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="grammar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="English_app" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/English_app" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/English_app/grammar.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="grammar_code2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="English_app" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grammar_code2.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="English_app" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/English_app" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/English_app/main.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Python.grammar (1)" />
++        <item itemvalue="Python.grammar_code2" />
++        <item itemvalue="Python.grammar" />
++        <item itemvalue="Python.main" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+-        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
++        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
++        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -64,10 +179,29 @@
+       <updated>1740910285500</updated>
+       <workItem from="1740910286612" duration="1000" />
+       <workItem from="1742271453630" duration="58000" />
++      <workItem from="1742462591628" duration="368000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="com.intellij.coverage.CoverageDataManagerImpl">
++    <SUITE FILE_PATH="coverage/Do_an$grammar.coverage" NAME="grammar Coverage Results" MODIFIED="1742399817626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/English_app" />
++    <SUITE FILE_PATH="coverage/Do_an$main_1.coverage" NAME="main_1 Coverage Results" MODIFIED="1742387069527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Do_an$grammar_app.coverage" NAME="grammar_app Coverage Results" MODIFIED="1742400112995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/English_app" />
++    <SUITE FILE_PATH="coverage/Do_an$grammar_code2.coverage" NAME="grammar_code2 Coverage Results" MODIFIED="1742436936378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Do_an$main.coverage" NAME="main Coverage Results" MODIFIED="1742437055174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/English_app" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: grammar.ui
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<ui version=\"4.0\">\r\n <class>MainWindow</class>\r\n <widget class=\"QMainWindow\" name=\"MainWindow\">\r\n  <property name=\"geometry\">\r\n   <rect>\r\n    <x>0</x>\r\n    <y>0</y>\r\n    <width>964</width>\r\n    <height>600</height>\r\n   </rect>\r\n  </property>\r\n  <property name=\"windowTitle\">\r\n   <string>MainWindow</string>\r\n  </property>\r\n  <property name=\"styleSheet\">\r\n   <string notr=\"true\">background-color: rgb(255, 255, 255);</string>\r\n  </property>\r\n  <widget class=\"QWidget\" name=\"centralwidget\">\r\n   <layout class=\"QHBoxLayout\" name=\"horizontalLayout_2\">\r\n    <item>\r\n     <widget class=\"QWidget\" name=\"widget\" native=\"true\">\r\n      <layout class=\"QHBoxLayout\" name=\"horizontalLayout\">\r\n       <item>\r\n        <widget class=\"QPushButton\" name=\"pushButton_3\">\r\n         <property name=\"text\">\r\n          <string>Quay lại</string>\r\n         </property>\r\n         <property name=\"icon\">\r\n          <iconset>\r\n           <normaloff>:/icons/chevron-left.svg</normaloff>:/icons/chevron-left.svg</iconset>\r\n         </property>\r\n        </widget>\r\n       </item>\r\n      </layout>\r\n     </widget>\r\n    </item>\r\n    <item>\r\n     <widget class=\"QTabWidget\" name=\"tabWidget\">\r\n      <property name=\"cursor\">\r\n       <cursorShape>ArrowCursor</cursorShape>\r\n      </property>\r\n      <property name=\"styleSheet\">\r\n       <string notr=\"true\">background-color: rgb(255, 227, 170);\r\nalternate-background-color: rgb(255, 227, 170);</string>\r\n      </property>\r\n      <property name=\"currentIndex\">\r\n       <number>0</number>\r\n      </property>\r\n      <widget class=\"QWidget\" name=\"tab\">\r\n       <attribute name=\"title\">\r\n        <string>Theory</string>\r\n       </attribute>\r\n       <widget class=\"QLabel\" name=\"label_3\">\r\n        <property name=\"geometry\">\r\n         <rect>\r\n          <x>0</x>\r\n          <y>-1</y>\r\n          <width>711</width>\r\n          <height>31</height>\r\n         </rect>\r\n        </property>\r\n        <property name=\"text\">\r\n         <string>TextLabel</string>\r\n        </property>\r\n       </widget>\r\n       <widget class=\"QTextBrowser\" name=\"textBrowser\">\r\n        <property name=\"geometry\">\r\n         <rect>\r\n          <x>-5</x>\r\n          <y>31</y>\r\n          <width>721</width>\r\n          <height>481</height>\r\n         </rect>\r\n        </property>\r\n       </widget>\r\n      </widget>\r\n      <widget class=\"QWidget\" name=\"tab_2\">\r\n       <attribute name=\"title\">\r\n        <string>Assignment</string>\r\n       </attribute>\r\n       <widget class=\"QLabel\" name=\"labelquestion\">\r\n        <property name=\"geometry\">\r\n         <rect>\r\n          <x>0</x>\r\n          <y>0</y>\r\n          <width>721</width>\r\n          <height>161</height>\r\n         </rect>\r\n        </property>\r\n        <property name=\"text\">\r\n         <string>Question</string>\r\n        </property>\r\n       </widget>\r\n       <widget class=\"QPushButton\" name=\"pushButton_2\">\r\n        <property name=\"geometry\">\r\n         <rect>\r\n          <x>180</x>\r\n          <y>370</y>\r\n          <width>75</width>\r\n          <height>23</height>\r\n         </rect>\r\n        </property>\r\n        <property name=\"text\">\r\n         <string>Submit</string>\r\n        </property>\r\n       </widget>\r\n       <widget class=\"QPushButton\" name=\"pushButton_4\">\r\n        <property name=\"geometry\">\r\n         <rect>\r\n          <x>420</x>\r\n          <y>370</y>\r\n          <width>75</width>\r\n          <height>23</height>\r\n         </rect>\r\n        </property>\r\n        <property name=\"text\">\r\n         <string>Next question</string>\r\n        </property>\r\n       </widget>\r\n       <widget class=\"QLabel\" name=\"labelanswer\">\r\n        <property name=\"geometry\">\r\n         <rect>\r\n          <x>0</x>\r\n          <y>170</y>\r\n          <width>711</width>\r\n          <height>81</height>\r\n         </rect>\r\n        </property>\r\n        <property name=\"text\">\r\n         <string>Answer</string>\r\n        </property>\r\n       </widget>\r\n       <widget class=\"QLineEdit\" name=\"lineEdit\">\r\n        <property name=\"geometry\">\r\n         <rect>\r\n          <x>210</x>\r\n          <y>280</y>\r\n          <width>441</width>\r\n          <height>31</height>\r\n         </rect>\r\n        </property>\r\n       </widget>\r\n       <widget class=\"QLabel\" name=\"label_2\">\r\n        <property name=\"geometry\">\r\n         <rect>\r\n          <x>90</x>\r\n          <y>290</y>\r\n          <width>111</width>\r\n          <height>16</height>\r\n         </rect>\r\n        </property>\r\n        <property name=\"text\">\r\n         <string>Enter your answer:</string>\r\n        </property>\r\n       </widget>\r\n      </widget>\r\n     </widget>\r\n    </item>\r\n    <item>\r\n     <widget class=\"QLabel\" name=\"label\">\r\n      <property name=\"styleSheet\">\r\n       <string notr=\"true\">background-color: rgb(249, 255, 217);</string>\r\n      </property>\r\n      <property name=\"text\">\r\n       <string>Grammar</string>\r\n      </property>\r\n     </widget>\r\n    </item>\r\n    <item>\r\n     <widget class=\"QPushButton\" name=\"pushButton\">\r\n      <property name=\"text\">\r\n       <string>Hoàn thành</string>\r\n      </property>\r\n     </widget>\r\n    </item>\r\n   </layout>\r\n  </widget>\r\n  <widget class=\"QMenuBar\" name=\"menubar\">\r\n   <property name=\"geometry\">\r\n    <rect>\r\n     <x>0</x>\r\n     <y>0</y>\r\n     <width>964</width>\r\n     <height>22</height>\r\n    </rect>\r\n   </property>\r\n  </widget>\r\n  <widget class=\"QStatusBar\" name=\"statusbar\"/>\r\n </widget>\r\n <resources/>\r\n <connections/>\r\n</ui>\r\n
+===================================================================
+diff --git a/grammar.ui b/grammar.ui
+--- a/grammar.ui	(revision 221164e950a24d9bee2a241885d11841151f5873)
++++ b/grammar.ui	(date 1742463047796)
+@@ -6,8 +6,8 @@
+    <rect>
+     <x>0</x>
+     <y>0</y>
+-    <width>964</width>
+-    <height>600</height>
++    <width>548</width>
++    <height>378</height>
+    </rect>
+   </property>
+   <property name="windowTitle">
+@@ -19,23 +19,6 @@
+   <widget class="QWidget" name="centralwidget">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+-     <widget class="QWidget" name="widget" native="true">
+-      <layout class="QHBoxLayout" name="horizontalLayout">
+-       <item>
+-        <widget class="QPushButton" name="pushButton_3">
+-         <property name="text">
+-          <string>Quay lại</string>
+-         </property>
+-         <property name="icon">
+-          <iconset>
+-           <normaloff>:/icons/chevron-left.svg</normaloff>:/icons/chevron-left.svg</iconset>
+-         </property>
+-        </widget>
+-       </item>
+-      </layout>
+-     </widget>
+-    </item>
+-    <item>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="cursor">
+        <cursorShape>ArrowCursor</cursorShape>
+@@ -45,7 +28,7 @@
+ alternate-background-color: rgb(255, 227, 170);</string>
+       </property>
+       <property name="currentIndex">
+-       <number>0</number>
++       <number>1</number>
+       </property>
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+@@ -121,8 +104,8 @@
+        <widget class="QLabel" name="labelanswer">
+         <property name="geometry">
+          <rect>
+-          <x>0</x>
+-          <y>170</y>
++          <x>-20</x>
++          <y>160</y>
+           <width>711</width>
+           <height>81</height>
+          </rect>
+@@ -153,6 +136,29 @@
+         <property name="text">
+          <string>Enter your answer:</string>
+         </property>
++       </widget>
++       <widget class="QWidget" name="widget" native="true">
++        <property name="geometry">
++         <rect>
++          <x>0</x>
++          <y>-30</y>
++          <width>68</width>
++          <height>552</height>
++         </rect>
++        </property>
++        <layout class="QHBoxLayout" name="horizontalLayout">
++         <item>
++          <widget class="QPushButton" name="pushButton_3">
++           <property name="text">
++            <string>Quay lại</string>
++           </property>
++           <property name="icon">
++            <iconset>
++             <normaloff>:/icons/chevron-left.svg</normaloff>:/icons/chevron-left.svg</iconset>
++           </property>
++          </widget>
++         </item>
++        </layout>
+        </widget>
+       </widget>
+      </widget>
+@@ -181,8 +187,8 @@
+     <rect>
+      <x>0</x>
+      <y>0</y>
+-     <width>964</width>
+-     <height>22</height>
++     <width>548</width>
++     <height>18</height>
+     </rect>
+    </property>
+   </widget>
