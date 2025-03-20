@@ -3,6 +3,7 @@ from login import Ui_Form
 from main import Ui_MainWindow
 import json
 import sys
+import os
 user_file = "acc.json"
 class MainApp(QMainWindow):# Kế thừa từ QMainWindow
     def __init__(self):
@@ -21,6 +22,10 @@ class MainApp(QMainWindow):# Kế thừa từ QMainWindow
 
     def load_users(self):
         """ Đọc danh sách người dùng từ file JSON """
+        if not os.path.exists(user_file):  # Nếu file không tồn tại
+            with open(user_file, "w", encoding="utf-8") as file:
+                json.dump({"users": []}, file, indent=4)  # Tạo file với danh sách rỗng
+            return []
         try:
             with open(user_file, "r", encoding="utf-8") as file:
                 data = json.load(file)
