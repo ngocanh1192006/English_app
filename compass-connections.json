@@ -1,0 +1,72 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "2f3ed5d5-7ba9-40d6-98e8-030a6b9ca40c",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1742438208491"
+        }
+      },
+      "favorite": {
+        "name": ""
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      }
+    },
+    {
+      "id": "67195822-2c0f-45ec-95a3-08b08b49f994",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1742438229874"
+        }
+      },
+      "favorite": {
+        "name": ""
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      }
+    },
+    {
+      "id": "a202bfaf-dbd7-49b8-8126-094ff3582025",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1742438231944"
+        }
+      },
+      "favorite": {
+        "name": ""
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      }
+    },
+    {
+      "id": "b7ff9e43-425d-4898-9cfc-435e8c1088cf",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1742438250579"
+        }
+      },
+      "favorite": {
+        "name": ""
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      }
+    }
+  ]
+}
