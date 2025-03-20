@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="806a9e14-2400-4a6a-8db9-7e75aee56cd2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar_code2.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar_code2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +61,7 @@
       <updated>1740910285500</updated>
       <workItem from="1740910286612" duration="1000" />
       <workItem from="1742271453630" duration="58000" />
+      <workItem from="1742435408065" duration="921000" />
     </task>
     <servers />
   </component>
