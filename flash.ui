@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../../OneDrive/Pictures/resource files.qrc">
+   <iconset>
     <normaloff>:/icons/chevron-left.svg</normaloff>:/icons/chevron-left.svg</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -28,7 +28,7 @@
           <string>Quay lại</string>
          </property>
          <property name="icon">
-          <iconset resource="../../OneDrive/Pictures/resource files.qrc">
+          <iconset>
            <normaloff>:/icons/chevron-left.svg</normaloff>:/icons/chevron-left.svg</iconset>
          </property>
         </widget>
@@ -70,15 +70,7 @@
        <number>0</number>
       </property>
       <widget class="QWidget" name="page">
-       <layout class="QHBoxLayout" name="horizontalLayout_4">
-        <item>
-         <widget class="QLabel" name="label">
-          <property name="text">
-           <string>Mặt trước</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
+       <layout class="QHBoxLayout" name="horizontalLayout_4"/>
       </widget>
       <widget class="QWidget" name="page_2">
        <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -124,14 +116,12 @@
      <x>0</x>
      <y>0</y>
      <width>775</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources>
-  <include location="../../OneDrive/Pictures/resource files.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
