@@ -27,12 +27,134 @@
           <string>Quay lại</string>
          </property>
          <property name="icon">
-          <iconset resource="../../OneDrive/Pictures/resource files.qrc">
+          <iconset>
            <normaloff>:/icons/chevron-left.svg</normaloff>:/icons/chevron-left.svg</iconset>
          </property>
         </widget>
        </item>
       </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 227, 170);
+alternate-background-color: rgb(255, 227, 170);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Theory</string>
+       </attribute>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>-1</y>
+          <width>711</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser">
+        <property name="geometry">
+         <rect>
+          <x>-5</x>
+          <y>31</y>
+          <width>721</width>
+          <height>481</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Assignment</string>
+       </attribute>
+       <widget class="QLabel" name="labelquestion">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>721</width>
+          <height>161</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Question</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>370</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Submit</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>370</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Next question</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelanswer">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>170</y>
+          <width>711</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Answer</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>280</y>
+          <width>441</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>290</y>
+          <width>111</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Enter your answer:</string>
+        </property>
+       </widget>
+      </widget>
      </widget>
     </item>
     <item>
@@ -43,40 +165,6 @@
       <property name="text">
        <string>Grammar</string>
       </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QTabWidget" name="tabWidget">
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 227, 170);
-alternate-background-color: rgb(255, 227, 170);</string>
-      </property>
-      <property name="currentIndex">
-       <number>1</number>
-      </property>
-      <widget class="QWidget" name="tab">
-       <attribute name="title">
-        <string>Question</string>
-       </attribute>
-      </widget>
-      <widget class="QWidget" name="tab_2">
-       <attribute name="title">
-        <string>Assignment</string>
-       </attribute>
-       <widget class="QLabel" name="label_2">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>160</y>
-          <width>721</width>
-          <height>61</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>TextLabel</string>
-        </property>
-       </widget>
-      </widget>
      </widget>
     </item>
     <item>
@@ -94,14 +182,12 @@ alternate-background-color: rgb(255, 227, 170);</string>
      <x>0</x>
      <y>0</y>
      <width>964</width>
-     <height>26</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources>
-  <include location="../../OneDrive/Pictures/resource files.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
