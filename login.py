@@ -111,7 +111,7 @@ class Ui_Form(object):
         self.pushButton.setObjectName("pushButton")
         self.label_6 = QtWidgets.QLabel(parent=self.widget)
         self.label_6.setGeometry(QtCore.QRect(70, 40, 131, 151))
-        self.label_6.setStyleSheet("image: url(:/icons/user.png);")
+        self.label_6.setStyleSheet("image: url(icons/user.png);")
         self.label_6.setText("")
         self.label_6.setObjectName("label_6")
         self.lineEdit_2 = QtWidgets.QLineEdit(parent=self.widget)
@@ -127,7 +127,7 @@ class Ui_Form(object):
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.label_5 = QtWidgets.QLabel(parent=self.widget)
         self.label_5.setGeometry(QtCore.QRect(360, 180, 35, 10))
-        self.label_5.setStyleSheet("image: url(:/icons/view.png);")
+        self.label_5.setStyleSheet("image: url(icons/view.png);")
         self.label_5.setText("")
         self.label_5.setObjectName("label_5")
 

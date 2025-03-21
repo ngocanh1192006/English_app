@@ -13,7 +13,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(457, 394)
-        MainWindow.setStyleSheet("background-image: url(:/icons/lg.png);")
+        MainWindow.setStyleSheet("background-image: url(icons/lg.png);")
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         MainWindow.setCentralWidget(self.centralwidget)

@@ -3,7 +3,6 @@ import json
 from PyQt6 import QtWidgets, QtGui, QtCore
 from grammar2 import Ui_MainWindow
 
-
 class GrammarAppV2(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
         super().__init__()

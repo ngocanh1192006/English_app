@@ -16,13 +16,15 @@
       <change beforePath="$PROJECT_DIR$/English_app/flashcard2.json" beforeDir="false" afterPath="$PROJECT_DIR$/English_app/flashcard2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/English_app/ui_4.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/English_app/untitled.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/access.py" beforeDir="false" afterPath="$PROJECT_DIR$/access.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/access.ui" beforeDir="false" afterPath="$PROJECT_DIR$/access.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flashcard1.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard1.ui" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard1.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard3.ui" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard3.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar.ui" beforeDir="false" afterPath="$PROJECT_DIR$/grammar.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar2.ui" beforeDir="false" afterPath="$PROJECT_DIR$/grammar2.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.ui" beforeDir="false" afterPath="$PROJECT_DIR$/login.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flashcard2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flashcard3.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar2.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar2_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar2_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,9 +212,9 @@
       <list>
         <item itemvalue="Python.flashcard3_ex" />
         <item itemvalue="Python.flashcard2_ex" />
+        <item itemvalue="Python.grammar2_ex" />
         <item itemvalue="Python.flashcard1_ex (1)" />
         <item itemvalue="Python.flashcard1_ex" />
-        <item itemvalue="Python.grammar2_ex" />
       </list>
     </recent_temporary>
   </component>
@@ -270,15 +272,15 @@
     <SUITE FILE_PATH="coverage/English_app$flash_2.coverage" NAME="flash_2 Coverage Results" MODIFIED="1742449387047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$grammar.coverage" NAME="grammar Coverage Results" MODIFIED="1742489219242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/English_app$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1742397450540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Do_an$grammar2_ex.coverage" NAME="grammar2_ex Coverage Results" MODIFIED="1742540251204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$flashcard1_ex__1_.coverage" NAME="flashcard1_ex (1) Coverage Results" MODIFIED="1742563751083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Do_an$grammar2_ex.coverage" NAME="grammar2_ex Coverage Results" MODIFIED="1742572895937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$flash_2.coverage" NAME="flash_2 Coverage Results" MODIFIED="1742535628844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$grammar_ex2.coverage" NAME="grammar_ex2 Coverage Results" MODIFIED="1742535186613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/English_app$flashcard.coverage" NAME="flashcard Coverage Results" MODIFIED="1742396852279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Do_an$flashcard2_ex.coverage" NAME="flashcard2_ex Coverage Results" MODIFIED="1742563975454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Do_an$flashcard2_ex.coverage" NAME="flashcard2_ex Coverage Results" MODIFIED="1742573137837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/English_app$flash.coverage" NAME="flash Coverage Results" MODIFIED="1742445851398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$flashcard.coverage" NAME="flashcard Coverage Results" MODIFIED="1742537819218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/English_app" />
-    <SUITE FILE_PATH="coverage/Do_an$flashcard3_ex.coverage" NAME="flashcard3_ex Coverage Results" MODIFIED="1742564991872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Do_an$flashcard3_ex.coverage" NAME="flashcard3_ex Coverage Results" MODIFIED="1742573217597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$test_gui.coverage" NAME="test_gui Coverage Results" MODIFIED="1742489291745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$Run_app.coverage" NAME="Run_app Coverage Results" MODIFIED="1742537678006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$grammar_ex.coverage" NAME="grammar_ex Coverage Results" MODIFIED="1742528948672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
