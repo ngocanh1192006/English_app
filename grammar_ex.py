@@ -42,7 +42,7 @@ class GrammarApp(QtWidgets.QMainWindow, Ui_MainWindow):
                 return
 
             # Reset the Next button text when changing tenses
-            self.pushButton_2.setToolTip("Next")
+            # self.pushButton_2.setToolTip("Next")
 
             for tense in self.data.get("tenses", []):
                 if tense.get("tense") == self.selected_tense:

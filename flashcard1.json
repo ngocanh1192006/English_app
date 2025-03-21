@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Family & Relationships",
+    "cards": [
+      { "term": "Sibling", "definition": "Anh chị em ruột." },
+      { "term": "Spouse", "definition": "Vợ hoặc chồng." },
+      { "term": "Extended family", "definition": "Gia đình gồm ông bà, cô dì, chú bác và anh chị em họ." },
+      { "term": "Generation gap", "definition": "Sự khác biệt về quan điểm hoặc giá trị giữa các thế hệ." },
+      { "term": "Single parent", "definition": "Cha mẹ đơn thân nuôi con mà không có bạn đời." }
+    ]
+  },
+  {
+    "name": "Jobs & Professions",
+    "cards": [
+      { "term": "Internship", "definition": "Công việc thực tập để tích lũy kinh nghiệm." },
+      { "term": "Freelancer", "definition": "Người làm việc tự do, không thuộc biên chế công ty nào." },
+      { "term": "Promotion", "definition": "Thăng tiến lên vị trí cao hơn nhờ thành tích tốt." },
+      { "term": "Job satisfaction", "definition": "Cảm giác hài lòng hoặc hạnh phúc với công việc." },
+      { "term": "Work-life balance", "definition": "Khả năng duy trì cân bằng giữa công việc và cuộc sống cá nhân." }
+    ]
+  },
+  {
+    "name": "Hobbies & Freetime",
+    "cards": [
+      { "term": "Gardening", "definition": "Hoạt động trồng cây làm sở thích." },
+      { "term": "Photography", "definition": "Nghệ thuật chụp ảnh." },
+      { "term": "Board games", "definition": "Trò chơi trên bàn cờ với xúc xắc, thẻ bài hoặc quân cờ." },
+      { "term": "Hiking", "definition": "Hoạt động đi bộ trong thiên nhiên để thư giãn hoặc tập thể dục." },
+      { "term": "Cooking", "definition": "Hành động chuẩn bị thức ăn để ăn uống." }
+    ]
+  }
+]

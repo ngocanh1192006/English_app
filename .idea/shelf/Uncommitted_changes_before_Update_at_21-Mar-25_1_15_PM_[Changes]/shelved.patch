@@ -1,0 +1,1090 @@
+Index: English_app/README.md
+===================================================================
+diff --git a/English_app/README.md b/English_app/README.md
+deleted file mode 100644
+--- a/English_app/README.md	(revision 41f50e53f14cd5ae2bf7aba6f14a47b79a04bc28)
++++ /dev/null	(revision 41f50e53f14cd5ae2bf7aba6f14a47b79a04bc28)
+@@ -1,1 +0,0 @@
+-# English_app
+\ No newline at end of file
+Index: English_app/grammar.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/English_app/grammar.json b/English_app/grammar.json
+new file mode 100644
+--- /dev/null	(date 1742522681251)
++++ b/English_app/grammar.json	(date 1742522681251)
+@@ -0,0 +1,1071 @@
++{
++  "grammar_structures": [
++    {
++      "type": "Comparison Sentences",
++      "types": [
++        {
++          "name": "Equal Comparison",
++          "structure": "S + be/V + as + adj/adv + as + N/pronoun",
++          "examples": [
++            "She is as tall as her brother.",
++            "This car runs as fast as that one."
++          ]
++        },
++        {
++          "name": "Comparative",
++          "structure": {
++            "short_adj": "S + be/V + adj + -er + than + N/pronoun",
++            "long_adj": "S + be/V + more + adj + than + N/pronoun"
++          },
++          "examples": [
++            "She is taller than her mother.",
++            "This test is more difficult than the last one."
++          ]
++        },
++        {
++          "name": "Superlative",
++          "structure": {
++            "short_adj": "S + be/V + the + adj + -est + (in/of) + group/place",
++            "long_adj": "S + be/V + the most + adj + (in/of) + group/place"
++          },
++          "examples": [
++            "She is the tallest girl in the class.",
++            "This is the most interesting book I have ever read."
++          ]
++        },
++        {
++          "irregular_comparisons": [
++            {
++              "base": "good/well",
++              "comparative": "better",
++              "superlative": "the best"
++            },
++            {
++              "base": "bad/badly",
++              "comparative": "worse",
++              "superlative": "the worst"
++            },
++            {
++              "base": "far",
++              "comparative": "farther/further",
++              "superlative": "the farthest/furthest"
++            },
++            {
++              "base": "many/much",
++              "comparative": "more",
++              "superlative": "the most"
++            }
++          ]
++        }
++      ],
++      "exercises": [
++        {
++          "id": 1,
++          "question": "Which sentence uses the correct form of comparison?",
++          "options": [
++            "A.She is more taller than her sister.",
++            "B.She is the taller in the class.",
++            "C.She is taller than her sister.",
++            "D.She is most tall of all."
++          ],
++          "correctAnswer": "A",
++          "explanation": "For short adjectives, use 'adj + -er + than' for comparative form."
++        },
++        {
++          "id": 2,
++          "question": "Choose the correct sentence:",
++          "options": [
++            "A.This book is the most interesting of all.",
++            "B.This book is the interestest of all.",
++            "C.This book is more interestinger than that one.",
++            "D.This book is interestingest than others."
++          ],
++          "correctAnswer": "A",
++          "explanation": "For long adjectives, use 'the most + adj' for superlative form."
++        },
++        {
++          "id": 3,
++          "question": "Give the correct form of the adjectives and adverbs in brackets:",
++          "options": [
++            "1. This chair is ..........................………………….. than that one. (comfortable)"
++          ],
++          "correctAnswer": " more comfortable",
++          "explanation": "For long adjectives, use 'more' + adj' for comparative form."
++        }
++      ]
++    },
++    {
++      "type": "Conditional Sentences",
++      "subtypes": [
++        {
++          "name": "Zero Conditional (Facts/General Truths)",
++          "structure": "If + S + V (present simple), S + V (present simple)",
++          "examples": [
++            "If you heat water to 100°C, it boils.",
++            "If the sun sets, it gets dark."
++          ]
++        },
++        {
++          "name": "First Conditional (Real and Possible Situations)",
++          "structure": "If + S + V (present simple), S + will/can + V (base form)",
++          "examples": [
++            "If you study hard, you will pass the exam.",
++            "If it rains, we will stay at home."
++          ]
++        },
++        {
++          "name": "Second Conditional (Unreal Present or Future)",
++          "structure": "If + S + V (past simple), S + would/could + V (base form)",
++          "examples": [
++            "If I were you, I would study harder.",
++            "If she had more time, she could travel the world."
++          ]
++        },
++        {
++          "name": "Third Conditional (Unreal Past)",
++          "structure": "If + S + had + V (past participle), S + would/could + have + V (past participle)",
++          "examples": [
++            "If I had studied harder, I would have passed the test.",
++            "If she had left earlier, she wouldn't have missed the bus."
++          ]
++        }
++      ],
++      "exercises": [
++        {
++          "id": 1,
++          "question": "Choose the correct first conditional sentence:",
++          "options": [
++            "A.If you will study, you pass the test.",
++            "B.If you study hard, you will pass the test.",
++            "C.If you studied hard, you will pass the test.",
++            "D.If you had studied, you will pass the test."
++          ],
++          "correctAnswer": "B",
++          "explanation": "First conditional: 'If + present simple, will + base verb'."
++        },
++        {
++          "id": 2,
++          "question": "Which sentence is an example of the second conditional?",
++          "options": [
++            "A.If she has time, she will visit us.",
++            "B.If I were rich, I would travel the world.",
++            "C.If he studies hard, he will get a good job.",
++            "D.If they had left earlier, they wouldn't have been late."
++          ],
++          "correctAnswer": "B",
++          "explanation": "Second conditional: 'If + past simple, would/could + base verb'."
++        },
++        {
++          "id": 3,
++          "question": "Choose the correct third conditional sentence:",
++          "options": [
++            "A.If I study, I will pass the exam.",
++            "B.If she was careful, she wouldn’t have made a mistake.",
++            "C.If you had woken up earlier, you wouldn’t have missed the bus.",
++            "D.If he will run faster, he wins the race."
++          ],
++          "correctAnswer": "C",
++          "explanation": "Third conditional: 'If + past perfect, would/could + have + past participle'."
++        },
++        {
++          "id": 4,
++          "question": "Choose the correct answer: If I ______ you, I would take that job.",
++          "options": {
++            "A": "am",
++            "B": "was",
++            "C": "were",
++            "D": "be"
++          },
++          "answer": "C",
++          "structure": "Subjunctive: If + S + were, S + would + V"
++        }
++      ]
++    },
++    {
++      "type": "Wish Sentences",
++      "description": "Wish sentences express a desire for something unreal in the present, past, or future.",
++      "rules": [
++        "Wish + past simple → Present wishes (I wish I were taller.)",
++        "Wish + past perfect → Past regrets (She wishes she had studied harder.)",
++        "Wish + would/could → Future wishes (I wish it would stop raining.)"
++      ],
++      "examples": [
++        "I wish I were rich.",
++        "She wishes she had gone to the party.",
++        "He wishes it would be sunny tomorrow."
++      ],
++      "exercises": [
++        {
++          "id": 1,
++          "question": "Choose the correct answer: I wish I ______ taller.",
++          "options": {
++            "A": "am",
++            "B": "was",
++            "C": "were",
++            "D": "be"
++          },
++          "answer": "C",
++          "structure": "Wish + past simple (expresses present wishes)"
++        },
++        {
++          "id": 2,
++          "question": "Choose the correct answer: She wishes she ______ a new car.",
++          "options": {
++            "A": "have",
++            "B": "had",
++            "C": "will have",
++            "D": "has"
++          },
++          "answer": "B",
++          "structure": "Wish + past simple (expresses present wishes)"
++        }
++      ]
++    },
++    {
++      "Type": "Active and Passive Voice",
++      "description": "The passive voice is used when the focus is on the action rather than the subject performing it.",
++      "rules": [
++        "Present Simple: S + am/is/are + V3 (The book is written by him.)",
++        "Past Simple: S + was/were + V3 (The book was written by him.)",
++        "Future Simple: S + will be + V3 (The book will be written by him.)"
++      ],
++      "examples": [
++        "She writes a letter. → A letter is written by her.",
++        "He painted the house. → The house was painted by him."
++      ],
++      "exercises": [
++        {
++          "id": 1,
++          "question": "Choose the correct answer: The book ______ by my friend yesterday.",
++          "options": {
++            "A": "was given",
++            "B": "gave",
++            "C": "gives",
++            "D": "is given"
++          },
++          "answer": "A",
++          "structure": "Passive voice: was/were + V3 (past simple passive)"
++        },
++        {
++          "id": 2,
++          "question": "Choose the correct answer: A new law ______ by the government next month.",
++          "options": {
++            "A": "will pass",
++            "B": "will be passed",
++            "C": "passes",
++            "D": "is passing"
++          },
++          "answer": "B",
++          "structure": "Passive voice: will be + V3 (future simple passive)"
++        },
++        {
++          "id": 3,
++          "question": "Choose the correct answer: The mail ______ by the postman every morning.",
++          "options": {
++            "A": "delivers",
++            "B": "delivered",
++            "C": "is delivered",
++            "D": "was delivered"
++          },
++          "answer": "C",
++          "structure": "Passive voice: am/is/are + V3 (present simple passive)"
++        },
++        {
++          "id": 4,
++          "question": "Choose the correct answer: My car ______ repaired when I arrived at the garage.",
++          "options": {
++            "A": "was being",
++            "B": "is being",
++            "C": "was",
++            "D": "is"
++          },
++          "answer": "A",
++          "structure": "Passive voice: was/were being + V3 (past continuous passive)"
++        },
++        {
++          "id": 5,
++          "question": "Choose the correct answer: They ______ the new bridge at the moment.",
++          "options": {
++            "A": "build",
++            "B": "built",
++            "C": "are building",
++            "D": "is built"
++          },
++          "answer": "C",
++          "structure": "Active voice: am/is/are + V-ing (present continuous active)"
++        },
++        {
++          "id": 6,
++          "question": "The cake (bake) ______ by my grandmother every Sunday.",
++          "answer": "is baked",
++          "structure": "Passive voice: am/is/are + V3 (present simple passive)"
++        },
++        {
++          "id": 7,
++          "question": "A new hospital (build) ______ in our city next year.",
++          "answer": "will be built",
++          "structure": "Passive voice: will be + V3 (future simple passive)"
++        },
++        {
++          "id": 8,
++          "question": "The letter (send) ______ yesterday.",
++          "answer": "was sent",
++          "structure": "Passive voice: was/were + V3 (past simple passive)"
++        },
++        {
++          "id": 9,
++          "question": "The thief (catch) ______ by the police last night.",
++          "answer": "was caught",
++          "structure": "Passive voice: was/were + V3 (past simple passive)"
++        },
++        {
++          "id": 10,
++          "question": "The students (give) ______ homework every day by their teacher.",
++          "answer": "are given",
++          "structure": "Passive voice: am/is/are + V3 (present simple passive)"
++        }
++      ]
++    },
++    {
++      "Type": "Subjunctive Mood",
++      "description": "The subjunctive mood is used for hypothetical situations, wishes, or formal recommendations.",
++      "rules": [
++        "If + S + were, S + would + V (If I were you, I would do it.)",
++        "S + suggest/recommend + that + S + V (I suggest that she go there.)"
++      ],
++      "examples": [
++        "If I were a bird, I would fly.",
++        "He suggests that she study harder."
++      ],
++      "exercises": [
++        {
++          "id": 1,
++          "question": "Choose the correct answer: It is necessary that she ______ on time.",
++          "options": {
++            "A": "arrives",
++            "B": "arrived",
++            "C": "arrive",
++            "D": "will arrive"
++          },
++          "answer": "C",
++          "structure": "Subjunctive: It is necessary that + subject + V (bare infinitive)"
++        },
++        {
++          "id": 2,
++          "question": "Choose the correct answer: I wish he ______ here with us now.",
++          "options": {
++            "A": "is",
++            "B": "were",
++            "C": "was",
++            "D": "be"
++          },
++          "answer": "B",
++          "structure": "Subjunctive: 'I wish' + subject + were (for present unreal situations)"
++        },
++        {
++          "id": 3,
++          "question": "Choose the correct answer: If I ______ you, I would take that job.",
++          "options": {
++            "A": "am",
++            "B": "was",
++            "C": "were",
++            "D": "be"
++          },
++          "answer": "C",
++          "structure": "Subjunctive in conditional: If + subject + were, subject + would + V"
++        },
++        {
++          "id": 4,
++          "question": "Choose the correct answer: The teacher suggested that he ______ harder.",
++          "options": {
++            "A": "studies",
++            "B": "study",
++            "C": "studied",
++            "D": "will study"
++          },
++          "answer": "B",
++          "structure": "Subjunctive: suggest/recommend/insist/demand that + subject + V (bare infinitive)"
++        },
++        {
++          "id": 5,
++          "question": "Choose the correct answer: I would rather she ______ the truth.",
++          "options": {
++            "A": "tell",
++            "B": "tells",
++            "C": "told",
++            "D": "will tell"
++          },
++          "answer": "C",
++          "structure": "Subjunctive: 'would rather' + subject + V (past simple) for present/future"
++        },
++        {
++          "id": 6,
++          "question": "Fill in the blank: It is important that she (be) ______ present at the meeting.",
++          "answer": "be",
++          "structure": "Subjunctive: It is important that + subject + V (bare infinitive)"
++        },
++        {
++          "id": 7,
++          "question": "Fill in the blank: If he (be) ______ taller, he could be a basketball player.",
++          "answer": "were",
++          "structure": "Subjunctive in conditional: If + subject + were, subject + could/would + V"
++        },
++        {
++          "id": 8,
++          "question": "Fill in the blank: I wish you (not forget) ______ my birthday last week.",
++          "answer": "had not forgotten",
++          "structure": "Subjunctive: 'I wish' + subject + had + V3 (for past regrets)"
++        },
++        {
++          "id": 9,
++          "question": "Fill in the blank: She suggested that we (go) ______ to the library.",
++          "answer": "go",
++          "structure": "Subjunctive: suggest that + subject + V (bare infinitive)"
++        },
++        {
++          "id": 10,
++          "question": "Fill in the blank: I would rather you (not speak) ______ to him like that.",
++          "answer": "did not speak",
++          "structure": "Subjunctive: 'would rather' + subject + V (past simple) for present/future situations"
++        }
++      ]
++    },
++    {
++      "Type": "Imperative Sentences",
++      "description": "Imperative sentences are used for commands, requests, or suggestions.",
++      "rules": [
++        "V + O (Sit down.)",
++        "Do not + V + O (Don't touch that.)",
++        "Let’s + V (Let's go out.)"
++      ],
++      "examples": [
++        "Close the door.",
++        "Don't be late.",
++        "Let's go shopping."
++      ],
++      "exercises": [
++        {
++          "id": 1,
++          "question": "Choose the correct imperative sentence for giving a polite request.",
++          "options": {
++            "A": "Close the door!",
++            "B": "You must close the door.",
++            "C": "Could you please close the door?",
++            "D": "Closing the door is necessary."
++          },
++          "answer": "C",
++          "structure": "Polite imperative: Could you please + V?"
++        },
++        {
++          "id": 2,
++          "question": "Choose the correct imperative sentence for giving a command.",
++          "options": {
++            "A": "Please, could you help me?",
++            "B": "Help me now!",
++            "C": "You should help me.",
++            "D": "Helping me is important."
++          },
++          "answer": "B",
++          "structure": "Direct imperative: V (base form) + (optional object)!"
++        },
++        {
++          "id": 3,
++          "question": "Choose the correct negative imperative sentence.",
++          "options": {
++            "A": "Don't touch that!",
++            "B": "You must not touch that.",
++            "C": "No touching that!",
++            "D": "It is not allowed to touch that."
++          },
++          "answer": "A",
++          "structure": "Negative imperative: Don't + V (base form)"
++        },
++        {
++          "id": 4,
++          "question": "Choose the correct sentence for giving advice using an imperative.",
++          "options": {
++            "A": "Take an umbrella, it might rain.",
++            "B": "You should take an umbrella.",
++            "C": "Taking an umbrella is recommended.",
++            "D": "It is best to take an umbrella."
++          },
++          "answer": "A",
++          "structure": "Advisory imperative: V (base form) + (optional reason)."
++        },
++        {
++          "id": 5,
++          "question": "Choose the correct imperative sentence for offering encouragement.",
++          "options": {
++            "A": "Don't give up!",
++            "B": "Giving up is not good.",
++            "C": "You shouldn't give up.",
++            "D": "It is important not to give up."
++          },
++          "answer": "A",
++          "structure": "Encouraging imperative: Don't + V (base form)!"
++        },
++        {
++          "id": 6,
++          "question": "Fill in the blank: ______ (Be) careful when crossing the road.",
++          "answer": "Be",
++          "structure": "Imperative with 'Be' for giving caution"
++        },
++        {
++          "id": 7,
++          "question": "Fill in the blank: ______ (Turn) off the lights before leaving the room.",
++          "answer": "Turn",
++          "structure": "Imperative: V (base form) + object"
++        },
++        {
++          "id": 8,
++          "question": "Fill in the blank: ______ (Not forget) to call me when you arrive.",
++          "answer": "Don't forget",
++          "structure": "Negative imperative: Don't + V (base form)"
++        },
++        {
++          "id": 9,
++          "question": "Fill in the blank: ______ (Please/help) me with these bags.",
++          "answer": "Please help",
++          "structure": "Polite imperative: Please + V (base form)"
++        },
++        {
++          "id": 10,
++          "question": "Fill in the blank: ______ (Let) me know if you need anything.",
++          "answer": "Let",
++          "structure": "Imperative with 'Let' for offering help"
++        }
++      ]
++    },
++    {
++      "type": "Relative Clauses",
++      "description": "Relative clauses provide additional information about a noun and are introduced by relative pronouns.",
++      "rules": [
++        "Who → for people (The man who lives next door is a doctor.)",
++        "Which → for things (The book which is on the table is mine.)",
++        "That → can replace who/which in some cases (The dog that bit me ran away.)",
++        "Whose → shows possession (The girl whose father is a teacher is my friend.)"
++      ],
++      "examples": [
++        "The woman who called you is my mother.",
++        "This is the car that I bought last year.",
++        "He is the man whose house is very big."
++      ],
++      "exercises": [
++        {
++          "id": 1,
++          "question": "Choose the correct relative pronoun: The book ______ you lent me was very interesting.",
++          "options": {
++            "A": "who",
++            "B": "which",
++            "C": "where",
++            "D": "when"
++          },
++          "answer": "B",
++          "structure": "Relative clause defining an object: 'which' is used for things."
++        },
++        {
++          "id": 2,
++          "question": "Choose the correct relative pronoun: The man ______ helped me was very kind.",
++          "options": {
++            "A": "whose",
++            "B": "which",
++            "C": "who",
++            "D": "whom"
++          },
++          "answer": "C",
++          "structure": "Relative clause defining a subject: 'who' is used for people."
++        },
++        {
++          "id": 3,
++          "question": "Choose the correct answer: This is the house ______ I was born.",
++          "options": {
++            "A": "who",
++            "B": "where",
++            "C": "which",
++            "D": "when"
++          },
++          "answer": "B",
++          "structure": "Relative clause with place: 'where' is used for locations."
++        },
++        {
++          "id": 4,
++          "question": "Choose the correct answer: That is the girl ______ brother won the competition.",
++          "options": {
++            "A": "who",
++            "B": "which",
++            "C": "whose",
++            "D": "that"
++          },
++          "answer": "C",
++          "structure": "Relative clause expressing possession: 'whose' is used to show ownership."
++        },
++        {
++          "id": 5,
++          "question": "Choose the correct answer: I remember the day ______ we first met.",
++          "options": {
++            "A": "which",
++            "B": "where",
++            "C": "when",
++            "D": "that"
++          },
++          "answer": "C",
++          "structure": "Relative clause with time: 'when' is used for time references."
++        },
++        {
++          "id": 6,
++          "question": "Fill in the blank: The teacher ______ teaches us English is very friendly.",
++          "answer": "who",
++          "structure": "Relative clause defining a subject: 'who' is used for people."
++        },
++        {
++          "id": 7,
++          "question": "Fill in the blank: The car ______ I bought last year is very fast.",
++          "answer": "which",
++          "structure": "Relative clause defining an object: 'which' is used for things."
++        },
++        {
++          "id": 8,
++          "question": "Fill in the blank: That’s the boy ______ parents are both doctors.",
++          "answer": "whose",
++          "structure": "Relative clause expressing possession: 'whose' is used to show ownership."
++        },
++        {
++          "id": 9,
++          "question": "Fill in the blank: This is the restaurant ______ we had dinner last night.",
++          "answer": "where",
++          "structure": "Relative clause with place: 'where' is used for locations."
++        },
++        {
++          "id": 10,
++          "question": "Fill in the blank: Do you remember the time ______ we went to the beach?",
++          "answer": "when",
++          "structure": "Relative clause with time: 'when' is used for time references."
++        }
++      ]
++    }
++  ],
++  "grammar_question": [
++    {
++      "title": "Wh- Questions",
++      "structure": "Wh-word + auxiliary verb + subject + main verb + (object/complement)?",
++      "wh_words": {
++        "What": "Used to ask about things, objects, or information.",
++        "Where": "Used to ask about a place or location.",
++        "When": "Used to ask about time.",
++        "Why": "Used to ask about reasons.",
++        "Who": "Used to ask about a person (as the subject).",
++        "Whom": "Used to ask about a person (as the object).",
++        "Which": "Used to ask about a choice between options.",
++        "Whose": "Used to ask about possession.",
++        "How": "Used to ask about manner, state, or method.",
++        "How much": "Used to ask about price or uncountable quantity.",
++        "How many": "Used to ask about countable quantity.",
++        "How long": "Used to ask about duration.",
++        "How often": "Used to ask about frequency.",
++        "How far": "Used to ask about distance."
++      },
++      "examples": [
++        "What is your name?",
++        "Where do you live?",
++        "When did they arrive?",
++        "Why are you late?",
++        "Who wrote this book?",
++        "Whom did you see at the park?",
++        "Which color do you prefer?",
++        "Whose bag is this?",
++        "How do you cook this dish?",
++        "How much is this dress?",
++        "How many apples do you have?",
++        "How long does the journey take?",
++        "How often do you exercise?",
++        "How far is the school from here?"
++      ],
++      "exercises": [
++        {
++          "id": 1,
++          "question": "Choose the correct Wh-word: ______ did you meet at the party?",
++          "options": {
++            "A": "Who",
++            "B": "What",
++            "C": "Where",
++            "D": "How"
++          },
++          "answer": "A",
++          "structure": "Wh- questions: 'Who' is used to ask about people."
++        },
++        {
++          "id": 2,
++          "question": "Choose the correct Wh-word: ______ is your favorite color?",
++          "options": {
++            "A": "Which",
++            "B": "Who",
++            "C": "Where",
++            "D": "How"
++          },
++          "answer": "A",
++          "structure": "Wh- questions: 'Which' is used to ask about choices."
++        },
++        {
++          "id": 3,
++          "question": "Fill in the blank: ______ (Wh-question) are you going to the party?",
++          "answer": "When",
++          "structure": "Wh- questions: 'When' is used to ask about time."
++        },
++        {
++          "id": 4,
++          "question": "Fill in the blank: ______ (Wh-question) do you usually go to the gym?",
++          "answer": "How often",
++          "structure": "Wh- questions: 'How often' is used to ask about frequency."
++        },
++        {
++          "id": 5,
++          "question": "Choose the correct Wh-word: ______ are you sad?",
++          "options": {
++            "A": "Who",
++            "B": "Why",
++            "C": "Where",
++            "D": "When"
++          },
++          "answer": "B",
++          "structure": "'Why' is used to ask about reasons."
++        },
++        {
++          "id": 6,
++          "question": "Choose the correct Wh-word: ______ is knocking at the door?",
++          "options": {
++            "A": "Who",
++            "B": "Where",
++            "C": "What",
++            "D": "How"
++          },
++          "answer": "A",
++          "structure": "'Who' is used to ask about people."
++        },
++        {
++          "id": 7,
++          "question": "Fill in the blank: ______ does your father work?",
++          "answer": "Where",
++          "structure": "'Where' is used to ask about location."
++        },
++        {
++          "id": 8,
++          "question": "Fill in the blank: ______ much does this laptop cost?",
++          "answer": "How much",
++          "structure": "'How much' is used to ask about price."
++        },
++        {
++          "id": 9,
++          "question": "Choose the correct Wh-word: ______ car is parked outside?",
++          "options": {
++            "A": "Who",
++            "B": "Whose",
++            "C": "Which",
++            "D": "Where"
++          },
++          "answer": "B",
++          "structure": "'Whose' is used to ask about possession."
++        },
++        {
++          "id": 10,
++          "question": "Fill in the blank: ______ long does it take to get to New York?",
++          "answer": "How long",
++          "structure": "'How long' is used to ask about duration."
++        }
++      ]
++    },
++    {
++      "title": "Yes/No Questions",
++      "structure": "Auxiliary verb + subject + main verb + (object/complement)?",
++      "examples": [
++        "Do you like coffee?",
++        "Is she coming to the party?",
++        "Have you finished your work?"
++      ],
++      "exercises": [
++        {
++          "id": 1,
++          "question": "Choose the correct Yes/No question: ______ you ever been to France?",
++          "options": {
++            "A": "Do",
++            "B": "Are",
++            "C": "Have",
++            "D": "Did"
++          },
++          "answer": "C",
++          "structure": "Yes/No questions: 'Have' is used in present perfect tense."
++        },
++        {
++          "id": 2,
++          "question": "Fill in the blank: ______ (Yes/No question) you like ice cream?",
++          "answer": "Do",
++          "structure": "Yes/No questions: 'Do' is used for present simple tense."
++        },
++        {
++          "id": 3,
++          "question": "Fill in the blank: ______ (Auxiliary verb) you watch TV last night?",
++          "answer": "Did",
++          "structure": "'Did' is used for past simple questions."
++        },
++        {
++          "id": 4,
++          "question": "Fill in the blank: ______ (Auxiliary verb) your parents at home now?",
++          "answer": "Are",
++          "structure": "'Are' is used for present continuous or state questions."
++        },
++        {
++          "id": 5,
++          "question": "Choose the correct auxiliary verb: ______ he finished his work?",
++          "options": {
++            "A": "Has",
++            "B": "Did",
++            "C": "Is",
++            "D": "Does"
++          },
++          "answer": "A",
++          "structure": "'Has' is used for present perfect questions."
++        },
++        {
++          "id": 6,
++          "question": "Choose the correct auxiliary verb: ______ they coming to the meeting?",
++          "options": {
++            "A": "Did",
++            "B": "Are",
++            "C": "Do",
++            "D": "Has"
++          },
++          "answer": "B",
++          "structure": "'Are' is used for present continuous questions."
++        },
++        {
++          "id": 7,
++          "question": "Fill in the blank: ______ (Auxiliary verb) you ever traveled abroad?",
++          "answer": "Have",
++          "structure": "'Have' is used for present perfect questions."
++        },
++        {
++          "id": 8,
++          "question": "Fill in the blank: ______ (Auxiliary verb) she your best friend?",
++          "answer": "Is",
++          "structure": "'Is' is used for state questions."
++        },
++        {
++          "id": 9,
++          "question": "Choose the correct auxiliary verb: ______ they at the park yesterday?",
++          "options": {
++            "A": "Was",
++            "B": "Were",
++            "C": "Are",
++            "D": "Did"
++          },
++          "answer": "B",
++          "structure": "'Were' is used for past simple questions with 'they' as the subject."
++        },
++        {
++          "id": 10,
++          "question": "Fill in the blank: ______ (Auxiliary verb) you help me with this task?",
++          "answer": "Can",
++          "structure": "'Can' is used for ability or permission questions."
++        }
++      ]
++    },
++    {
++      "title": "Choice Questions",
++      "explanation": "Choice questions offer two or more alternatives, usually connected by 'or'. They require the responder to choose between the given options.",
++      "structure": "Auxiliary verb + subject + main verb + option 1 or option 2?",
++      "examples": [
++        "Do you prefer tea or coffee?",
++        "Will you go by car or by train?",
++        "Is she a doctor or a teacher?"
++      ],
++      "exercises": [
++        {
++          "id": 1,
++          "question": "Choose the correct choice question: Do you want coffee ______ tea?",
++          "options": {
++            "A": "and",
++            "B": "but",
++            "C": "or",
++            "D": "so"
++          },
++          "answer": "C",
++          "structure": "Choice questions: 'or' is used to present options."
++        },
++        {
++          "id": 2,
++          "question": "Fill in the blank: Would you like to stay in a hotel ______ a guesthouse?",
++          "answer": "or",
++          "structure": "Choice questions: 'or' is used to offer alternatives."
++        },
++        {
++          "id": 3,
++          "question": "Fill in the blank: ______ (Auxiliary verb) you prefer reading books or watching movies?",
++          "answer": "Do",
++          "structure": "'Do' is used for present simple questions."
++        },
++        {
++          "id": 4,
++          "question": "Fill in the blank: ______ (Auxiliary verb) we go to the beach or stay at home?",
++          "answer": "Should",
++          "structure": "'Should' is used for suggestion questions."
++        },
++        {
++          "id": 5,
++          "question": "Choose the correct auxiliary verb: ______ they traveling to Japan or Korea?",
++          "options": {
++            "A": "Are",
++            "B": "Did",
++            "C": "Do",
++            "D": "Have"
++          },
++          "answer": "A",
++          "structure": "'Are' is used for present continuous questions."
++        },
++        {
++          "id": 6,
++          "question": "Choose the correct auxiliary verb: ______ she buy a laptop or a tablet?",
++          "options": {
++            "A": "Has",
++            "B": "Does",
++            "C": "Is",
++            "D": "Did"
++          },
++          "answer": "B",
++          "structure": "'Does' is used for present simple questions."
++        },
++        {
++          "id": 7,
++          "question": "Fill in the blank: ______ (Auxiliary verb) you want to go by bus or by train?",
++          "answer": "Do",
++          "structure": "'Do' is used for present simple questions."
++        },
++        {
++          "id": 8,
++          "question": "Fill in the blank: ______ (Auxiliary verb) he choose the red car or the blue one?",
++          "answer": "Did",
++          "structure": "'Did' is used for past simple questions."
++        },
++        {
++          "id": 9,
++          "question": "Choose the correct auxiliary verb: ______ she traveling this summer or next winter?",
++          "options": {
++            "A": "Is",
++            "B": "Does",
++            "C": "Did",
++            "D": "Has"
++          },
++          "answer": "A",
++          "structure": "'Is' is used for present continuous questions."
++        },
++        {
++          "id": 10,
++          "question": "Fill in the blank: ______ (Auxiliary verb) they eat at home or in a restaurant?",
++          "answer": "Did",
++          "structure": "'Did' is used for past simple questions."
++        }
++      ]
++    },
++    {
++      "title": "Tag Questions",
++      "explanation": "Tag questions are short questions added at the end of a statement to confirm or check information. If the statement is positive, the tag is negative, and vice versa.",
++      "structure": "Main sentence , auxiliary verb + pronoun?",
++      "examples": [
++        "You like pizza, don't you?",
++        "She isn't coming, is she?",
++        "They have finished, haven't they?"
++      ],
++      "exercises": [
++        {
++          "id": 1,
++          "question": "Choose the correct tag question: She is coming to the meeting, ______?",
++          "options": {
++            "A": "isn't she",
++            "B": "is she",
++            "C": "does she",
++            "D": "was she"
++          },
++          "answer": "A",
++          "structure": "Tag questions: Positive statement + negative tag."
++        },
++        {
++          "id": 2,
++          "question": "Fill in the blank: They don’t like spicy food, ______?",
++          "answer": "do they",
++          "structure": "Tag questions: Negative statement + positive tag."
++        },
++        {
++          "id": 3,
++          "question": "Fill in the blank: You like chocolate, ______?",
++          "answer": "don't you",
++          "structure": "Positive statement → Negative tag"
++        },
++        {
++          "id": 4,
++          "question": "Fill in the blank: She hasn't seen the movie, ______?",
++          "answer": "has she",
++          "structure": "Negative statement → Positive tag"
++        },
++        {
++          "id": 5,
++          "question": "Choose the correct tag: He can drive, ______?",
++          "options": {
++            "A": "can he",
++            "B": "can't he",
++            "C": "does he",
++            "D": "isn't he"
++          },
++          "answer": "B",
++          "structure": "Positive statement → Negative tag ('can't he?')"
++        },
++        {
++          "id": 6,
++          "question": "Choose the correct tag: You will help me, ______?",
++          "options": {
++            "A": "won't you",
++            "B": "will you",
++            "C": "do you",
++            "D": "won't I"
++          },
++          "answer": "A",
++          "structure": "Positive statement → Negative tag ('won't you?')"
++        },
++        {
++          "id": 7,
++          "question": "Fill in the blank: It isn't cold today, ______?",
++          "answer": "is it",
++          "structure": "Negative statement → Positive tag"
++        },
++        {
++          "id": 8,
++          "question": "Fill in the blank: They should go now, ______?",
++          "answer": "shouldn't they",
++          "structure": "Positive statement → Negative tag"
++        },
++        {
++          "id": 9,
++          "question": "Choose the correct tag: We were late, ______?",
++          "options": {
++            "A": "weren't we",
++            "B": "were we",
++            "C": "wasn't we",
++            "D": "weren't they"
++          },
++          "answer": "A",
++          "structure": "Positive statement → Negative tag ('weren't we?')"
++        },
++        {
++          "id": 10,
++          "question": "Fill in the blank: She hasn't told you yet, ______?",
++          "answer": "has she",
++          "structure": "Negative statement → Positive tag"
++        }
++      ]
++    }
++  ]
++}
++
++
++
++
++
++
++

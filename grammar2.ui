@@ -62,7 +62,7 @@ QPushButton:hover {
 color: #fff</string>
       </property>
       <property name="text">
-       <string>OTHER STRUCTURES OF ENGLISH GRAMMAR</string>
+       <string>STRUCTURE </string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>

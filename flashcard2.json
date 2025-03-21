@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Greetings & Introductions",
+    "cards": [
+      { "term": "Good morning", "definition": "Chào buổi sáng" },
+      { "term": "Good afternoon", "definition": "Chào buổi chiều" },
+      { "term": "What's up?", "definition": "Có gì mới không?" },
+      { "term": "What have you been up to?", "definition": "Dạo này bạn thế nào rồi?" },
+      { "term": "So good to see you again", "definition": "Gặp lại cậu thật là tốt quá đi" },
+      { "term": "How's it goin'?", "definition": "Bạn có khỏe không?" },
+      { "term": "Why hello there darling", "definition": "Ôi, xin chào em yêu!" },
+      { "term": "Hey you, have you had dinner yet? Wanna go grab some?", "definition": "Bạn ơi, bạn ăn tối chưa? Mình cùng đi ăn tối đi?" }
+    ]
+  },
+  {
+    "name": "Common Phrases",
+    "cards": [
+      { "term": "Be careful", "definition": "Hãy cẩn thận" },
+      { "term": "Nice to meet you", "definition": "Rất vui được gặp bạn" },
+      { "term": "Don't worry.", "definition": "Đừng lo" },
+      { "term": "From time to time.", "definition": "Thỉnh thoảng" },
+      { "term": "How's work going?", "definition": "Việc làm thế nào?" },
+      { "term": "Just a moment.", "definition": "Chờ một chút" }
+    ]
+  },
+  {
+    "name": "Ordering Food",
+    "cards": [
+      { "term": "Fast/Junk Food", "definition": "Đồ ăn nhanh" },
+      { "term": "Processed Food", "definition": "Đồ ăn chế biến sẵn" },
+      { "term": "Steamed Rice", "definition": "Cơm trắng" },
+      { "term": "Confectionery", "definition": "Đồ ngọt" },
+      { "term": "Instant Noodles", "definition": "Mỳ ăn liền" },
+      { "term": "Appetizer/Starter", "definition": "Món khai vị" },
+      { "term": "Dessert", "definition": "Món tráng miệng" },
+      { "term": "Delivery", "definition": "Sự giao hàng" },
+      { "term": "Pick up", "definition": "Thu thập, lấy, đón" }
+    ]
+  },
+  {
+    "name": "Shopping & Prices",
+    "cards": [
+      { "term": "Pricey", "definition": "Đắt đỏ" },
+      { "term": "Prohibitive", "definition": "Quá đắt với hầu hết mọi người" },
+      { "term": "Inexpensive", "definition": "Không đắt" },
+      { "term": "Dirt cheap", "definition": "Rất rẻ" },
+      { "term": "A bargain", "definition": "Món hời" },
+      { "term": "Reasonably priced", "definition": "Giá hợp lý" }
+    ]
+  }
+]

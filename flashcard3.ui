@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>775</width>
-    <height>607</height>
+    <width>457</width>
+    <height>394</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../../OneDrive/Pictures/resource files.qrc">
+   <iconset>
     <normaloff>:/icons/chevron-left.svg</normaloff>:/icons/chevron-left.svg</iconset>
   </property>
   <property name="styleSheet">
@@ -24,6 +24,12 @@
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QWidget" name="widget_2" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>445</width>
+        <height>34</height>
+       </size>
+      </property>
       <property name="styleSheet">
        <string notr="true">QWidget {
     background-color: #e8f1f2; /* Màu vàng nhạt */
@@ -39,19 +45,45 @@ QPushButton:hover {
     background-color: rgb(255, 140, 0); /* Màu cam đậm khi hover */
 }</string>
       </property>
-      <layout class="QHBoxLayout" name="horizontalLayout_5">
-       <item>
-        <widget class="QPushButton" name="pushButton_3">
-         <property name="text">
-          <string>Quay lại</string>
-         </property>
-         <property name="icon">
-          <iconset resource="../../OneDrive/Pictures/resource files.qrc">
-           <normaloff>:/icons/chevron-left.svg</normaloff>:/icons/chevron-left.svg</iconset>
-         </property>
-        </widget>
-       </item>
-      </layout>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>6</y>
+         <width>48</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+    background-color: #e8f1f2; /* Màu vàng nhạt */
+}
+QPushButton {
+    background-color: #23395d; /*mau xanh  */
+    color: white; /* Chữ màu trắng */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: rgb(255, 140, 0); /* Màu cam đậm khi hover */
+}</string>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../icons8-play-48 - Copy.png</normaloff>../../../icons8-play-48 - Copy.png</iconset>
+       </property>
+      </widget>
      </widget>
     </item>
     <item>
@@ -80,7 +112,7 @@ QPushButton:hover {
 color: #fff;</string>
          </property>
          <property name="text">
-          <string>FLASHCARD</string>
+          <string>FLASHCARD ON ADVANCED TOPIC</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -90,17 +122,14 @@ color: #fff;</string>
       </layout>
      </widget>
     </item>
-    <item alignment="Qt::AlignLeft">
+    <item>
      <widget class="QComboBox" name="comboBox">
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(35, 149, 212);
-color: #fff</string>
+       <string notr="true">background-color: rgb(85, 143, 174);
+color: rgb(0, 0, 0);
+font-weight: bold;
+</string>
       </property>
-      <item>
-       <property name="text">
-        <string>Hiện tại đơn,..</string>
-       </property>
-      </item>
      </widget>
     </item>
     <item>
@@ -109,14 +138,31 @@ color: #fff</string>
        <string notr="true">background-color: #e8f1f2</string>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="page">
        <layout class="QHBoxLayout" name="horizontalLayout_4">
         <item>
          <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+font-weight: bold;</string>
+          </property>
           <property name="text">
-           <string>Mặt trước</string>
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -127,7 +173,7 @@ color: #fff</string>
         <item>
          <widget class="QLabel" name="label_2">
           <property name="text">
-           <string>Mặt sau</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -160,7 +206,7 @@ QPushButton {
          </property>
          <property name="styleSheet">
           <string notr="true">QPushButton {
-    background-color: #2395d4; /* Màu xanh */
+    background-color: rgb(151, 178, 200); /* Màu xanh */
     color: white; /* Chữ màu trắng */
     border-radius: 5px;
     padding: 5px;
@@ -172,8 +218,7 @@ QPushButton:hover {
 
 QPushButton:pressed {
     background-color: #145c8c; /* Màu xanh tối khi nhấn */
-}
-</string>
+}</string>
          </property>
          <property name="text">
           <string>Back</string>
@@ -190,7 +235,7 @@ QPushButton:pressed {
          </property>
          <property name="styleSheet">
           <string notr="true">QPushButton {
-    background-color: #2395d4; /* Màu xanh */
+    background-color: rgb(151, 178, 200); /* Màu xanh */
     color: white; /* Chữ màu trắng */
     border-radius: 5px;
     padding: 5px;
@@ -202,8 +247,7 @@ QPushButton:hover {
 
 QPushButton:pressed {
     background-color: #145c8c; /* Màu xanh tối khi nhấn */
-}
-</string>
+}</string>
          </property>
          <property name="text">
           <string>Next</string>
@@ -220,8 +264,8 @@ QPushButton:pressed {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>775</width>
-     <height>26</height>
+     <width>457</width>
+     <height>18</height>
     </rect>
    </property>
   </widget>

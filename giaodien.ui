@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>869</width>
-    <height>716</height>
+    <width>619</width>
+    <height>440</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -78,7 +78,7 @@ color: #fff</string>
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="../../OneDrive/Pictures/resource files.qrc">
+             <iconset>
               <normaloff>:/icons/x-circle.svg</normaloff>:/icons/x-circle.svg</iconset>
             </property>
            </widget>
@@ -150,8 +150,6 @@ QPushButton {
          <property name="font">
           <font>
            <pointsize>-1</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
           </font>
          </property>
          <property name="styleSheet">
@@ -167,8 +165,6 @@ QPushButton {
          <property name="font">
           <font>
            <pointsize>-1</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
           </font>
          </property>
          <property name="text">
@@ -181,9 +177,6 @@ QPushButton {
          <property name="font">
           <font>
            <pointsize>-1</pointsize>
-           <weight>75</weight>
-           <italic>false</italic>
-           <bold>true</bold>
           </font>
          </property>
          <property name="text">
@@ -196,8 +189,6 @@ QPushButton {
          <property name="font">
           <font>
            <pointsize>-1</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
           </font>
          </property>
          <property name="text">
@@ -210,8 +201,6 @@ QPushButton {
          <property name="font">
           <font>
            <pointsize>-1</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
           </font>
          </property>
          <property name="text">
@@ -229,8 +218,8 @@ QPushButton {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>869</width>
-     <height>26</height>
+     <width>619</width>
+     <height>18</height>
     </rect>
    </property>
   </widget>
