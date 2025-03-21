@@ -1,0 +1,533 @@
+ {
+  "structures": [
+    {
+      "structure": "Comparative Adjectives",
+      "level": "A2",
+      "description": "Used to compare two things, showing how one thing has more of a quality than another.",
+      "forms": [
+        "Short adjectives: add -er (tall → taller)",
+        "Adjectives ending in -y: change -y to -i and add -er (happy → happier)",
+        "Long adjectives: use 'more' before the adjective (beautiful → more beautiful)"
+      ],
+      "examples": ["She is taller than her brother.",
+                   "This exercise is more difficult than the last one."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "My brother is ___ than me.",
+          "options": ["tall", "taller", "more tall", "the tallest"],
+          "correctAnswer": "taller",
+          "explanation": "For short adjectives like 'tall', we add '-er' to form the comparative."
+        },
+        {
+          "id": 2,
+          "question": "This book is ___ than the one I read last week.",
+          "options": ["interesting", "interestinger", "more interesting", "the most interesting"],
+          "correctAnswer": "more interesting",
+          "explanation": "For longer adjectives like 'interesting', we use 'more' before the adjective."
+        },
+        {
+          "id": 3,
+          "question": "Learning English is ___ than learning Spanish for me.",
+          "options": ["easy", "easyer", "easier", "more easy"],
+          "correctAnswer": "easier",
+          "explanation": "For adjectives ending in -y, we change -y to -i and add -er."
+        },
+        {
+          "id": 4,
+          "question": "My car is ___ than yours.",
+          "options": ["more big", "most big", "bigger", "the biggest"],
+          "correctAnswer": "bigger",
+          "explanation": "For short adjectives ending in consonant-vowel-consonant, we double the final consonant and add -er."
+        },
+        {
+          "id": 5,
+          "question": "The weather today is ___ than yesterday.",
+          "options": ["bad", "badder", "more bad", "worse"],
+          "correctAnswer": "worse",
+          "explanation": "Some adjectives have irregular comparative forms. The comparative of 'bad' is 'worse'."
+        }
+      ]
+    },
+    {
+      "structure": "Superlative Adjectives",
+      "level": "A2",
+      "description": "Used to compare more than two things, showing which has the most of a quality.",
+      "forms": [
+        "Short adjectives: add -est (tall → tallest)",
+        "Adjectives ending in -y: change -y to -i and add -est (happy → happiest)",
+        "Long adjectives: use 'most' before the adjective (beautiful → most beautiful)"
+      ],
+      "examples": ["She is the tallest in her family.",
+                   "This is the most exciting book I've ever read."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "This is ___ building in our city.",
+          "options": ["tall", "taller", "tallest", "the tallest"],
+          "correctAnswer": "the tallest",
+          "explanation": "For superlatives, we use 'the' + short adjective + -est."
+        },
+        {
+          "id": 2,
+          "question": "That was ___ day of my life.",
+          "options": ["the happy", "the happiest", "the more happy", "happyer"],
+          "correctAnswer": "the happiest",
+          "explanation": "For adjectives ending in -y, we change -y to -i and add -est, and use 'the' before."
+        },
+        {
+          "id": 3,
+          "question": "This restaurant serves ___ food in town.",
+          "options": ["delicious", "the deliciouser", "the most delicious", "deliciousest"],
+          "correctAnswer": "the most delicious",
+          "explanation": "For longer adjectives, we use 'the most' before the adjective."
+        },
+        {
+          "id": 4,
+          "question": "Mount Everest is ___ mountain in the world.",
+          "options": ["higher", "highest", "the higher", "the highest"],
+          "correctAnswer": "the highest",
+          "explanation": "For superlatives, we use 'the' + short adjective + -est."
+        },
+        {
+          "id": 5,
+          "question": "That was ___ experience I've ever had.",
+          "options": ["bad", "badder", "the most bad", "the worst"],
+          "correctAnswer": "the worst",
+          "explanation": "Some adjectives have irregular superlative forms. The superlative of 'bad' is 'worst'."
+        }
+      ]
+    },
+    {
+      "structure": "Modal Verbs of Obligation",
+      "level": "A2",
+      "description": "Used to express duty, necessity, advice, or prohibition.",
+      "forms": [
+        "Must/have to: strong obligation",
+        "Should: advice or recommendation",
+        "Don't have to/needn't: lack of obligation",
+        "Mustn't: prohibition"
+      ],
+      "examples": ["You must finish your homework.",
+                   "You shouldn't eat so much sugar."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "You ___ wear a seatbelt when driving. It's the law.",
+          "options": ["should", "can", "must", "might"],
+          "correctAnswer": "must",
+          "explanation": "We use 'must' for strong obligation, especially for laws and rules."
+        },
+        {
+          "id": 2,
+          "question": "You ___ be so mean to your brother.",
+          "options": ["should", "shouldn't", "don't have to", "might not"],
+          "correctAnswer": "shouldn't",
+          "explanation": "We use 'shouldn't' for advice against doing something."
+        },
+        {
+          "id": 3,
+          "question": "You ___ go to the dentist if your tooth hurts.",
+          "options": ["must", "shouldn't", "should", "mustn't"],
+          "correctAnswer": "should",
+          "explanation": "We use 'should' to give advice or recommendations."
+        },
+        {
+          "id": 4,
+          "question": "You ___ smoke in the hospital. It's not allowed.",
+          "options": ["don't have to", "shouldn't", "mustn't", "needn't"],
+          "correctAnswer": "mustn't",
+          "explanation": "We use 'mustn't' for prohibition - when something is not allowed."
+        },
+        {
+          "id": 5,
+          "question": "You ___ buy tickets in advance. You can get them at the door.",
+          "options": ["mustn't", "couldn't", "shouldn't", "don't have to"],
+          "correctAnswer": "don't have to",
+          "explanation": "We use 'don't have to' to express lack of obligation - something is not necessary."
+        }
+      ]
+    },
+    {
+      "structure": "First Conditional",
+      "level": "B1",
+      "description": "Used for possible situations in the future and their likely results.",
+      "forms": ["If + present simple, will + infinitive"],
+      "examples": ["If it rains, I will stay at home.",
+                   "If you finish your homework, you can go to the party."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "If he ___ (study) hard, he will pass the exam.",
+          "options": ["study", "studies", "will study", "studied"],
+          "correctAnswer": "studies",
+          "explanation": "In first conditional, we use present simple in the if-clause."
+        },
+        {
+          "id": 2,
+          "question": "If it ___ (rain) tomorrow, we ___ (cancel) the picnic.",
+          "options": ["rains, will cancel", "will rain, cancel", "rain, will cancel", "rains, cancel"],
+          "correctAnswer": "rains, will cancel",
+          "explanation": "In first conditional, we use present simple in the if-clause and will + infinitive in the main clause."
+        },
+        {
+          "id": 3,
+          "question": "If you ___ (not/finish) your homework, you can't go out.",
+          "options": ["don't finish", "won't finish", "not finish", "didn't finish"],
+          "correctAnswer": "don't finish",
+          "explanation": "In first conditional, we use present simple negative in the if-clause."
+        },
+        {
+          "id": 4,
+          "question": "___ you help me if I ___ (ask) you?",
+          "options": ["Do, ask", "Will, ask", "Will, will ask", "Do, will ask"],
+          "correctAnswer": "Will, ask",
+          "explanation": "In first conditional questions, we use will in the main clause and present simple in the if-clause."
+        },
+        {
+          "id": 5,
+          "question": "If she ___ (come) to the party, I ___ (be) very happy.",
+          "options": ["comes, am", "comes, will be", "will come, am", "will come, will be"],
+          "correctAnswer": "comes, will be",
+          "explanation": "In first conditional, we use present simple in the if-clause and will + infinitive in the main clause."
+        }
+      ]
+    },
+    {
+      "structure": "Second Conditional",
+      "level": "B1",
+      "description": "Used for hypothetical or unlikely situations in the present or future and their potential results.",
+      "forms": ["If + past simple, would + infinitive"],
+      "examples": ["If I had more money, I would buy a new car.",
+                   "If she came to the party, I would be happy."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "If I ___ (win) the lottery, I would travel the world.",
+          "options": ["win", "wins", "won", "would win"],
+          "correctAnswer": "won",
+          "explanation": "In second conditional, we use past simple in the if-clause for hypothetical situations."
+        },
+        {
+          "id": 2,
+          "question": "If he ___ (have) more time, he ___ (learn) French.",
+          "options": ["has, would learn", "had, would learn", "would have, learn", "had, will learn"],
+          "correctAnswer": "had, would learn",
+          "explanation": "In second conditional, we use past simple in the if-clause and would + infinitive in the main clause."
+        },
+        {
+          "id": 3,
+          "question": "What ___ you ___ (do) if you ___ (be) in my position?",
+          "options": ["will, do, are", "would, do, were", "will, do, were", "would, do, are"],
+          "correctAnswer": "would, do, were",
+          "explanation": "In second conditional questions, we use would in the main clause and past simple in the if-clause."
+        },
+        {
+          "id": 4,
+          "question": "If I ___ (be) you, I ___ (not/worry) about it.",
+          "options": ["am, don't worry", "were, wouldn't worry", "would be, don't worry", "am, wouldn't worry"],
+          "correctAnswer": "were, wouldn't worry",
+          "explanation": "In second conditional with 'be', we typically use 'were' for all persons in the if-clause."
+        },
+        {
+          "id": 5,
+          "question": "She ___ (call) you if she ___ (need) help.",
+          "options": ["will call, needs", "would call, needed", "calls, needed", "called, would need"],
+          "correctAnswer": "would call, needed",
+          "explanation": "In second conditional, we use past simple in the if-clause and would + infinitive in the main clause."
+        }
+      ]
+    },
+    {
+      "structure": "Present Perfect vs. Past Simple",
+      "level": "B1",
+      "description": "Distinguishing between these tenses for talking about the past.",
+      "forms": [
+        "Present Perfect: have/has + past participle (for experiences or actions with present relevance)",
+        "Past Simple: past form of verb (for completed actions in the past with a specific time)"
+      ],
+      "examples": ["I have visited Paris (present perfect - life experience).",
+                   "I visited Paris last year (past simple - specific time in the past)."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "I ___ (see) this movie three times.",
+          "options": ["see", "saw", "have seen", "had seen"],
+          "correctAnswer": "have seen",
+          "explanation": "We use present perfect for experiences without specifying exactly when they happened."
+        },
+        {
+          "id": 2,
+          "question": "She ___ (go) to the store yesterday.",
+          "options": ["goes", "went", "has gone", "had gone"],
+          "correctAnswer": "went",
+          "explanation": "We use past simple for completed actions at a specific time in the past ('yesterday')."
+        },
+        {
+          "id": 3,
+          "question": "___ you ever ___ (try) sushi?",
+          "options": ["Did, try", "Have, tried", "Do, try", "Are, trying"],
+          "correctAnswer": "Have, tried",
+          "explanation": "We use present perfect with 'ever' to ask about life experiences."
+        },
+        {
+          "id": 4,
+          "question": "I ___ (live) in London for five years when I was a child.",
+          "options": ["live", "lived", "have lived", "had lived"],
+          "correctAnswer": "lived",
+          "explanation": "We use past simple for completed periods in the past (finished living in London)."
+        },
+        {
+          "id": 5,
+          "question": "She ___ (not/finish) her homework yet.",
+          "options": ["doesn't finish", "didn't finish", "hasn't finished", "hadn't finished"],
+          "correctAnswer": "hasn't finished",
+          "explanation": "We use present perfect with 'yet' for actions that should happen but haven't happened so far."
+        }
+      ]
+    },
+    {
+      "structure": "Reported Speech",
+      "level": "B1",
+      "description": "Used to report what someone else said without quoting them directly.",
+      "forms": [
+        "Tense changes: present → past, past → past perfect, etc.",
+        "Pronoun changes: I → he/she, you → I/he/she, etc.",
+        "Time and place changes: now → then, here → there, etc."
+      ],
+      "examples": ["Direct: 'I am happy.' Reported: She said she was happy.",
+                   "Direct: 'I will call you.' Reported: He said he would call me."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "He said: 'I am studying English.' → He said (that) he ___ English.",
+          "options": ["studies", "studied", "was studying", "is studying"],
+          "correctAnswer": "was studying",
+          "explanation": "In reported speech, present continuous (am studying) changes to past continuous (was studying)."
+        },
+        {
+          "id": 2,
+          "question": "She said: 'I will help you tomorrow.' → She said (that) she ___ me the next day.",
+          "options": ["will help", "would help", "helps", "helped"],
+          "correctAnswer": "would help",
+          "explanation": "In reported speech, 'will' changes to 'would' and 'tomorrow' changes to 'the next day'."
+        },
+        {
+          "id": 3,
+          "question": "They said: 'We have finished the project.' → They said (that) they ___ the project.",
+          "options": ["have finished", "finished", "had finished", "were finishing"],
+          "correctAnswer": "had finished",
+          "explanation": "In reported speech, present perfect (have finished) changes to past perfect (had finished)."
+        },
+        {
+          "id": 4,
+          "question": "Tom said: 'I can swim.' → Tom said (that) he ___ swim.",
+          "options": ["can", "could", "is able to", "was able to"],
+          "correctAnswer": "could",
+          "explanation": "In reported speech, 'can' changes to 'could'."
+        },
+        {
+          "id": 5,
+          "question": "She asked: 'Do you like coffee?' → She asked (me) if I ___ coffee.",
+          "options": ["like", "liked", "do like", "am liking"],
+          "correctAnswer": "liked",
+          "explanation": "In reported questions, present simple (do like) changes to past simple (liked)."
+        }
+      ]
+    },
+    {
+      "structure": "Passive Voice",
+      "level": "B1",
+      "description": "Used when the focus is on the action rather than who performs it.",
+      "forms": ["Subject + be (in appropriate tense) + past participle"],
+      "examples": ["Active: They build houses. Passive: Houses are built.",
+                   "Active: Someone stole my car. Passive: My car was stolen."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "Active: They grow rice here. → Passive: Rice ___ here.",
+          "options": ["is grown", "grows", "was grown", "has grown"],
+          "correctAnswer": "is grown",
+          "explanation": "For present simple passive, use 'is/are' + past participle."
+        },
+        {
+          "id": 2,
+          "question": "Active: Someone stole my bike yesterday. → Passive: My bike ___ yesterday.",
+          "options": ["stole", "is stolen", "was stolen", "has been stolen"],
+          "correctAnswer": "was stolen",
+          "explanation": "For past simple passive, use 'was/were' + past participle."
+        },
+        {
+          "id": 3,
+          "question": "Active: They are repairing the road. → Passive: The road ___.",
+          "options": ["repairs", "is repairing", "is being repaired", "was repaired"],
+          "correctAnswer": "is being repaired",
+          "explanation": "For present continuous passive, use 'is/are being' + past participle."
+        },
+        {
+          "id": 4,
+          "question": "Active: They have built a new bridge. → Passive: A new bridge ___.",
+          "options": ["built", "has built", "has been built", "was built"],
+          "correctAnswer": "has been built",
+          "explanation": "For present perfect passive, use 'has/have been' + past participle."
+        },
+        {
+          "id": 5,
+          "question": "Active: They will publish the book next month. → Passive: The book ___ next month.",
+          "options": ["publishes", "is published", "was published", "will be published"],
+          "correctAnswer": "will be published",
+          "explanation": "For future simple passive, use 'will be' + past participle."
+        }
+      ]
+    },
+    {
+      "structure": "Relative Clauses",
+      "level": "B1",
+      "description": "Used to give additional information about a noun.",
+      "forms": [
+        "Who: for people as subjects",
+        "Whom/who: for people as objects",
+        "Which: for things",
+        "That: for people or things",
+        "Whose: for possession"
+      ],
+      "examples": ["The woman who lives next door is a doctor.",
+                   "The book that I'm reading is interesting."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "The man ___ lives next door is very friendly.",
+          "options": ["who", "which", "whose", "what"],
+          "correctAnswer": "who",
+          "explanation": "Use 'who' for people as the subject of the relative clause."
+        },
+        {
+          "id": 2,
+          "question": "The book ___ I bought yesterday is very interesting.",
+          "options": ["who", "which", "whose", "whom"],
+          "correctAnswer": "which",
+          "explanation": "Use 'which' for things as the object of the relative clause (or 'that')."
+        },
+        {
+          "id": 3,
+          "question": "The woman ___ car was stolen called the police.",
+          "options": ["who", "which", "whose", "whom"],
+          "correctAnswer": "whose",
+          "explanation": "Use 'whose' to show possession in relative clauses."
+        },
+        {
+          "id": 4,
+          "question": "This is the house ___ I grew up in.",
+          "options": ["who", "which", "where", "whose"],
+          "correctAnswer": "where",
+          "explanation": "Use 'where' for places in relative clauses (or 'which/that...in')."
+        },
+        {
+          "id": 5,
+          "question": "The people ___ we met at the party were very nice.",
+          "options": ["who", "which", "whose", "what"],
+          "correctAnswer": "who",
+          "explanation": "Use 'who' for people as the object of the relative clause (or 'that')."
+        }
+      ]
+    },
+    {
+      "structure": "Used to",
+      "level": "A2",
+      "description": "Used to talk about past habits or states that no longer exist.",
+      "forms": [
+        "Affirmative: Subject + used to + infinitive",
+        "Negative: Subject + didn't use to + infinitive",
+        "Question: Did + subject + use to + infinitive"
+      ],
+      "examples": ["I used to play tennis when I was younger.",
+                   "She didn't use to like coffee, but now she loves it."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "I ___ play football every weekend, but now I don't have time.",
+          "options": ["use to", "used to", "was used to", "am used to"],
+          "correctAnswer": "used to",
+          "explanation": "Use 'used to + infinitive' for past habits that no longer happen."
+        },
+        {
+          "id": 2,
+          "question": "She ___ like vegetables when she was a child.",
+          "options": ["doesn't use to", "didn't use to", "wasn't used to", "isn't used to"],
+          "correctAnswer": "didn't use to",
+          "explanation": "For negative statements about past habits, use 'didn't use to + infinitive'."
+        },
+        {
+          "id": 3,
+          "question": "___ you ___ live in London before moving here?",
+          "options": ["Do, use to", "Did, use to", "Did, used to", "Have, used to"],
+          "correctAnswer": "Did, use to",
+          "explanation": "For questions about past habits, use 'Did + subject + use to + infinitive'."
+        },
+        {
+          "id": 4,
+          "question": "There ___ be a cinema here, but it closed last year.",
+          "options": ["use to", "used to", "was used to", "using to"],
+          "correctAnswer": "used to",
+          "explanation": "Use 'used to + infinitive' for past states that no longer exist."
+        },
+        {
+          "id": 5,
+          "question": "I ___ drink coffee, but now I drink it every morning.",
+          "options": ["am not used to", "wasn't used to", "didn't use to", "don't used to"],
+          "correctAnswer": "didn't use to",
+          "explanation": "For negative statements about past habits, use 'didn't use to + infinitive'."
+        }
+      ]
+    },
+    {
+      "structure": "Gerunds and Infinitives",
+      "level": "B1",
+      "description": "Different verb patterns that use gerunds (-ing form) or infinitives (to + verb).",
+      "forms": [
+        "Verb + gerund (enjoy swimming)",
+        "Verb + infinitive (want to go)",
+        "Verb + object + infinitive (ask someone to help)"
+      ],
+      "examples": ["I enjoy swimming in the sea.",
+                   "She wants to learn Spanish."],
+      "exercises": [
+        {
+          "id": 1,
+          "question": "I enjoy ___ (read) books in my free time.",
+          "options": ["read", "to read", "reading", "reads"],
+          "correctAnswer": "reading",
+          "explanation": "After 'enjoy', we use a gerund (verb + -ing)."
+        },
+        {
+          "id": 2,
+          "question": "She decided ___ (study) medicine at university.",
+          "options": ["study", "to study", "studying", "studies"],
+          "correctAnswer": "to study",
+          "explanation": "After 'decide', we use an infinitive (to + verb)."
+        },
+        {
+          "id": 3,
+          "question": "They suggested ___ (go) to the beach.",
+          "options": ["go", "to go", "going", "goes"],
+          "correctAnswer": "going",
+          "explanation": "After 'suggest', we use a gerund (verb + -ing)."
+        },
+        {
+          "id": 4,
+          "question": "Would you like ___ (come) to dinner tonight?",
+          "options": ["come", "to come", "coming", "comes"],
+          "correctAnswer": "to come",
+          "explanation": "After 'would like', we use an infinitive (to + verb)."
+        },
+        {
+          "id": 5,
+          "question": "I can't stand ___ (wait) in long lines.",
+          "options": ["wait", "to wait", "waiting", "waits"],
+          "correctAnswer": "waiting",
+          "explanation": "After 'can't stand', we use a gerund (verb + -ing)."
+        }
+      ]
+    }
+  ]
+}
