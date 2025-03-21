@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'E:\KI II\KTLT\Do_an\login.ui'
+# Form implementation generated from reading ui file 'E:\KI II\KTLT\Do_an\signup.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
@@ -87,7 +87,7 @@ class Ui_Form(object):
 "padding-bottom:7px;")
         self.lineEdit.setObjectName("lineEdit")
         self.pushButton = QtWidgets.QPushButton(parent=self.widget)
-        self.pushButton.setGeometry(QtCore.QRect(250, 240, 121, 41))
+        self.pushButton.setGeometry(QtCore.QRect(260, 250, 101, 31))
         font = QtGui.QFont()
         font.setPointSize(11)
         font.setBold(True)
@@ -126,22 +126,12 @@ class Ui_Form(object):
 "padding-bottom:7px;")
         self.lineEdit_2.setEchoMode(QtWidgets.QLineEdit.EchoMode.Password)
         self.lineEdit_2.setObjectName("lineEdit_2")
-        self.label_7 = QtWidgets.QLabel(parent=self.widget)
-        self.label_7.setGeometry(QtCore.QRect(230, 300, 81, 21))
-        self.label_7.setObjectName("label_7")
-        self.pBsignup = QtWidgets.QPushButton(parent=self.widget)
-        self.pBsignup.setGeometry(QtCore.QRect(310, 300, 56, 21))
-        font = QtGui.QFont()
-        font.setBold(True)
-        font.setWeight(75)
-        self.pBsignup.setFont(font)
-        self.pBsignup.setObjectName("pBsignup")
-        self.pBeye = QtWidgets.QPushButton(parent=self.widget)
-        self.pBeye.setGeometry(QtCore.QRect(370, 180, 21, 20))
-        self.pBeye.setStyleSheet("image: url(:/icons/hide.png);\n"
+        self.pushButton_2 = QtWidgets.QPushButton(parent=self.widget)
+        self.pushButton_2.setGeometry(QtCore.QRect(375, 180, 21, 20))
+        self.pushButton_2.setStyleSheet("image: url(:/icons/hide.png);\n"
 "image: url(:/icons/view.png);")
-        self.pBeye.setText("")
-        self.pBeye.setObjectName("pBeye")
+        self.pushButton_2.setText("")
+        self.pushButton_2.setObjectName("pushButton_2")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -150,8 +140,6 @@ class Ui_Form(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
         self.label_4.setText(_translate("Form", "<html><head/><body><p align=\"center\"><span style=\" color:#5269bc;\">Get started!</span></p><p align=\"center\"><span style=\" color:#5269bc;\"><br/></span></p></body></html>"))
-        self.lineEdit.setPlaceholderText(_translate("Form", "User\'s name"))
-        self.pushButton.setText(_translate("Form", "L o g  I n"))
+        self.lineEdit.setPlaceholderText(_translate("Form", "Enter your user\'s name"))
+        self.pushButton.setText(_translate("Form", "Sign up"))
         self.lineEdit_2.setPlaceholderText(_translate("Form", "Password"))
-        self.label_7.setText(_translate("Form", "<html><head/><body><p>Don\'t have an account. </p></body></html>"))
-        self.pBsignup.setText(_translate("Form", "Sign up"))

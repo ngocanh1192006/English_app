@@ -1,84 +1,120 @@
-from PyQt6.QtWidgets import QApplication,QMainWindow,QMessageBox
-from login import Ui_Form
-from main import Ui_MainWindow
-import json
 import sys
-import os
-user_file = "acc.json"
-class MainApp(QMainWindow):# Kế thừa từ QMainWindow
+import json
+from PyQt6.QtWidgets import QApplication, QWidget, QMessageBox
+from PyQt6.QtGui import QIcon
+from PyQt6.QtCore import Qt
+from login import Ui_Form as LoginUI
+from signup import Ui_Form as SignupUI
+
+ACC_FILE = "acc.json"
+
+class LoginWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.login_ui = Ui_Form()  # Giao diện đăng nhập
-        self.main_window = QMainWindow()  # Cửa sổ chính (main)
-        self.load_login()
-    def load_login(self):
-        self.login_ui.setupUi(self) # Thiết lập giao diện
-        self.login_ui.pushButton.clicked.connect(self.login)
-        self.show()
-    def load_main(self):
-        self.main_ui = Ui_MainWindow()  # Giao diện Main
-        self.main_ui.setupUi(self.main_window)  # Thiết lập giao diện Main
-        self.main_window.show()  # Hiển thị cửa sổ chính
+        self.ui = LoginUI()
+        self.ui.setupUi(self)
 
-    def load_users(self):
-        """ Đọc danh sách người dùng từ file JSON """
-        if not os.path.exists(user_file):  # Nếu file không tồn tại
-            with open(user_file, "w", encoding="utf-8") as file:
-                json.dump({"users": []}, file, indent=4)  # Tạo file với danh sách rỗng
-            return []
-        try:
-            with open(user_file, "r", encoding="utf-8") as file:
-                data = json.load(file)
-                if "users" in data:
-                    return data["users"]
-        except (FileNotFoundError, json.JSONDecodeError):
-            return []  # Trả về danh sách rỗng khi file không tồn tại hoặc bị lỗi
+        # Gán sự kiện cho các nút
+        self.ui.pushButton.clicked.connect(self.login)
+        self.ui.pBsignup.clicked.connect(self.open_signup)
+        self.ui.pBeye.clicked.connect(self.toggle_password_visibility)  # Gán sự kiện cho pBeye
 
-    def save_users(self, users):
-        with open(user_file, "w", encoding="utf-8") as file:
-            json.dump({"users": users}, file, indent=4)
+        # Mặc định ẩn mật khẩu
+        self.password_visible = False
+        self.ui.lineEdit_2.setEchoMode(self.ui.lineEdit_2.EchoMode.Password)
+        self.ui.pBeye.setIcon(QIcon("icons/hide.png"))
+
+    def toggle_password_visibility(self):
+        """Hiện/Ẩn mật khẩu khi nhấn vào pBeye"""
+        if self.password_visible:
+            self.ui.lineEdit_2.setEchoMode(self.ui.lineEdit_2.EchoMode.Password)
+            self.ui.pBeye.setIcon(QIcon("icons/hide.png"))
+        else:
+            self.ui.lineEdit_2.setEchoMode(self.ui.lineEdit_2.EchoMode.Normal)
+            self.ui.pBeye.setIcon(QIcon("icons/view.png"))
+        self.password_visible = not self.password_visible
 
     def login(self):
-            username = self.login_ui.lineEdit.text().strip()
-            password = self.login_ui.lineEdit_2.text().strip()
+        """Xử lý đăng nhập"""
+        username = self.ui.lineEdit.text().strip()
+        password = self.ui.lineEdit_2.text().strip()
 
-            if username == '' or password == '':
-                QMessageBox.information(self, "Notification", "Please enter both username and password")
-                return
-            if "uel.edu.vn" not in password:
-                QMessageBox.warning(self, "Error login", "Password must have 'uel.edu.vn'.")
-                return
-            users = self.load_users()
-            password_owner = None
-            for user in users:
-                if password in user["passwords"]:
-                    password_owner = user
-                    break
-            if password_owner:
-                # Nếu password đã có nhưng username khác => Lỗi
-                if password_owner["username"] != username:
-                    QMessageBox.warning(self, "Error", "This password is already linked to another username!")
-                    return
-                else:
-                    QMessageBox.information(self, "Success", "Login successful! Welcome back.")
-                    return
-            # Nếu password chưa tồn tại, kiểm tra username, thì khi một username đăng nhập với một mật khẩu mới, hệ thống sẽ lưu mật khẩu đó. Khi đó, lần sau họ sẽ đăng nhập được bằng mật khẩu mới.
-            existing_user = None
-            for user in users:
-                if user["username"] == username:
-                    existing_user = user
-                    break
+        if not username or not password:
+            QMessageBox.warning(self, "Lỗi", "Vui lòng nhập đầy đủ thông tin!")
+            return
 
-            if existing_user:
-                existing_user["passwords"].append(password)  # Thêm mật khẩu mới cho username cũ
-                self.save_users(users)
-                QMessageBox.information(self, "Success", "New password added for existing user!")
-            else:
-                users.append({"username": username, "passwords": [password]})  # Tạo tài khoản mới
-                self.save_users(users)
-                QMessageBox.information(self, "Success", "New account created and logged in!")
+        try:
+            with open(ACC_FILE, "r") as file:
+                accounts = json.load(file)
+        except (FileNotFoundError, json.JSONDecodeError):
+            accounts = {}
+
+        if username in accounts and accounts[username] == password:
+            QMessageBox.information(self, "Thành công", "Đăng nhập thành công!")
+        else:
+            QMessageBox.warning(self, "Lỗi", "Sai tên đăng nhập hoặc mật khẩu!")
+
+    def open_signup(self):
+        """Mở giao diện đăng ký"""
+        self.signup_window = SignupWindow()
+        self.signup_window.show()
+        self.close()
+
+class SignupWindow(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.ui = SignupUI()
+        self.ui.setupUi(self)
+
+        # Gán sự kiện
+        self.ui.pushButton.clicked.connect(self.signup)
+        self.ui.pushButton_2.clicked.connect(self.toggle_password_visibility)  # Gán sự kiện cho pushButton_2
+
+        # Mặc định ẩn mật khẩu
+        self.password_visible = False
+        self.ui.lineEdit_2.setEchoMode(self.ui.lineEdit_2.EchoMode.Password)
+        self.ui.pushButton_2.setIcon(QIcon("icons/hide.png"))
+
+    def toggle_password_visibility(self):
+        """Hiện/Ẩn mật khẩu khi nhấn vào pushButton_2"""
+        if self.password_visible:
+            self.ui.lineEdit_2.setEchoMode(self.ui.lineEdit_2.EchoMode.Password)
+            self.ui.pushButton_2.setIcon(QIcon("icons/hide.png"))
+        else:
+            self.ui.lineEdit_2.setEchoMode(self.ui.lineEdit_2.EchoMode.Normal)
+            self.ui.pushButton_2.setIcon(QIcon("icons/view.png"))
+        self.password_visible = not self.password_visible
+
+    def signup(self):
+        """Xử lý đăng ký"""
+        username = self.ui.lineEdit.text().strip()
+        password = self.ui.lineEdit_2.text().strip()
+
+        if not username or not password:
+            QMessageBox.warning(self, "Lỗi", "Vui lòng nhập đầy đủ thông tin!")
+            return
+
+        try:
+            with open(ACC_FILE, "r") as file:
+                accounts = json.load(file)
+        except (FileNotFoundError, json.JSONDecodeError):
+            accounts = {}
+
+        if username in accounts:
+            QMessageBox.warning(self, "Lỗi", "Tài khoản đã tồn tại!")
+            return
+
+        accounts[username] = password
+        with open(ACC_FILE, "w") as file:
+            json.dump(accounts, file, indent=4)
+
+        QMessageBox.information(self, "Thành công", "Đăng ký thành công!")
+        self.close()
+        self.login_window = LoginWindow()
+        self.login_window.show()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    main_app = MainApp()
+    window = LoginWindow()
+    window.show()
     sys.exit(app.exec())

@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="806a9e14-2400-4a6a-8db9-7e75aee56cd2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signup.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/English_app" beforeDir="false" afterPath="$PROJECT_DIR$/English_app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/English_app/4.py" beforeDir="false" />
@@ -16,15 +18,12 @@
       <change beforePath="$PROJECT_DIR$/English_app/flashcard2.json" beforeDir="false" afterPath="$PROJECT_DIR$/English_app/flashcard2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/English_app/ui_4.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/English_app/untitled.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/access.py" beforeDir="false" afterPath="$PROJECT_DIR$/access.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/access.ui" beforeDir="false" afterPath="$PROJECT_DIR$/access.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard1.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard3.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar2.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar2_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar2_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Run_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acc.json" beforeDir="false" afterPath="$PROJECT_DIR$/acc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giaodien.py" beforeDir="false" afterPath="$PROJECT_DIR$/giaodien.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giaodien.ui" beforeDir="false" afterPath="$PROJECT_DIR$/giaodien.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.ui" beforeDir="false" afterPath="$PROJECT_DIR$/login.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +70,7 @@
     "Python.grammar.executor": "Run",
     "Python.grammar2_ex.executor": "Run",
     "Python.grammar_ex.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.test_gui.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -92,8 +92,8 @@
       <recent name="E:\KI II\KTLT\Do_an" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.flashcard3_ex">
-    <configuration name="flashcard1_ex (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Run_app">
+    <configuration name="Run_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="English_app" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,30 +107,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flashcard1_ex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="flashcard1_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="English_app" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\KI II\KTLT\Do_an\flashcard1_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Run_app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,13 +185,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="English_app" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Run_app" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.grammar2_ex" />
         <item itemvalue="Python.flashcard3_ex" />
         <item itemvalue="Python.flashcard2_ex" />
-        <item itemvalue="Python.grammar2_ex" />
-        <item itemvalue="Python.flashcard1_ex (1)" />
-        <item itemvalue="Python.flashcard1_ex" />
       </list>
     </recent_temporary>
   </component>
@@ -267,13 +267,23 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Run_app.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/English_app$Run_app.coverage" NAME="Run_app Coverage Results" MODIFIED="1742472154971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/English_app$flash_2.coverage" NAME="flash_2 Coverage Results" MODIFIED="1742449387047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$grammar.coverage" NAME="grammar Coverage Results" MODIFIED="1742489219242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/English_app$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1742397450540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$flashcard1_ex__1_.coverage" NAME="flashcard1_ex (1) Coverage Results" MODIFIED="1742563751083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Do_an$grammar2_ex.coverage" NAME="grammar2_ex Coverage Results" MODIFIED="1742572895937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Do_an$grammar2_ex.coverage" NAME="grammar2_ex Coverage Results" MODIFIED="1742578417137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$flash_2.coverage" NAME="flash_2 Coverage Results" MODIFIED="1742535628844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$grammar_ex2.coverage" NAME="grammar_ex2 Coverage Results" MODIFIED="1742535186613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/English_app$flashcard.coverage" NAME="flashcard Coverage Results" MODIFIED="1742396852279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -282,7 +292,8 @@
     <SUITE FILE_PATH="coverage/Do_an$flashcard.coverage" NAME="flashcard Coverage Results" MODIFIED="1742537819218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/English_app" />
     <SUITE FILE_PATH="coverage/Do_an$flashcard3_ex.coverage" NAME="flashcard3_ex Coverage Results" MODIFIED="1742573217597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$test_gui.coverage" NAME="test_gui Coverage Results" MODIFIED="1742489291745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Do_an$Run_app.coverage" NAME="Run_app Coverage Results" MODIFIED="1742537678006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Do_an$Run_app.coverage" NAME="Run_app Coverage Results" MODIFIED="1742585449397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$grammar_ex.coverage" NAME="grammar_ex Coverage Results" MODIFIED="1742528948672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Do_an$main.coverage" NAME="main Coverage Results" MODIFIED="1742580879411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
