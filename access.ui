@@ -30,7 +30,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../../../resources.qrc"/>
+  <include location="Icons/resources.qrc"/>
  </resources>
  <connections/>
 </ui>

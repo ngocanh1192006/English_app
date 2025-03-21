@@ -80,8 +80,8 @@ QPushButton:hover {
         <string>Back</string>
        </property>
        <property name="icon">
-        <iconset>
-         <normaloff>../../../icons8-play-48 - Copy.png</normaloff>../../../icons8-play-48 - Copy.png</iconset>
+        <iconset resource="Icons/resources.qrc">
+         <normaloff>:/icons/icons8-play-48 - Copy.png</normaloff>:/icons/icons8-play-48 - Copy.png</iconset>
        </property>
       </widget>
      </widget>
@@ -272,7 +272,7 @@ QPushButton:pressed {
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../../OneDrive/Pictures/resource files.qrc"/>
+  <include location="Icons/resources.qrc"/>
  </resources>
  <connections/>
 </ui>

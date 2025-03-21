@@ -226,7 +226,7 @@ QPushButton {
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../../OneDrive/Pictures/resource files.qrc"/>
+  <include location="Icons/resources.qrc"/>
  </resources>
  <connections/>
 </ui>

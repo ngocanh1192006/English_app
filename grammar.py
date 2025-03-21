@@ -37,7 +37,7 @@ class Ui_MainWindow(object):
 "    background-color: rgb(255, 140, 0); /* Màu cam đậm khi hover */\n"
 "}")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("E:\\KI II\\KTLT\\Do_an\\../../../icons8-play-48 - Copy.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap(":/icons/icons8-play-48 - Copy.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_3.setIcon(icon)
         self.pushButton_3.setObjectName("pushButton_3")
         self.verticalLayout.addWidget(self.pushButton_3, 0, QtCore.Qt.AlignmentFlag.AlignLeft)
@@ -200,7 +200,7 @@ class Ui_MainWindow(object):
 "}")
         self.pushButton_2.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("E:\\KI II\\KTLT\\Do_an\\../../../icons8-play-48.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap(":/icons/icons8-play-48.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_2.setIcon(icon1)
         self.pushButton_2.setCheckable(True)
         self.pushButton_2.setChecked(True)

@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>hide.png</file>
+    <file>icons8-play-48 - Copy.png</file>
+    <file>icons8-play-48.png</file>
+    <file>lg.png</file>
+    <file>resources.qrc</file>
+    <file>user.png</file>
+    <file>view.png</file>
+  </qresource>
+</RCC>

@@ -43,8 +43,8 @@ QPushButton:hover {
        <string>Back</string>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>../../../icons8-play-48 - Copy.png</normaloff>../../../icons8-play-48 - Copy.png</iconset>
+       <iconset resource="Icons/resources.qrc">
+        <normaloff>:/icons/icons8-play-48 - Copy.png</normaloff>:/icons/icons8-play-48 - Copy.png</iconset>
       </property>
      </widget>
     </item>
@@ -292,8 +292,8 @@ QPushButton:pressed {
           <string/>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../../../icons8-play-48 - Copy.png</normaloff>../../../icons8-play-48 - Copy.png</iconset>
+          <iconset resource="Icons/resources.qrc">
+           <normaloff>:/icons/icons8-play-48 - Copy.png</normaloff>:/icons/icons8-play-48 - Copy.png</iconset>
          </property>
          <property name="checkable">
           <bool>true</bool>
@@ -344,8 +344,8 @@ QPushButton:pressed {
           <string/>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../../../icons8-play-48.png</normaloff>../../../icons8-play-48.png</iconset>
+          <iconset resource="Icons/resources.qrc">
+           <normaloff>:/icons/icons8-play-48.png</normaloff>:/icons/icons8-play-48.png</iconset>
          </property>
          <property name="checkable">
           <bool>true</bool>
@@ -373,7 +373,7 @@ QPushButton:pressed {
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../../../resources.qrc"/>
+  <include location="Icons/resources.qrc"/>
  </resources>
  <connections/>
 </ui>
