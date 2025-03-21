@@ -4,7 +4,8 @@
       "tense": "Present Simple",
       "description": "Used for habits, routines, and general truths.",
       "structure": "Subject + base verb (add -s/-es for third-person singular)",
-      "examples": ["I eat breakfast every day.", "She walks to school."],
+      "examples": ["I eat breakfast every day.",
+                    "She walks to school."],
       "exercises": [
         {
           "id": 1,

@@ -7,7 +7,7 @@ class TenseApp(QMainWindow):
     def __init__(self):
         super().__init__()
         # Load the .ui file
-        loadUi('tense_app.ui', self)
+        loadUi('grammar.ui', self)
 
         # Initialize logic
         self.logic = TenseLogic('exercises.json')

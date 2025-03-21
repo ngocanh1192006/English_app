@@ -1,0 +1,236 @@
+Index: English_app/grammar.ui
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<ui version=\"4.0\">\r\n <class>MainWindow</class>\r\n <widget class=\"QMainWindow\" name=\"MainWindow\">\r\n  <property name=\"geometry\">\r\n   <rect>\r\n    <x>0</x>\r\n    <y>0</y>\r\n    <width>964</width>\r\n    <height>600</height>\r\n   </rect>\r\n  </property>\r\n  <property name=\"windowTitle\">\r\n   <string>MainWindow</string>\r\n  </property>\r\n  <property name=\"styleSheet\">\r\n   <string notr=\"true\">background-color: rgb(255, 255, 255);</string>\r\n  </property>\r\n  <widget class=\"QWidget\" name=\"centralwidget\">\r\n   <layout class=\"QHBoxLayout\" name=\"horizontalLayout_2\">\r\n    <item>\r\n     <widget class=\"QWidget\" name=\"widget\" native=\"true\">\r\n      <layout class=\"QHBoxLayout\" name=\"horizontalLayout\">\r\n       <item>\r\n        <widget class=\"QPushButton\" name=\"pushButton_3\">\r\n         <property name=\"text\">\r\n          <string>Quay lại</string>\r\n         </property>\r\n         <property name=\"icon\">\r\n          <iconset resource=\"../../OneDrive/Pictures/resource files.qrc\">\r\n           <normaloff>:/icons/chevron-left.svg</normaloff>:/icons/chevron-left.svg</iconset>\r\n         </property>\r\n        </widget>\r\n       </item>\r\n      </layout>\r\n     </widget>\r\n    </item>\r\n    <item>\r\n     <widget class=\"QLabel\" name=\"label\">\r\n      <property name=\"styleSheet\">\r\n       <string notr=\"true\">background-color: rgb(249, 255, 217);</string>\r\n      </property>\r\n      <property name=\"text\">\r\n       <string>Grammar</string>\r\n      </property>\r\n     </widget>\r\n    </item>\r\n    <item>\r\n     <widget class=\"QTabWidget\" name=\"tabWidget\">\r\n      <property name=\"styleSheet\">\r\n       <string notr=\"true\">background-color: rgb(255, 227, 170);\r\nalternate-background-color: rgb(255, 227, 170);</string>\r\n      </property>\r\n      <property name=\"currentIndex\">\r\n       <number>1</number>\r\n      </property>\r\n      <widget class=\"QWidget\" name=\"tab\">\r\n       <attribute name=\"title\">\r\n        <string>Question</string>\r\n       </attribute>\r\n      </widget>\r\n      <widget class=\"QWidget\" name=\"tab_2\">\r\n       <attribute name=\"title\">\r\n        <string>Assignment</string>\r\n       </attribute>\r\n       <widget class=\"QLabel\" name=\"label_2\">\r\n        <property name=\"geometry\">\r\n         <rect>\r\n          <x>20</x>\r\n          <y>160</y>\r\n          <width>721</width>\r\n          <height>61</height>\r\n         </rect>\r\n        </property>\r\n        <property name=\"text\">\r\n         <string>TextLabel</string>\r\n        </property>\r\n       </widget>\r\n      </widget>\r\n     </widget>\r\n    </item>\r\n    <item>\r\n     <widget class=\"QPushButton\" name=\"pushButton\">\r\n      <property name=\"text\">\r\n       <string>Hoàn thành</string>\r\n      </property>\r\n     </widget>\r\n    </item>\r\n   </layout>\r\n  </widget>\r\n  <widget class=\"QMenuBar\" name=\"menubar\">\r\n   <property name=\"geometry\">\r\n    <rect>\r\n     <x>0</x>\r\n     <y>0</y>\r\n     <width>964</width>\r\n     <height>26</height>\r\n    </rect>\r\n   </property>\r\n  </widget>\r\n  <widget class=\"QStatusBar\" name=\"statusbar\"/>\r\n </widget>\r\n <resources>\r\n  <include location=\"../../OneDrive/Pictures/resource files.qrc\"/>\r\n </resources>\r\n <connections/>\r\n</ui>\r\n
+===================================================================
+diff --git a/English_app/grammar.ui b/English_app/grammar.ui
+--- a/English_app/grammar.ui	(revision f25297635f430a256fe637f5afe3d92c8a6ba8d5)
++++ b/English_app/grammar.ui	(date 1742433087682)
+@@ -6,8 +6,8 @@
+    <rect>
+     <x>0</x>
+     <y>0</y>
+-    <width>964</width>
+-    <height>600</height>
++    <width>504</width>
++    <height>372</height>
+    </rect>
+   </property>
+   <property name="windowTitle">
+@@ -27,7 +27,7 @@
+           <string>Quay lại</string>
+          </property>
+          <property name="icon">
+-          <iconset resource="../../OneDrive/Pictures/resource files.qrc">
++          <iconset>
+            <normaloff>:/icons/chevron-left.svg</normaloff>:/icons/chevron-left.svg</iconset>
+          </property>
+         </widget>
+@@ -52,12 +52,89 @@
+ alternate-background-color: rgb(255, 227, 170);</string>
+       </property>
+       <property name="currentIndex">
+-       <number>1</number>
++       <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+         <string>Question</string>
+        </attribute>
++       <widget class="QStackedWidget" name="exerciseStackWidget">
++        <property name="geometry">
++         <rect>
++          <x>20</x>
++          <y>150</y>
++          <width>271</width>
++          <height>121</height>
++         </rect>
++        </property>
++        <property name="styleSheet">
++         <string notr="true">background-color: rgb(0, 85, 255);</string>
++        </property>
++        <widget class="QWidget" name="page"/>
++        <widget class="QWidget" name="page_2"/>
++       </widget>
++       <widget class="QListWidget" name="tenseListWidget">
++        <property name="geometry">
++         <rect>
++          <x>0</x>
++          <y>40</y>
++          <width>301</width>
++          <height>71</height>
++         </rect>
++        </property>
++       </widget>
++       <widget class="QLabel" name="tenseDetailLabel">
++        <property name="geometry">
++         <rect>
++          <x>30</x>
++          <y>10</y>
++          <width>261</width>
++          <height>21</height>
++         </rect>
++        </property>
++        <property name="text">
++         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Các thì trong tiếng anh&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
++        </property>
++       </widget>
++       <widget class="QPushButton" name="nextQuestionButton">
++        <property name="geometry">
++         <rect>
++          <x>130</x>
++          <y>280</y>
++          <width>56</width>
++          <height>17</height>
++         </rect>
++        </property>
++        <property name="text">
++         <string>Câu tiếp theo</string>
++        </property>
++       </widget>
++       <widget class="QPushButton" name="quizButton">
++        <property name="geometry">
++         <rect>
++          <x>85</x>
++          <y>120</y>
++          <width>101</width>
++          <height>20</height>
++         </rect>
++        </property>
++        <property name="text">
++         <string>Kiểm tra nhanh 🎯</string>
++        </property>
++       </widget>
++       <widget class="QPushButton" name="darkModeButton">
++        <property name="geometry">
++         <rect>
++          <x>260</x>
++          <y>0</y>
++          <width>56</width>
++          <height>17</height>
++         </rect>
++        </property>
++        <property name="text">
++         <string>🌙 Chế độ tối</string>
++        </property>
++       </widget>
+       </widget>
+       <widget class="QWidget" name="tab_2">
+        <attribute name="title">
+@@ -93,15 +170,13 @@
+     <rect>
+      <x>0</x>
+      <y>0</y>
+-     <width>964</width>
+-     <height>26</height>
++     <width>504</width>
++     <height>18</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QStatusBar" name="statusbar"/>
+  </widget>
+- <resources>
+-  <include location="../../OneDrive/Pictures/resource files.qrc"/>
+- </resources>
++ <resources/>
+  <connections/>
+ </ui>
+Index: English_app/grammar.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Form implementation generated from reading ui file 'grammar.ui'\r\n#\r\n# Created by: PyQt6 UI code generator 6.7.1\r\n#\r\n# WARNING: Any manual changes made to this file will be lost when pyuic6 is\r\n# run again.  Do not edit this file unless you know what you are doing.\r\n\r\n\r\nfrom PyQt6 import QtCore, QtGui, QtWidgets\r\n\r\n\r\nclass Ui_MainWindow(object):\r\n    def setupUi(self, MainWindow):\r\n        MainWindow.setObjectName(\"MainWindow\")\r\n        MainWindow.resize(964, 600)\r\n        MainWindow.setStyleSheet(\"background-color: rgb(255, 255, 255);\")\r\n        self.centralwidget = QtWidgets.QWidget(parent=MainWindow)\r\n        self.centralwidget.setObjectName(\"centralwidget\")\r\n        self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.centralwidget)\r\n        self.horizontalLayout_2.setObjectName(\"horizontalLayout_2\")\r\n        self.widget = QtWidgets.QWidget(parent=self.centralwidget)\r\n        self.widget.setObjectName(\"widget\")\r\n        self.horizontalLayout = QtWidgets.QHBoxLayout(self.widget)\r\n        self.horizontalLayout.setObjectName(\"horizontalLayout\")\r\n        self.pushButton_3 = QtWidgets.QPushButton(parent=self.widget)\r\n        icon = QtGui.QIcon()\r\n        icon.addPixmap(QtGui.QPixmap(\":/icons/chevron-left.svg\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\r\n        self.pushButton_3.setIcon(icon)\r\n        self.pushButton_3.setObjectName(\"pushButton_3\")\r\n        self.horizontalLayout.addWidget(self.pushButton_3)\r\n        self.horizontalLayout_2.addWidget(self.widget)\r\n        self.label = QtWidgets.QLabel(parent=self.centralwidget)\r\n        self.label.setStyleSheet(\"background-color: rgb(249, 255, 217);\")\r\n        self.label.setObjectName(\"label\")\r\n        self.horizontalLayout_2.addWidget(self.label)\r\n        self.tabWidget = QtWidgets.QTabWidget(parent=self.centralwidget)\r\n        self.tabWidget.setStyleSheet(\"background-color: rgb(255, 227, 170);\\n\"\r\n\"alternate-background-color: rgb(255, 227, 170);\")\r\n        self.tabWidget.setObjectName(\"tabWidget\")\r\n        self.tab = QtWidgets.QWidget()\r\n        self.tab.setObjectName(\"tab\")\r\n        self.tabWidget.addTab(self.tab, \"\")\r\n        self.tab_2 = QtWidgets.QWidget()\r\n        self.tab_2.setObjectName(\"tab_2\")\r\n        self.label_2 = QtWidgets.QLabel(parent=self.tab_2)\r\n        self.label_2.setGeometry(QtCore.QRect(20, 160, 721, 61))\r\n        self.label_2.setObjectName(\"label_2\")\r\n        self.tabWidget.addTab(self.tab_2, \"\")\r\n        self.horizontalLayout_2.addWidget(self.tabWidget)\r\n        self.pushButton = QtWidgets.QPushButton(parent=self.centralwidget)\r\n        self.pushButton.setObjectName(\"pushButton\")\r\n        self.horizontalLayout_2.addWidget(self.pushButton)\r\n        MainWindow.setCentralWidget(self.centralwidget)\r\n        self.menubar = QtWidgets.QMenuBar(parent=MainWindow)\r\n        self.menubar.setGeometry(QtCore.QRect(0, 0, 964, 26))\r\n        self.menubar.setObjectName(\"menubar\")\r\n        MainWindow.setMenuBar(self.menubar)\r\n        self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)\r\n        self.statusbar.setObjectName(\"statusbar\")\r\n        MainWindow.setStatusBar(self.statusbar)\r\n\r\n        self.retranslateUi(MainWindow)\r\n        self.tabWidget.setCurrentIndex(1)\r\n        QtCore.QMetaObject.connectSlotsByName(MainWindow)\r\n\r\n    def retranslateUi(self, MainWindow):\r\n        _translate = QtCore.QCoreApplication.translate\r\n        MainWindow.setWindowTitle(_translate(\"MainWindow\", \"MainWindow\"))\r\n        self.pushButton_3.setText(_translate(\"MainWindow\", \"Quay lại\"))\r\n        self.label.setText(_translate(\"MainWindow\", \"Grammar\"))\r\n        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate(\"MainWindow\", \"Question\"))\r\n        self.label_2.setText(_translate(\"MainWindow\", \"TextLabel\"))\r\n        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate(\"MainWindow\", \"Assignment\"))\r\n        self.pushButton.setText(_translate(\"MainWindow\", \"Hoàn thành\"))\r\n\r\n\r\nif __name__ == \"__main__\":\r\n    import sys\r\n    app = QtWidgets.QApplication(sys.argv)\r\n    MainWindow = QtWidgets.QMainWindow()\r\n    ui = Ui_MainWindow()\r\n    ui.setupUi(MainWindow)\r\n    MainWindow.show()\r\n    sys.exit(app.exec())\r\n
+===================================================================
+diff --git a/English_app/grammar.py b/English_app/grammar.py
+--- a/English_app/grammar.py	(revision f25297635f430a256fe637f5afe3d92c8a6ba8d5)
++++ b/English_app/grammar.py	(date 1742433105942)
+@@ -1,6 +1,6 @@
+-# Form implementation generated from reading ui file 'grammar.ui'
++# Form implementation generated from reading ui file 'E:\KI II\KTLT\Do_an\English_app\grammar.ui'
+ #
+-# Created by: PyQt6 UI code generator 6.7.1
++# Created by: PyQt6 UI code generator 6.8.1
+ #
+ # WARNING: Any manual changes made to this file will be lost when pyuic6 is
+ # run again.  Do not edit this file unless you know what you are doing.
+@@ -12,7 +12,7 @@
+ class Ui_MainWindow(object):
+     def setupUi(self, MainWindow):
+         MainWindow.setObjectName("MainWindow")
+-        MainWindow.resize(964, 600)
++        MainWindow.resize(504, 372)
+         MainWindow.setStyleSheet("background-color: rgb(255, 255, 255);")
+         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
+         self.centralwidget.setObjectName("centralwidget")
+@@ -39,6 +39,31 @@
+         self.tabWidget.setObjectName("tabWidget")
+         self.tab = QtWidgets.QWidget()
+         self.tab.setObjectName("tab")
++        self.exerciseStackWidget = QtWidgets.QStackedWidget(parent=self.tab)
++        self.exerciseStackWidget.setGeometry(QtCore.QRect(20, 150, 271, 121))
++        self.exerciseStackWidget.setStyleSheet("background-color: rgb(0, 85, 255);")
++        self.exerciseStackWidget.setObjectName("exerciseStackWidget")
++        self.page = QtWidgets.QWidget()
++        self.page.setObjectName("page")
++        self.exerciseStackWidget.addWidget(self.page)
++        self.page_2 = QtWidgets.QWidget()
++        self.page_2.setObjectName("page_2")
++        self.exerciseStackWidget.addWidget(self.page_2)
++        self.tenseListWidget = QtWidgets.QListWidget(parent=self.tab)
++        self.tenseListWidget.setGeometry(QtCore.QRect(0, 40, 301, 71))
++        self.tenseListWidget.setObjectName("tenseListWidget")
++        self.tenseDetailLabel = QtWidgets.QLabel(parent=self.tab)
++        self.tenseDetailLabel.setGeometry(QtCore.QRect(30, 10, 261, 21))
++        self.tenseDetailLabel.setObjectName("tenseDetailLabel")
++        self.nextQuestionButton = QtWidgets.QPushButton(parent=self.tab)
++        self.nextQuestionButton.setGeometry(QtCore.QRect(130, 280, 56, 17))
++        self.nextQuestionButton.setObjectName("nextQuestionButton")
++        self.quizButton = QtWidgets.QPushButton(parent=self.tab)
++        self.quizButton.setGeometry(QtCore.QRect(85, 120, 101, 20))
++        self.quizButton.setObjectName("quizButton")
++        self.darkModeButton = QtWidgets.QPushButton(parent=self.tab)
++        self.darkModeButton.setGeometry(QtCore.QRect(260, 0, 56, 17))
++        self.darkModeButton.setObjectName("darkModeButton")
+         self.tabWidget.addTab(self.tab, "")
+         self.tab_2 = QtWidgets.QWidget()
+         self.tab_2.setObjectName("tab_2")
+@@ -52,7 +77,7 @@
+         self.horizontalLayout_2.addWidget(self.pushButton)
+         MainWindow.setCentralWidget(self.centralwidget)
+         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
+-        self.menubar.setGeometry(QtCore.QRect(0, 0, 964, 26))
++        self.menubar.setGeometry(QtCore.QRect(0, 0, 504, 18))
+         self.menubar.setObjectName("menubar")
+         MainWindow.setMenuBar(self.menubar)
+         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
+@@ -60,7 +85,7 @@
+         MainWindow.setStatusBar(self.statusbar)
+ 
+         self.retranslateUi(MainWindow)
+-        self.tabWidget.setCurrentIndex(1)
++        self.tabWidget.setCurrentIndex(0)
+         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+ 
+     def retranslateUi(self, MainWindow):
+@@ -68,17 +93,11 @@
+         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+         self.pushButton_3.setText(_translate("MainWindow", "Quay lại"))
+         self.label.setText(_translate("MainWindow", "Grammar"))
++        self.tenseDetailLabel.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600;\">Các thì trong tiếng anh</span></p><p><br/></p></body></html>"))
++        self.nextQuestionButton.setText(_translate("MainWindow", "Câu tiếp theo"))
++        self.quizButton.setText(_translate("MainWindow", "Kiểm tra nhanh 🎯"))
++        self.darkModeButton.setText(_translate("MainWindow", "🌙 Chế độ tối"))
+         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Question"))
+         self.label_2.setText(_translate("MainWindow", "TextLabel"))
+         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Assignment"))
+         self.pushButton.setText(_translate("MainWindow", "Hoàn thành"))
+-
+-
+-if __name__ == "__main__":
+-    import sys
+-    app = QtWidgets.QApplication(sys.argv)
+-    MainWindow = QtWidgets.QMainWindow()
+-    ui = Ui_MainWindow()
+-    ui.setupUi(MainWindow)
+-    MainWindow.show()
+-    sys.exit(app.exec())

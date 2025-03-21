@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>751</width>
-    <height>628</height>
+    <width>575</width>
+    <height>474</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,6 +17,13 @@
    <layout class="QVBoxLayout" name="verticalLayout">
     <item alignment="Qt::AlignLeft">
      <widget class="QPushButton" name="pushButton_3">
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">QWidget {
     background-color: #e8f1f2; /* Màu vàng nhạt */
@@ -80,7 +87,7 @@ color: #fff</string>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(35, 149, 212);
-color: #fff</string>
+color: rgb(0, 0, 0)</string>
         </property>
        </widget>
       </item>
@@ -95,7 +102,10 @@ color: #fff</string>
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #e8f1f2</string>
+       <string notr="true">background-color: #e8f1f2;
+color: rgb(0, 0, 0);
+font-weight: bold;
+</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::Box</enum>
@@ -119,8 +129,16 @@ color: #fff</string>
         <height>50</height>
        </size>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(185, 209, 230);</string>
+       <string notr="true">background-color: rgb(185, 209, 230);
+color: rgb(0, 0, 0);
+font-size: 14px;
+</string>
       </property>
       <property name="text">
        <string>Question will appear here</string>
@@ -141,7 +159,8 @@ color: #fff</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #e8f1f2</string>
+       <string notr="true">background-color: #e8f1f2;
+color: rgb(0, 0, 0)</string>
       </property>
       <property name="title">
        <string>Options</string>
@@ -149,6 +168,10 @@ color: #fff</string>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
         <widget class="QWidget" name="optionsWidget" native="true">
+         <property name="styleSheet">
+          <string notr="true">color: #8A2BE2;
+</string>
+         </property>
          <layout class="QVBoxLayout" name="optionsLayout"/>
         </widget>
        </item>
@@ -162,6 +185,14 @@ color: #fff</string>
         <width>0</width>
         <height>40</height>
        </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
       </property>
       <property name="styleSheet">
        <string notr="true">QWidget {
@@ -277,8 +308,8 @@ QPushButton:pressed {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>751</width>
-     <height>26</height>
+     <width>575</width>
+     <height>18</height>
     </rect>
    </property>
   </widget>
