@@ -7,44 +7,6 @@
     <list default="true" id="806a9e14-2400-4a6a-8db9-7e75aee56cd2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/English_app" beforeDir="false" afterPath="$PROJECT_DIR$/English_app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/English_app/4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/English_app/4.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/English_app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/English_app/compass-connections.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/English_app/database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/English_app/flashcard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/English_app/flashcard2.json" beforeDir="false" afterPath="$PROJECT_DIR$/English_app/flashcard2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/English_app/ui_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/English_app/untitled.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/lg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/resources.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acc.json" beforeDir="false" afterPath="$PROJECT_DIR$/acc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/access.py" beforeDir="false" afterPath="$PROJECT_DIR$/access.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/access.ui" beforeDir="false" afterPath="$PROJECT_DIR$/access.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard1.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard1.ui" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard1.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard1_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard1_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard2.ui" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard2.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard2_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard2_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard3.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard3.ui" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard3.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcard3_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcard3_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/giaodien.py" beforeDir="false" afterPath="$PROJECT_DIR$/giaodien.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/giaodien.ui" beforeDir="false" afterPath="$PROJECT_DIR$/giaodien.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar.ui" beforeDir="false" afterPath="$PROJECT_DIR$/grammar.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar2.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar2.ui" beforeDir="false" afterPath="$PROJECT_DIR$/grammar2.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar2_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar2_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.ui" beforeDir="false" afterPath="$PROJECT_DIR$/login.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/signup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.ui" beforeDir="false" afterPath="$PROJECT_DIR$/signup.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/English_app" value="main" />
+        <entry key="$PROJECT_DIR$/English_app" value="flashcard-topic2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,32 +43,32 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Run_app.executor": "Run",
-    "Python.flashcard.executor": "Run",
-    "Python.flashcard1_ex (1).executor": "Run",
-    "Python.flashcard2_ex.executor": "Run",
-    "Python.flashcard3_ex.executor": "Run",
-    "Python.grammar.executor": "Run",
-    "Python.grammar2_ex.executor": "Run",
-    "Python.grammar_ex.executor": "Run",
-    "Python.login.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main2.executor": "Run",
-    "Python.test_gui.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/KI II/KTLT/Do_an",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.externalTools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Run_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flashcard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flashcard1_ex (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.flashcard2_ex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flashcard3_ex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grammar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grammar2_ex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grammar_ex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_gui.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/KI II/KTLT/Do_an&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\KI II\KTLT\Do_an" />
@@ -116,7 +78,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="Run_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="grammar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="English_app" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,7 +92,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Run_app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grammar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="giaodien_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="grammar2_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="English_app" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,7 +115,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\KI II\KTLT\Do_an\giaodien_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grammar2_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,29 +147,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="English_app" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="English_app" />
       <option name="ENV_FILES" value="" />
@@ -231,13 +170,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="English_app" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.login" />
+        <item itemvalue="Python.test_gui" />
         <item itemvalue="Python.grammar_ex" />
-        <item itemvalue="Python.Run_app" />
-        <item itemvalue="Python.giaodien_ex" />
+        <item itemvalue="Python.grammar2_ex" />
+        <item itemvalue="Python.grammar" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +224,8 @@
       <workItem from="1742485815960" duration="944000" />
       <workItem from="1742521971789" duration="659000" />
       <workItem from="1742612783739" duration="18471000" />
-      <workItem from="1742635489602" duration="14558000" />
+      <workItem from="1742635489602" duration="14785000" />
+      <workItem from="1742661559014" duration="1019000" />
     </task>
     <servers />
   </component>
@@ -293,9 +256,9 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/English_app$Run_app.coverage" NAME="Run_app Coverage Results" MODIFIED="1742472154971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/English_app$flash_2.coverage" NAME="flash_2 Coverage Results" MODIFIED="1742449387047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$login.coverage" NAME="login Coverage Results" MODIFIED="1742658328956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/English_app$flash_2.coverage" NAME="flash_2 Coverage Results" MODIFIED="1742449387047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/English_app$Run_app.coverage" NAME="Run_app Coverage Results" MODIFIED="1742472154971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$grammar.coverage" NAME="grammar Coverage Results" MODIFIED="1742489219242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/English_app$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1742397450540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$flashcard1_ex__1_.coverage" NAME="flashcard1_ex (1) Coverage Results" MODIFIED="1742563751083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -311,6 +274,6 @@
     <SUITE FILE_PATH="coverage/Do_an$test_gui.coverage" NAME="test_gui Coverage Results" MODIFIED="1742489291745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$Run_app.coverage" NAME="Run_app Coverage Results" MODIFIED="1742624401012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Do_an$grammar_ex.coverage" NAME="grammar_ex Coverage Results" MODIFIED="1742648271215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Do_an$main.coverage" NAME="main Coverage Results" MODIFIED="1742659110258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Do_an$main.coverage" NAME="main Coverage Results" MODIFIED="1742662890438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
