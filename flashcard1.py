@@ -12,7 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(457, 394)
+        MainWindow.resize(460, 401)
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap(":/icons/chevron-left.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         MainWindow.setWindowIcon(icon)
@@ -24,17 +24,17 @@ class Ui_MainWindow(object):
         self.widget_2 = QtWidgets.QWidget(parent=self.centralwidget)
         self.widget_2.setMinimumSize(QtCore.QSize(445, 34))
         self.widget_2.setStyleSheet("QWidget {\n"
-"    background-color: #e8f1f2; /* Màu vàng nhạt */\n"
+"    background-color: #e8f1f2; \n"
 "}\n"
 "QPushButton {\n"
-"    background-color: #23395d; /*mau xanh  */\n"
-"    color: white; /* Chữ màu trắng */\n"
+"    background-color: #23395d; \n"
+"    color: white; \n"
 "    border-radius: 5px;\n"
 "    padding: 5px;\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"    background-color: rgb(255, 140, 0); /* Màu cam đậm khi hover */\n"
+"    background-color: rgb(255, 140, 0); \n"
 "}")
         self.widget_2.setObjectName("widget_2")
         self.pushButton_3 = QtWidgets.QPushButton(parent=self.widget_2)
@@ -178,7 +178,7 @@ class Ui_MainWindow(object):
         self.verticalLayout.addWidget(self.widget)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 457, 18))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 460, 18))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
@@ -193,6 +193,6 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.pushButton_3.setText(_translate("MainWindow", "Back"))
-        self.label_3.setText(_translate("MainWindow", "FLASHCARD ON THEMATIC TOPIC"))
+        self.label_3.setText(_translate("MainWindow", "DAILY WORDS"))
         self.pushButton.setText(_translate("MainWindow", "Back"))
         self.pushButton_2.setText(_translate("MainWindow", "Next"))

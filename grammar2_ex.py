@@ -4,9 +4,12 @@ from PyQt6 import QtWidgets, QtGui, QtCore
 from grammar2 import Ui_MainWindow
 
 class GrammarAppV2(QtWidgets.QMainWindow, Ui_MainWindow):
-    def __init__(self):
+    def __init__(self, main_window=None):
         super().__init__()
         self.setupUi(self)
+        self.main_window = main_window
+        self.total_correct_answers_2 = 0
+        self.pushButton_3.clicked.connect(self.go_back)
         self.load_exercises()
         self.tenseCombo.currentIndexChanged.connect(self.display_exercise)
         self.submitButton.clicked.connect(self.check_answer)
@@ -22,6 +25,11 @@ class GrammarAppV2(QtWidgets.QMainWindow, Ui_MainWindow):
         # Set default empty selection for tenseCombo
         self.tenseCombo.setCurrentIndex(-1)
 
+    def go_back(self):
+        """Quay lại giao diện chính"""
+        if self.main_window:
+            self.main_window.show()
+        self.close()
     def load_exercises(self):
         """ Load exercises from JSON file. """
         try:
@@ -75,11 +83,6 @@ class GrammarAppV2(QtWidgets.QMainWindow, Ui_MainWindow):
 
             self.pushButton.setEnabled(self.current_question_index > 0)
             self.pushButton_2.setEnabled(True)
-
-            if self.current_question_index == len(self.current_questions) - 1:
-                self.pushButton_2.setToolTip("Finish")
-            else:
-                self.pushButton_2.setToolTip("Next")
 
     def load_options(self):
         """ Load multiple choice options into the UI. """
@@ -145,8 +148,17 @@ class GrammarAppV2(QtWidgets.QMainWindow, Ui_MainWindow):
         msg_box.setText(f"You answered {self.correct_answers}/{len(self.current_questions)} questions correctly! 🎉")
         msg_box.setIcon(QtWidgets.QMessageBox.Icon.Information)
         msg_box.exec()
+        total_questions = 115  # Tổng số câu hỏi
 
+        # Cộng dồn điểm của lần làm bài hiện tại vào tổng điểm
+        self.total_correct_answers_2 += self.correct_answers
 
+        # Tính phần trăm đúng
+        percentage_2 = (self.total_correct_answers_2 / total_questions) * 100
+
+        # Gửi dữ liệu về MainApp
+        if self.main_window:
+            self.main_window.update_score_2(self.total_correct_answers_2, percentage_2)
 
 
 if __name__ == "__main__":

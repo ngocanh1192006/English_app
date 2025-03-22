@@ -62,7 +62,7 @@ QPushButton:hover {
 color: #fff</string>
       </property>
       <property name="text">
-       <string>ENGLISH TENSES</string>
+       <string>TENSES IN ENGLISH</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>

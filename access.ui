@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>457</width>
-    <height>394</height>
+    <width>460</width>
+    <height>401</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,7 +15,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">
-image: url(:/icons/lg.png);</string>
+background-image:url(:/icons/ABC LEARNING (2).png);</string>
   </property>
   <widget class="QWidget" name="centralwidget"/>
   <widget class="QMenuBar" name="menubar">
@@ -23,7 +23,7 @@ image: url(:/icons/lg.png);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>457</width>
+     <width>460</width>
      <height>18</height>
     </rect>
    </property>

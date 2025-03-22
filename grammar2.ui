@@ -62,7 +62,7 @@ QPushButton:hover {
 color: #fff</string>
       </property>
       <property name="text">
-       <string>STRUCTURE </string>
+       <string>OTHER STRUCTURES</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>

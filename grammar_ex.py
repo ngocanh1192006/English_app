@@ -5,9 +5,13 @@ from grammar import Ui_MainWindow
 
 
 class GrammarApp(QtWidgets.QMainWindow, Ui_MainWindow):
-    def __init__(self):
+    def __init__(self, main_window=None):
         super().__init__()
         self.setupUi(self)
+        self.main_window = main_window  # Lưu tham chiếu đến MainApp
+        self.total_correct_answers_1 = 0
+        # Kết nối nút 'Back' với hành động quay lại MainApp
+        self.pushButton_3.clicked.connect(self.go_back)
         self.load_exercises()
         self.tenseCombo.currentIndexChanged.connect(self.display_exercise)
         self.submitButton.clicked.connect(self.check_answer)
@@ -23,6 +27,11 @@ class GrammarApp(QtWidgets.QMainWindow, Ui_MainWindow):
         # Set default empty selection for tenseCombo
         self.tenseCombo.setCurrentIndex(-1)
 
+    def go_back(self):
+        """Quay lại giao diện chính"""
+        if self.main_window:
+            self.main_window.show()
+        self.close()
 
     def load_exercises(self):
         """ Load exercises from JSON file. """
@@ -40,9 +49,6 @@ class GrammarApp(QtWidgets.QMainWindow, Ui_MainWindow):
             self.selected_tense = self.tenseCombo.currentText()
             if not self.selected_tense:
                 return
-
-            # Reset the Next button text when changing tenses
-            # self.pushButton_2.setToolTip("Next")
 
             for tense in self.data.get("tenses", []):
                 if tense.get("tense") == self.selected_tense:
@@ -74,12 +80,6 @@ class GrammarApp(QtWidgets.QMainWindow, Ui_MainWindow):
             self.pushButton.setEnabled(self.current_question_index > 0)
             self.pushButton_2.setEnabled(True)
 
-            # Change button text if it's the last question
-            if self.current_question_index == len(self.current_questions) - 1:
-                self.pushButton_2.setText("Finish")
-            else:
-                self.pushButton_2.setToolTip("Next")
-
     def load_options(self):
         """ Load multiple choice options into the UI. """
         if not hasattr(self, "optionsLayout") or self.optionsLayout is None:
@@ -105,6 +105,7 @@ class GrammarApp(QtWidgets.QMainWindow, Ui_MainWindow):
                     if radio.text() == self.current_question["correctAnswer"]:
                         self.feedbackLabel.setText(f"✅ Correct! 🎉 {self.current_question['explanation']}")
                         self.correct_answers += 1
+
                     else:
                         self.feedbackLabel.setText(f"❌ Incorrect! 😞 {self.current_question['explanation']}")
                     self.answered_questions.add(self.current_question_index)
@@ -147,6 +148,17 @@ class GrammarApp(QtWidgets.QMainWindow, Ui_MainWindow):
         msg_box.setIcon(QtWidgets.QMessageBox.Icon.Information)
         msg_box.exec()
 
+        total_questions = 115  # Tổng số câu hỏi
+
+        # Cộng dồn điểm của lần làm bài hiện tại vào tổng điểm
+        self.total_correct_answers_1 += self.correct_answers
+
+        # Tính phần trăm đúng
+        percentage_1 = (self.total_correct_answers_1 / total_questions) * 100
+
+        # Gửi dữ liệu về MainApp
+        if self.main_window:
+            self.main_window.update_score_1(self.total_correct_answers_1, percentage_1)
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)

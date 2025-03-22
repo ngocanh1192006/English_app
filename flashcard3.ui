@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>457</width>
-    <height>394</height>
+    <width>462</width>
+    <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -112,7 +112,7 @@ QPushButton:hover {
 color: #fff;</string>
          </property>
          <property name="text">
-          <string>FLASHCARD ON ADVANCED TOPIC</string>
+          <string>IDIOMS AND OTHERS</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -264,7 +264,7 @@ QPushButton:pressed {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>457</width>
+     <width>462</width>
      <height>18</height>
     </rect>
    </property>

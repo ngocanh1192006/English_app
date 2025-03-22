@@ -223,7 +223,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "English Tense Practice"))
         self.pushButton_3.setText(_translate("MainWindow", "Back"))
-        self.exerciseHeaderLabel.setText(_translate("MainWindow", "ENGLISH TENSES"))
+        self.exerciseHeaderLabel.setText(_translate("MainWindow", "TENSES IN ENGLISH"))
         self.tenseLabel.setText(_translate("MainWindow", "SELECT A TENSE:"))
         self.optionsBox.setTitle(_translate("MainWindow", "Exercises"))
         self.submitButton.setText(_translate("MainWindow", "Submit Answer"))

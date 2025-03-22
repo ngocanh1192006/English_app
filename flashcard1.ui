@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>457</width>
-    <height>394</height>
+    <width>460</width>
+    <height>401</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -32,17 +32,17 @@
       </property>
       <property name="styleSheet">
        <string notr="true">QWidget {
-    background-color: #e8f1f2; /* Màu vàng nhạt */
+    background-color: #e8f1f2; 
 }
 QPushButton {
-    background-color: #23395d; /*mau xanh  */
-    color: white; /* Chữ màu trắng */
+    background-color: #23395d; 
+    color: white; 
     border-radius: 5px;
     padding: 5px;
 }
 
 QPushButton:hover {
-    background-color: rgb(255, 140, 0); /* Màu cam đậm khi hover */
+    background-color: rgb(255, 140, 0); 
 }</string>
       </property>
       <widget class="QPushButton" name="pushButton_3">
@@ -112,7 +112,7 @@ QPushButton:hover {
 color: #fff;</string>
          </property>
          <property name="text">
-          <string>FLASHCARD ON THEMATIC TOPIC</string>
+          <string>DAILY WORDS</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -206,8 +206,8 @@ QPushButton {
          </property>
          <property name="styleSheet">
           <string notr="true">QPushButton {
-    background-color: rgb(151, 178, 200); /* Màu xanh */
-    color: white; /* Chữ màu trắng */
+    background-color: rgb(151, 178, 200); 
+    color: white;
     border-radius: 5px;
     padding: 5px;
 }
@@ -264,7 +264,7 @@ QPushButton:pressed {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>457</width>
+     <width>460</width>
      <height>18</height>
     </rect>
    </property>
