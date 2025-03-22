@@ -53,9 +53,13 @@
     &quot;Python.grammar.executor&quot;: &quot;Run&quot;,
     &quot;Python.grammar2_ex.executor&quot;: &quot;Run&quot;,
     &quot;Python.grammar_ex.executor&quot;: &quot;Run&quot;,
+<<<<<<< HEAD
     &quot;Python.login.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+=======
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+>>>>>>> origin/main
     &quot;Python.test_gui.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
