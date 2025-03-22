@@ -12,12 +12,16 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(619, 440)
+        MainWindow.resize(502, 404)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Preferred, QtWidgets.QSizePolicy.Policy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
         MainWindow.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setPointSize(8)
+        MainWindow.setFont(font)
+        MainWindow.setStyleSheet("")
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Expanding)
         sizePolicy.setHorizontalStretch(0)
@@ -25,43 +29,20 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.centralwidget.sizePolicy().hasHeightForWidth())
         self.centralwidget.setSizePolicy(sizePolicy)
         self.centralwidget.setObjectName("centralwidget")
-        self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
-        self.gridLayout.setObjectName("gridLayout")
-        self.centerMenuSubContainer = QtWidgets.QWidget(parent=self.centralwidget)
-        self.centerMenuSubContainer.setMinimumSize(QtCore.QSize(200, 0))
-        self.centerMenuSubContainer.setStyleSheet("background-color: rgb(185, 209, 230);")
-        self.centerMenuSubContainer.setObjectName("centerMenuSubContainer")
-        self.verticalLayout_7 = QtWidgets.QVBoxLayout(self.centerMenuSubContainer)
-        self.verticalLayout_7.setObjectName("verticalLayout_7")
-        self.frame_4 = QtWidgets.QFrame(parent=self.centerMenuSubContainer)
-        self.frame_4.setStyleSheet("background-color: #13293d;\n"
-"color: #fff")
-        self.frame_4.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
-        self.frame_4.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
-        self.frame_4.setObjectName("frame_4")
-        self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.frame_4)
-        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
-        self.label_2 = QtWidgets.QLabel(parent=self.frame_4)
+        self.verticalLayoutWidget = QtWidgets.QWidget(parent=self.centralwidget)
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(0, 30, 291, 321))
+        self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setSpacing(4)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.pBtense = QtWidgets.QPushButton(parent=self.verticalLayoutWidget)
         font = QtGui.QFont()
         font.setPointSize(15)
         font.setBold(True)
         font.setWeight(75)
-        self.label_2.setFont(font)
-        self.label_2.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_2.setObjectName("label_2")
-        self.horizontalLayout_2.addWidget(self.label_2)
-        self.pushButton_7 = QtWidgets.QPushButton(parent=self.frame_4)
-        self.pushButton_7.setText("")
-        icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("icons/x-circle.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_7.setIcon(icon)
-        self.pushButton_7.setObjectName("pushButton_7")
-        self.horizontalLayout_2.addWidget(self.pushButton_7, 0, QtCore.Qt.AlignmentFlag.AlignRight)
-        self.verticalLayout_7.addWidget(self.frame_4, 0, QtCore.Qt.AlignmentFlag.AlignTop)
-        self.gridLayout.addWidget(self.centerMenuSubContainer, 1, 1, 2, 1)
-        self.widget = QtWidgets.QWidget(parent=self.centralwidget)
-        self.widget.setMaximumSize(QtCore.QSize(523, 16777215))
-        self.widget.setStyleSheet("QWidget {\n"
+        self.pBtense.setFont(font)
+        self.pBtense.setStyleSheet("QWidget {\n"
 "    background-color: #e8f1f2; /* Màu vàng nhạt */\n"
 "}\n"
 "QPushButton {\n"
@@ -73,63 +54,130 @@ class Ui_MainWindow(object):
 "\n"
 "QPushButton:hover {\n"
 "    background-color: rgb(255, 140, 0); /* Màu cam đậm khi hover */\n"
+"}")
+        self.pBtense.setObjectName("pBtense")
+        self.verticalLayout.addWidget(self.pBtense)
+        self.pBstruc = QtWidgets.QPushButton(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pBstruc.setFont(font)
+        self.pBstruc.setStyleSheet("QWidget {\n"
+"    background-color: #e8f1f2; /* Màu vàng nhạt */\n"
 "}\n"
 "QPushButton {\n"
-"    min-width: 120px;  /* Chiều rộng tối thiểu */\n"
-"    min-height: 50px;  /* Chiều cao tối thiểu */\n"
-"    font-size: 16px;   /* Tăng kích thước chữ */\n"
-"    padding: 10px;     /* Khoảng cách nội dung */\n"
+"    background-color: #23395d; /*mau xanh  */\n"
+"    color: white; /* Chữ màu trắng */\n"
+"    border-radius: 5px;\n"
+"    padding: 5px;\n"
 "}\n"
 "\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(255, 140, 0); /* Màu cam đậm khi hover */\n"
+"}")
+        self.pBstruc.setObjectName("pBstruc")
+        self.verticalLayout.addWidget(self.pBstruc)
+        self.pBdaily = QtWidgets.QPushButton(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pBdaily.setFont(font)
+        self.pBdaily.setStyleSheet("QWidget {\n"
+"    background-color: #e8f1f2; /* Màu vàng nhạt */\n"
+"}\n"
+"QPushButton {\n"
+"    background-color: #23395d; /*mau xanh  */\n"
+"    color: white; /* Chữ màu trắng */\n"
+"    border-radius: 5px;\n"
+"    padding: 5px;\n"
+"}\n"
 "\n"
-"")
-        self.widget.setObjectName("widget")
-        self.verticalLayout = QtWidgets.QVBoxLayout(self.widget)
-        self.verticalLayout.setObjectName("verticalLayout")
-        self.widget_2 = QtWidgets.QWidget(parent=self.widget)
-        self.widget_2.setObjectName("widget_2")
-        self.label = QtWidgets.QLabel(parent=self.widget_2)
-        self.label.setGeometry(QtCore.QRect(10, 20, 371, 191))
+"QPushButton:hover {\n"
+"    background-color: rgb(255, 140, 0); /* Màu cam đậm khi hover */\n"
+"}")
+        self.pBdaily.setObjectName("pBdaily")
+        self.verticalLayout.addWidget(self.pBdaily)
+        self.pBcommu = QtWidgets.QPushButton(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pBcommu.setFont(font)
+        self.pBcommu.setStyleSheet("QWidget {\n"
+"    background-color: #e8f1f2; /* Màu vàng nhạt */\n"
+"}\n"
+"QPushButton {\n"
+"    background-color: #23395d; /*mau xanh  */\n"
+"    color: white; /* Chữ màu trắng */\n"
+"    border-radius: 5px;\n"
+"    padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(255, 140, 0); /* Màu cam đậm khi hover */\n"
+"}")
+        self.pBcommu.setObjectName("pBcommu")
+        self.verticalLayout.addWidget(self.pBcommu)
+        self.pBidoms = QtWidgets.QPushButton(parent=self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pBidoms.setFont(font)
+        self.pBidoms.setStyleSheet("QWidget {\n"
+"    background-color: #e8f1f2; /* Màu vàng nhạt */\n"
+"}\n"
+"QPushButton {\n"
+"    background-color: #23395d; /*mau xanh  */\n"
+"    color: white; /* Chữ màu trắng */\n"
+"    border-radius: 5px;\n"
+"    padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(255, 140, 0); /* Màu cam đậm khi hover */\n"
+"}")
+        self.pBidoms.setObjectName("pBidoms")
+        self.verticalLayout.addWidget(self.pBidoms)
+        self.label = QtWidgets.QLabel(parent=self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(0, 10, 501, 341))
+        self.label.setStyleSheet("background-color: rgb(222, 233, 255);\n"
+"border-radius: 15px;")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("E:\\KI II\\KTLT\\Do_an\\../../Downloads/image-removebg-preview.png"))
-        self.label.setScaledContents(True)
         self.label.setObjectName("label")
-        self.verticalLayout.addWidget(self.widget_2)
-        self.pushButton = QtWidgets.QPushButton(parent=self.widget)
-        font = QtGui.QFont()
-        font.setPointSize(-1)
-        self.pushButton.setFont(font)
-        self.pushButton.setStyleSheet("")
-        self.pushButton.setObjectName("pushButton")
-        self.verticalLayout.addWidget(self.pushButton)
-        self.pushButton_2 = QtWidgets.QPushButton(parent=self.widget)
-        font = QtGui.QFont()
-        font.setPointSize(-1)
-        self.pushButton_2.setFont(font)
-        self.pushButton_2.setObjectName("pushButton_2")
-        self.verticalLayout.addWidget(self.pushButton_2)
-        self.pushButton_3 = QtWidgets.QPushButton(parent=self.widget)
-        font = QtGui.QFont()
-        font.setPointSize(-1)
-        self.pushButton_3.setFont(font)
-        self.pushButton_3.setObjectName("pushButton_3")
-        self.verticalLayout.addWidget(self.pushButton_3)
-        self.pushButton_4 = QtWidgets.QPushButton(parent=self.widget)
-        font = QtGui.QFont()
-        font.setPointSize(-1)
-        self.pushButton_4.setFont(font)
-        self.pushButton_4.setObjectName("pushButton_4")
-        self.verticalLayout.addWidget(self.pushButton_4)
-        self.pushButton_5 = QtWidgets.QPushButton(parent=self.widget)
-        font = QtGui.QFont()
-        font.setPointSize(-1)
-        self.pushButton_5.setFont(font)
-        self.pushButton_5.setObjectName("pushButton_5")
-        self.verticalLayout.addWidget(self.pushButton_5)
-        self.gridLayout.addWidget(self.widget, 1, 0, 2, 1)
+        self.lblprofile = QtWidgets.QLabel(parent=self.centralwidget)
+        self.lblprofile.setGeometry(QtCore.QRect(290, 40, 201, 31))
+        self.lblprofile.setStyleSheet("background-color: rgb(41, 85, 151);\n"
+"border-radius: 15px; \n"
+"border: rgb(0, 0, 0);")
+        self.lblprofile.setObjectName("lblprofile")
+        self.label_2 = QtWidgets.QLabel(parent=self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(310, 90, 171, 241))
+        self.label_2.setStyleSheet(" background-color: lightblue; \n"
+"    border-radius: 15px; \n"
+"    border: 2px solid blue; \n"
+"    padding: 5px;")
+        self.label_2.setText("")
+        self.label_2.setObjectName("label_2")
+        self.progressBar = QtWidgets.QProgressBar(parent=self.centralwidget)
+        self.progressBar.setGeometry(QtCore.QRect(330, 200, 141, 23))
+        self.progressBar.setProperty("value", 24)
+        self.progressBar.setObjectName("progressBar")
+        self.label_3 = QtWidgets.QLabel(parent=self.centralwidget)
+        self.label_3.setGeometry(QtCore.QRect(290, 110, 121, 31))
+        self.label_3.setText("")
+        self.label_3.setObjectName("label_3")
+        self.label.raise_()
+        self.verticalLayoutWidget.raise_()
+        self.lblprofile.raise_()
+        self.label_2.raise_()
+        self.progressBar.raise_()
+        self.label_3.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 619, 18))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 502, 18))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
@@ -142,10 +190,9 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label_2.setText(_translate("MainWindow", "Profile"))
-        self.pushButton_7.setToolTip(_translate("MainWindow", "CloseMenu"))
-        self.pushButton.setText(_translate("MainWindow", "ENGLISH TENSES"))
-        self.pushButton_2.setText(_translate("MainWindow", "STRUCTURE"))
-        self.pushButton_3.setText(_translate("MainWindow", "FLASHCARD ON DAILY COMMUNICATION"))
-        self.pushButton_4.setText(_translate("MainWindow", "FLASHCARD ON THEMATIC TOPIC"))
-        self.pushButton_5.setText(_translate("MainWindow", "FLASHCARD ON ADVANCED TOPIC"))
+        self.pBtense.setText(_translate("MainWindow", "TENSES IN ENGLISH"))
+        self.pBstruc.setText(_translate("MainWindow", "OTHER STRUCTURES"))
+        self.pBdaily.setText(_translate("MainWindow", "DAILY WORDS"))
+        self.pBcommu.setText(_translate("MainWindow", "COMMUNICATION"))
+        self.pBidoms.setText(_translate("MainWindow", "IDIOMS AND OTHERS"))
+        self.lblprofile.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:16pt; font-weight:600; color:#ffffff;\">Profile</span></p></body></html>"))

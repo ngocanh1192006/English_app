@@ -112,10 +112,10 @@ border-bottom-right-radius: 50px;</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>50</y>
-      <width>121</width>
-      <height>40</height>
+      <x>230</x>
+      <y>49</y>
+      <width>181</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -160,7 +160,7 @@ padding-bottom:7px;</string>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>250</x>
       <y>240</y>
       <width>121</width>
       <height>41</height>
@@ -231,21 +231,57 @@ border-bottom:2px solid rgba(46, 82, 101, 200);
 color:rgba(0, 0, 0, 240);
 padding-bottom:7px;</string>
     </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
     <property name="placeholderText">
      <string>Password</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>230</x>
+      <y>300</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Don't have an account. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pBsignup">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>300</y>
+      <width>56</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sign up</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pBeye">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
       <y>180</y>
-      <width>35</width>
-      <height>10</height>
+      <width>21</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/icons/view.png);</string>
+     <string notr="true">image: url(:/icons/hide.png);
+image: url(:/icons/view.png);</string>
     </property>
     <property name="text">
      <string/>
