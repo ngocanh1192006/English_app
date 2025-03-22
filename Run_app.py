@@ -1,6 +1,6 @@
 from PyQt6.QtWidgets import QApplication,QMainWindow,QMessageBox
 from login import Ui_Form
-from main import Ui_MainWindow
+#from main import Ui_MainWindow
 import json
 import sys
 import os
