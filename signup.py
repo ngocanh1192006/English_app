@@ -152,4 +152,4 @@ class Ui_Form(object):
         self.lineEdit.setPlaceholderText(_translate("Form", "User\'s name"))
         self.pushButton.setText(_translate("Form", "Sign up"))
         self.lineEdit_2.setPlaceholderText(_translate("Form", "Password"))
-        self.label_2.setText(_translate("Form", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:600;\">WELCOM TO ABC LEARNING</span></p></body></html>"))
+        self.label_2.setText(_translate("Form", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:600;\">WELCOME TO ABC LEARNING</span></p></body></html>"))
