@@ -42,7 +42,11 @@ class MainApp(QtWidgets.QMainWindow):
         # Cấu hình điểm số và tiến độ
         self.score = 0
         self.percentage = 0
+        self.total_correct_answers = 0
+        # Tải tiến độ từ acc.json
         self.load_progress()
+
+        # Hiển thị tiến độ lên giao diện
         self.update_ui()
     def open_window(self, window_class):
         """Mở cửa sổ bài tập"""
